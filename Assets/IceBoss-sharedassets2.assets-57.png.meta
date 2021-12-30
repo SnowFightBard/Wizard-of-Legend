@@ -1,0 +1,2520 @@
+fileFormatVersion: 2
+guid: f95abdecf5117d14983b112d67d7fd79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7361571434089030194
+    second: IceBoss-sharedassets2.assets-57_0
+  - first:
+      213: 1271895714957363520
+    second: IceBoss-sharedassets2.assets-57_1
+  - first:
+      213: -3328907531456114211
+    second: IceBoss-sharedassets2.assets-57_2
+  - first:
+      213: -5517876843938056843
+    second: IceBoss-sharedassets2.assets-57_3
+  - first:
+      213: 4596803206526258349
+    second: IceBoss-sharedassets2.assets-57_4
+  - first:
+      213: -7745436575152291216
+    second: IceBoss-sharedassets2.assets-57_5
+  - first:
+      213: 4465436547618323393
+    second: IceBoss-sharedassets2.assets-57_6
+  - first:
+      213: -7278073919428928538
+    second: IceBoss-sharedassets2.assets-57_7
+  - first:
+      213: 8516361339961134547
+    second: IceBoss-sharedassets2.assets-57_8
+  - first:
+      213: -5203626452545853596
+    second: IceBoss-sharedassets2.assets-57_9
+  - first:
+      213: -5936135862190304049
+    second: IceBoss-sharedassets2.assets-57_10
+  - first:
+      213: -4980073605637771838
+    second: IceBoss-sharedassets2.assets-57_11
+  - first:
+      213: -6575475031121061814
+    second: IceBoss-sharedassets2.assets-57_12
+  - first:
+      213: -1813062975261143161
+    second: IceBoss-sharedassets2.assets-57_13
+  - first:
+      213: 2384846951467476033
+    second: IceBoss-sharedassets2.assets-57_14
+  - first:
+      213: -111615276723203114
+    second: IceBoss-sharedassets2.assets-57_15
+  - first:
+      213: -3131502094773444387
+    second: IceBoss-sharedassets2.assets-57_16
+  - first:
+      213: 3761298052447029746
+    second: IceBoss-sharedassets2.assets-57_17
+  - first:
+      213: 6918878981200083554
+    second: IceBoss-sharedassets2.assets-57_18
+  - first:
+      213: -3480849669642934594
+    second: IceBoss-sharedassets2.assets-57_19
+  - first:
+      213: -876599176369277904
+    second: IceBoss-sharedassets2.assets-57_20
+  - first:
+      213: -5726667621860840492
+    second: IceBoss-sharedassets2.assets-57_21
+  - first:
+      213: -3817295586779080202
+    second: IceBoss-sharedassets2.assets-57_22
+  - first:
+      213: -6701869181304065837
+    second: IceBoss-sharedassets2.assets-57_23
+  - first:
+      213: 3704104010349254753
+    second: IceBoss-sharedassets2.assets-57_24
+  - first:
+      213: -5514293420675633397
+    second: IceBoss-sharedassets2.assets-57_25
+  - first:
+      213: -8457565450270581175
+    second: IceBoss-sharedassets2.assets-57_26
+  - first:
+      213: 7051857336769846318
+    second: IceBoss-sharedassets2.assets-57_27
+  - first:
+      213: 3800219639705944305
+    second: IceBoss-sharedassets2.assets-57_28
+  - first:
+      213: 8929267007092342183
+    second: IceBoss-sharedassets2.assets-57_29
+  - first:
+      213: 1637296100862419594
+    second: IceBoss-sharedassets2.assets-57_30
+  - first:
+      213: -7816024613119725083
+    second: IceBoss-sharedassets2.assets-57_31
+  - first:
+      213: -4230454762321296720
+    second: IceBoss-sharedassets2.assets-57_32
+  - first:
+      213: 4913970802911447705
+    second: IceBoss-sharedassets2.assets-57_33
+  - first:
+      213: 1958349796481392943
+    second: IceBoss-sharedassets2.assets-57_34
+  - first:
+      213: 2175924763267708224
+    second: IceBoss-sharedassets2.assets-57_35
+  - first:
+      213: -8148003748008862846
+    second: IceBoss-sharedassets2.assets-57_36
+  - first:
+      213: -3933435984369307990
+    second: IceBoss-sharedassets2.assets-57_37
+  - first:
+      213: 5878808917874338748
+    second: IceBoss-sharedassets2.assets-57_38
+  - first:
+      213: 974830088834537457
+    second: IceBoss-sharedassets2.assets-57_39
+  - first:
+      213: -2064829419515819460
+    second: IceBoss-sharedassets2.assets-57_40
+  - first:
+      213: 4401423054255114749
+    second: IceBoss-sharedassets2.assets-57_41
+  - first:
+      213: 3748839595347317560
+    second: IceBoss-sharedassets2.assets-57_42
+  - first:
+      213: -8181833884915996973
+    second: IceBoss-sharedassets2.assets-57_43
+  - first:
+      213: 7035052059387771298
+    second: IceBoss-sharedassets2.assets-57_44
+  - first:
+      213: -8278555411255305045
+    second: IceBoss-sharedassets2.assets-57_45
+  - first:
+      213: -2091786838567760422
+    second: IceBoss-sharedassets2.assets-57_46
+  - first:
+      213: 1412458058610909942
+    second: IceBoss-sharedassets2.assets-57_47
+  - first:
+      213: -3243919535971210305
+    second: IceBoss-sharedassets2.assets-57_48
+  - first:
+      213: -242583924478333256
+    second: IceBoss-sharedassets2.assets-57_49
+  - first:
+      213: -5317705610442890249
+    second: IceBoss-sharedassets2.assets-57_50
+  - first:
+      213: 8628526668894421721
+    second: IceBoss-sharedassets2.assets-57_51
+  - first:
+      213: -5209643728396373579
+    second: IceBoss-sharedassets2.assets-57_52
+  - first:
+      213: 3368100757496583169
+    second: IceBoss-sharedassets2.assets-57_53
+  - first:
+      213: -4176965102905799229
+    second: IceBoss-sharedassets2.assets-57_54
+  - first:
+      213: -1310351535131360781
+    second: IceBoss-sharedassets2.assets-57_55
+  - first:
+      213: -2031676216095896425
+    second: IceBoss-sharedassets2.assets-57_56
+  - first:
+      213: 3023523052110928844
+    second: IceBoss-sharedassets2.assets-57_57
+  - first:
+      213: 3153534828130113387
+    second: IceBoss-sharedassets2.assets-57_58
+  - first:
+      213: -8302708677947410748
+    second: IceBoss-sharedassets2.assets-57_59
+  - first:
+      213: -8343601208659831368
+    second: IceBoss-sharedassets2.assets-57_60
+  - first:
+      213: -3513530131976014523
+    second: IceBoss-sharedassets2.assets-57_61
+  - first:
+      213: -8015262534731702828
+    second: IceBoss-sharedassets2.assets-57_62
+  - first:
+      213: 5554724528755699944
+    second: IceBoss-sharedassets2.assets-57_63
+  - first:
+      213: 5576319162913219210
+    second: IceBoss-sharedassets2.assets-57_64
+  - first:
+      213: -1458283032691297060
+    second: IceBoss-sharedassets2.assets-57_65
+  - first:
+      213: 3733237527389407049
+    second: IceBoss-sharedassets2.assets-57_66
+  - first:
+      213: -8944980127246462939
+    second: IceBoss-sharedassets2.assets-57_67
+  - first:
+      213: 1924233791487597424
+    second: IceBoss-sharedassets2.assets-57_68
+  - first:
+      213: -7142538022971599639
+    second: IceBoss-sharedassets2.assets-57_69
+  - first:
+      213: 3575999748627285537
+    second: IceBoss-sharedassets2.assets-57_70
+  - first:
+      213: 1077129090364271334
+    second: IceBoss-sharedassets2.assets-57_71
+  - first:
+      213: -7841597506317932093
+    second: IceBoss-sharedassets2.assets-57_72
+  - first:
+      213: -7694651073353771823
+    second: IceBoss-sharedassets2.assets-57_73
+  - first:
+      213: 5509209718730318872
+    second: IceBoss-sharedassets2.assets-57_74
+  - first:
+      213: 3246987794781858089
+    second: IceBoss-sharedassets2.assets-57_75
+  - first:
+      213: 8699426883248240519
+    second: IceBoss-sharedassets2.assets-57_76
+  - first:
+      213: 8876377947271318143
+    second: IceBoss-sharedassets2.assets-57_77
+  - first:
+      213: -1888005993497106194
+    second: IceBoss-sharedassets2.assets-57_78
+  - first:
+      213: 8852722857485232673
+    second: IceBoss-sharedassets2.assets-57_79
+  - first:
+      213: 4775498300970038043
+    second: IceBoss-sharedassets2.assets-57_80
+  - first:
+      213: 1131693388911491936
+    second: IceBoss-sharedassets2.assets-57_81
+  - first:
+      213: -4535736977484594923
+    second: IceBoss-sharedassets2.assets-57_82
+  - first:
+      213: 4604054869944068629
+    second: IceBoss-sharedassets2.assets-57_83
+  - first:
+      213: -4833173007907735485
+    second: IceBoss-sharedassets2.assets-57_84
+  - first:
+      213: -2732839333613554869
+    second: IceBoss-sharedassets2.assets-57_85
+  - first:
+      213: 1251057121904306166
+    second: IceBoss-sharedassets2.assets-57_86
+  - first:
+      213: -6123830211475665443
+    second: IceBoss-sharedassets2.assets-57_87
+  - first:
+      213: -1023955304663929817
+    second: IceBoss-sharedassets2.assets-57_88
+  - first:
+      213: -6071669126866867615
+    second: IceBoss-sharedassets2.assets-57_89
+  - first:
+      213: -2832804692056079603
+    second: IceBoss-sharedassets2.assets-57_90
+  - first:
+      213: -4529955807939867920
+    second: IceBoss-sharedassets2.assets-57_91
+  - first:
+      213: 6920598359641223352
+    second: IceBoss-sharedassets2.assets-57_92
+  - first:
+      213: -1311455084538489897
+    second: IceBoss-sharedassets2.assets-57_93
+  - first:
+      213: 3870273490129164872
+    second: IceBoss-sharedassets2.assets-57_94
+  - first:
+      213: -2022666907079068086
+    second: IceBoss-sharedassets2.assets-57_95
+  - first:
+      213: -3149742811064302537
+    second: IceBoss-sharedassets2.assets-57_96
+  - first:
+      213: 4350619046521927956
+    second: IceBoss-sharedassets2.assets-57_97
+  - first:
+      213: 1401212321921737784
+    second: IceBoss-sharedassets2.assets-57_98
+  - first:
+      213: -3042889436429957959
+    second: IceBoss-sharedassets2.assets-57_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 457
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd572b8c176d990800000000000000
+      internalID: -7361571434089030194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 460
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0490069f96ea6a110800000000000000
+      internalID: 1271895714957363520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 462
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd19f69cc385dc1d0800000000000000
+      internalID: -3328907531456114211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 459
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f7b2de309c63b0800000000000000
+      internalID: -5517876843938056843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 457
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daccf5359202bcf30800000000000000
+      internalID: 4596803206526258349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 457
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072cab3d87ea28490800000000000000
+      internalID: -7745436575152291216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 457
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb36d391ea68fd30800000000000000
+      internalID: 4465436547618323393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 457
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb5767c4561ffa90800000000000000
+      internalID: -7278073919428928538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 457
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddc04f5481303670800000000000000
+      internalID: 8516361339961134547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 461
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ad28bf4109c7b0800000000000000
+      internalID: -5203626452545853596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 456
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc490b362eb9e9da0800000000000000
+      internalID: -5936135862190304049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 392
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd69a4f07933eab0800000000000000
+      internalID: -4980073605637771838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 393
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48149c2c483fb4a0800000000000000
+      internalID: -6575475031121061814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 393
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f852c74d4b6d6e0800000000000000
+      internalID: -1813062975261143161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 392
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14464e9baada81120800000000000000
+      internalID: 2384846951467476033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 393
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d318674f76737ef0800000000000000
+      internalID: -111615276723203114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 393
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd023abaf6baa84d0800000000000000
+      internalID: -3131502094773444387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 392
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9497686a0d23430800000000000000
+      internalID: 3761298052447029746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 393
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26af85e86cbc40060800000000000000
+      internalID: 6918878981200083554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_19
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 393
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6a564faa981bfc0800000000000000
+      internalID: -3480849669642934594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 399
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034fb1a81b1b5d3f0800000000000000
+      internalID: -876599176369277904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_21
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 395
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe04c932ac680b0800000000000000
+      internalID: -5726667621860840492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 329
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9dd5383ed360bc0800000000000000
+      internalID: -3817295586779080202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 329
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0bb35dc7d2ef2a0800000000000000
+      internalID: -6701869181304065837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 329
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16897f3e8fe976330800000000000000
+      internalID: 3704104010349254753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 329
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fea51995b4973b0800000000000000
+      internalID: -5514293420675633397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 330
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e51087801b0aa80800000000000000
+      internalID: -8457565450270581175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 329
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c16eca2ea3dd160800000000000000
+      internalID: 7051857336769846318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_28
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 330
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0c22db0a71db430800000000000000
+      internalID: 3800219639705944305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 329
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adba5e98012beb70800000000000000
+      internalID: 8929267007092342183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 329
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8269040128d8b610800000000000000
+      internalID: 1637296100862419594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_31
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 333
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1f9438607e78390800000000000000
+      internalID: -7816024613119725083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_32
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 329
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2ca7dbec76a45c0800000000000000
+      internalID: -4230454762321296720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_33
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 266
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a8d20f86ee13440800000000000000
+      internalID: 4913970802911447705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_34
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 268
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f216b3d93c47d2b10800000000000000
+      internalID: 1958349796481392943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 268
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0453c8c2b00723e10800000000000000
+      internalID: 2175924763267708224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_36
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 268
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b516bd2c97cee80800000000000000
+      internalID: -8148003748008862846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_37
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 268
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeadecffc0a969c0800000000000000
+      internalID: -3933435984369307990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 268
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb6c444099b59150800000000000000
+      internalID: 5878808917874338748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 268
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f758590dca478d00800000000000000
+      internalID: 974830088834537457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_40
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 268
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3acbf735904853e0800000000000000
+      internalID: -2064829419515819460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_41
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 268
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df94717b2fef41d30800000000000000
+      internalID: 4401423054255114749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_42
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 268
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8339890ffbd860430800000000000000
+      internalID: 3748839595347317560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_43
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 271
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6e35e4e69447e80800000000000000
+      internalID: -8181833884915996973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_44
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 200
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a93030239681a160800000000000000
+      internalID: 7035052059387771298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_45
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 200
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac5db217b9ac1d80800000000000000
+      internalID: -8278555411255305045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 200
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addc45df3fa78f2e0800000000000000
+      internalID: -2091786838567760422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_47
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 202
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f224abee1f0a9310800000000000000
+      internalID: 1412458058610909942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_48
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 202
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb6c7a7e584bf2d0800000000000000
+      internalID: -3243919535971210305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_49
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 202
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beaf39b43b22acf0800000000000000
+      internalID: -242583924478333256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_50
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 202
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f32375fbe6b336b0800000000000000
+      internalID: -5317705610442890249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_51
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 202
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2cf6a1a4faeb770800000000000000
+      internalID: 8628526668894421721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_52
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 202
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1b79281a0a3b7b0800000000000000
+      internalID: -5209643728396373579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_53
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 202
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104de424bc5edbe20800000000000000
+      internalID: 3368100757496583169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_54
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 205
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc8129e507806c0800000000000000
+      internalID: -4176965102905799229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 140
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f18b99a832b0dde0800000000000000
+      internalID: -1310351535131360781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 142
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c8ef8ee390ec3e0800000000000000
+      internalID: -2031676216095896425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_57
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 142
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd6435236b5f920800000000000000
+      internalID: 3023523052110928844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_58
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 138
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b679481d73b93cb20800000000000000
+      internalID: 3153534828130113387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_59
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 138
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c63461727ad6cc80800000000000000
+      internalID: -8302708677947410748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_60
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b59f4238e2953c80800000000000000
+      internalID: -8343601208659831368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_61
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 135
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54530ffd5fe6d3fc0800000000000000
+      internalID: -3513530131976014523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_62
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 138
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddd1dbf03114c090800000000000000
+      internalID: -8015262534731702828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 138
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0f1a95788561d40800000000000000
+      internalID: 5554724528755699944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_64
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 138
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8265abebb0136d40800000000000000
+      internalID: 5576319162913219210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_65
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 76
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4b47ede4323cbe0800000000000000
+      internalID: -1458283032691297060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 76
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947043a60cf1fc330800000000000000
+      internalID: 3733237527389407049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_67
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 76
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520db8087fb0dd380800000000000000
+      internalID: -8944980127246462939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 76
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bdb66307044ba10800000000000000
+      internalID: 1924233791487597424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_69
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 76
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e49e0ac28b90ec90800000000000000
+      internalID: -7142538022971599639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_70
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 76
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126c0dd23d080a130800000000000000
+      internalID: 3575999748627285537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_71
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 111
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eae668633bb2fe00800000000000000
+      internalID: 1077129090364271334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_72
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 109
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9a4545d9c0d2390800000000000000
+      internalID: -7841597506317932093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_73
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 109
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d49b26ed9b173590800000000000000
+      internalID: -7694651073353771823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_74
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 107
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814ec06dc05a47c40800000000000000
+      internalID: 5509209718730318872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_75
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 112
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9296002323e9f0d20800000000000000
+      internalID: 3246987794781858089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_76
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 113
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787be75a8a29ab870800000000000000
+      internalID: 8699426883248240519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_77
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 65
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ac737c6ba3f2b70800000000000000
+      internalID: 8876377947271318143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_78
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 76
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8ebcf4d847cc5e0800000000000000
+      internalID: -1888005993497106194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_79
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 65
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a636ff8803bda70800000000000000
+      internalID: 8852722857485232673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_80
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 65
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13fcce276af54240800000000000000
+      internalID: 4775498300970038043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_81
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 65
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b3ab8242594bf00800000000000000
+      internalID: 1131693388911491936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_82
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 65
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5114d661043dd01c0800000000000000
+      internalID: -4535736977484594923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_83
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 10
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a6c69c283e4ef30800000000000000
+      internalID: 4604054869944068629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_84
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 9
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34837ada1ce1decb0800000000000000
+      internalID: -4833173007907735485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_85
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 9
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43bfb3fa11031ad0800000000000000
+      internalID: -2732839333613554869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_86
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 9
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f724d0f2d5ac5110800000000000000
+      internalID: 1251057121904306166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_87
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 10
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd003c3ed8c30ba0800000000000000
+      internalID: -6123830211475665443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_88
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 10
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c21a7531e2ac1f0800000000000000
+      internalID: -1023955304663929817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_89
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 11
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae46329191dbba0800000000000000
+      internalID: -6071669126866867615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_90
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 13
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0300f3342bdfa8d0800000000000000
+      internalID: -2832804692056079603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_91
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fac683813d5221c0800000000000000
+      internalID: -4529955807939867920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_92
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 41
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0f09b8a87ea0060800000000000000
+      internalID: 6920598359641223352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_93
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 40
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3143b8c86cccde0800000000000000
+      internalID: -1311455084538489897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 31
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a92c2db39f5b530800000000000000
+      internalID: 3870273490129164872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_95
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 18
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a463d902a2b0ee3e0800000000000000
+      internalID: -2022666907079068086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_96
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 18
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7340ca4f99dd944d0800000000000000
+      internalID: -3149742811064302537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_97
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 31
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419fcf4e8f0806c30800000000000000
+      internalID: 4350619046521927956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_98
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 16
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834ab0fce2b127310800000000000000
+      internalID: 1401212321921737784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBoss-sharedassets2.assets-57_99
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 17
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4cdc2fd2c75c5d0800000000000000
+      internalID: -3042889436429957959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
