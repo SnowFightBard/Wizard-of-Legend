@@ -15,11 +15,11 @@ C:/Users/SGA/Documents/GitHub/Wizard-of-Legend
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50430
+51777
 Successfully changed project path to: C:/Users/SGA/Documents/GitHub/Wizard-of-Legend
 C:/Users/SGA/Documents/GitHub/Wizard-of-Legend
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001336 seconds.
+Registered in 0.001291 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.581 seconds
+- Completed reload, in  0.565 seconds
 Domain Reload Profiling:
-	ReloadAssembly (581ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (565ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (458ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (174ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (169ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004218 seconds.
+Registered in 0.003915 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.131 seconds
+- Completed reload, in  1.084 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1131ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (891ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (357ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.4 MB.
-System memory in use after: 98.5 MB.
+System memory in use after: 98.4 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 3.156700 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.169800 ms MarkObjects: 2.589600 ms  DeleteObjects: 0.094800 ms)
+Total: 2.985200 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.604700 ms  DeleteObjects: 0.101200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,121 +131,249 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/IceBoss-sharedassets2.assets-57.png
-  artifactKey: Guid(f95abdecf5117d14983b112d67d7fd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IceBoss-sharedassets2.assets-57.png using Guid(f95abdecf5117d14983b112d67d7fd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd20d3d241f2ce703884782207e86a5f') in 0.350667 seconds 
-  Import took 0.354420 seconds .
+  path: Assets/이펙트/Smoke-sharedassets14.assets-14.png
+  artifactKey: Guid(cb8b61cb9fe3ef74e957c66d10e50868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/Smoke-sharedassets14.assets-14.png using Guid(cb8b61cb9fe3ef74e957c66d10e50868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7898fa952866584ec9b23c7c99df161a') in 0.097535 seconds 
+  Import took 0.100882 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Contingent99Logo2x-sharedassets17.assets-3.png
-  artifactKey: Guid(802b981f09a0c5c4fb9d46992553ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contingent99Logo2x-sharedassets17.assets-3.png using Guid(802b981f09a0c5c4fb9d46992553ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82194fff7029f2c9b6f46601792930b') in 0.022354 seconds 
-  Import took 0.026670 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/이펙트/LightningParticles2-sharedassets15.assets-6.png
+  artifactKey: Guid(e1b677b7d98b03e42ab09b2a5d0cb3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LightningParticles2-sharedassets15.assets-6.png using Guid(e1b677b7d98b03e42ab09b2a5d0cb3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ddc71a71d04b7d58679d2c29ef7d94') in 0.023525 seconds 
+  Import took 0.026719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/MuseumEntrance-sharedassets2.assets-47.png
-  artifactKey: Guid(f6a50edaf5873684abddfebe0f58b460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuseumEntrance-sharedassets2.assets-47.png using Guid(f6a50edaf5873684abddfebe0f58b460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfea161df0f959b7300ce8b532cfaa2') in 0.019752 seconds 
-  Import took 0.023462 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/이펙트/AmbientWind-sharedassets7.assets-22.png
+  artifactKey: Guid(02995f7acb61d4a4ea7f9d677b850af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/AmbientWind-sharedassets7.assets-22.png using Guid(02995f7acb61d4a4ea7f9d677b850af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90e68ddc2604152289610a86b9ce21f') in 0.022728 seconds 
+  Import took 0.026124 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/PrisonTileSet-sharedassets3.assets-4.png
-  artifactKey: Guid(f0b5207c31061014bb5bfa672856830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrisonTileSet-sharedassets3.assets-4.png using Guid(f0b5207c31061014bb5bfa672856830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7e15aaf72a5b09938ef13a879a642e') in 0.148934 seconds 
-  Import took 0.152687 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/이펙트/BurnMark-sharedassets7.assets-18.png
+  artifactKey: Guid(dec67076186dd1a48ad2a4533ba5d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/BurnMark-sharedassets7.assets-18.png using Guid(dec67076186dd1a48ad2a4533ba5d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce027a083d786ff971933195cfec82') in 0.021687 seconds 
+  Import took 0.024986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Player.png
-  artifactKey: Guid(363715dbd5847a0489d695a8855f8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player.png using Guid(363715dbd5847a0489d695a8855f8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a162001fa8da91e34c6911610f8b52') in 0.707971 seconds 
-  Import took 0.712322 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/이펙트/ChaosLightning-sharedassets14.assets-7.png
+  artifactKey: Guid(114ea528f4233a34ca200e3da8d17a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/ChaosLightning-sharedassets14.assets-7.png using Guid(114ea528f4233a34ca200e3da8d17a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf04a9831a059997aa3e1a17d2fb6e') in 0.025440 seconds 
+  Import took 0.028524 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/IceTileSet-sharedassets2.assets-56.png
-  artifactKey: Guid(59a82aa55de4d234789adbc9c1216820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IceTileSet-sharedassets2.assets-56.png using Guid(59a82aa55de4d234789adbc9c1216820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933070c6c4b79f444e43786d316fc773') in 0.193597 seconds 
-  Import took 0.197020 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/이펙트/LargeSmoke-sharedassets7.assets-20.png
+  artifactKey: Guid(57f9a75e1d316e143b98d9c015e68f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LargeSmoke-sharedassets7.assets-20.png using Guid(57f9a75e1d316e143b98d9c015e68f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97768dd6038fff231017f207a62f728b') in 0.023264 seconds 
+  Import took 0.027055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/NewWizard-sharedassets1.assets-17.png
-  artifactKey: Guid(b95916c5f18432a4fafc3e80adede486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewWizard-sharedassets1.assets-17.png using Guid(b95916c5f18432a4fafc3e80adede486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02328c63cd2b70b0de1a335b48b3139f') in 0.020572 seconds 
-  Import took 0.023844 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/이펙트/MiscParticleEffects-sharedassets2.assets-73.png
+  artifactKey: Guid(9aad3832fe4701e4f9f509b0d5016662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/MiscParticleEffects-sharedassets2.assets-73.png using Guid(9aad3832fe4701e4f9f509b0d5016662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea782aedf3ff231e63fd20839d9a327') in 0.021687 seconds 
+  Import took 0.025157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.618374 seconds.
-  path: Assets/Palette
-  artifactKey: Guid(8aad409256c333642babeb3d51fbc3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette using Guid(8aad409256c333642babeb3d51fbc3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38600df8e39b69808e3e37cb17d9a146') in 0.007556 seconds 
-  Import took 0.011219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.728647 seconds.
-  path: Assets/Tile
-  artifactKey: Guid(d018da069e2f8aa44a5d627c768cc3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile using Guid(d018da069e2f8aa44a5d627c768cc3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88874181ae3fe5635e442b4e5519ad13') in 0.006590 seconds 
-  Import took 0.009958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.997080 seconds.
-  path: Assets/Tile/New Palette.prefab
-  artifactKey: Guid(baf506659705590428825f51142884ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tile/New Palette.prefab using Guid(baf506659705590428825f51142884ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4ad41d680a80d6afc4b02f16121998') in 0.035209 seconds 
-  Import took 0.039024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.935462 seconds.
-  path: Assets/Palette/ForestTileSet-sharedassets2.assets-65_4.asset
-  artifactKey: Guid(39ea1257f3427f24b901c1b143657ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/ForestTileSet-sharedassets2.assets-65_4.asset using Guid(39ea1257f3427f24b901c1b143657ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b910eeb8aa690b73134d2012fd8b34a') in 0.020988 seconds 
-  Import took 0.024434 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/이펙트/LightningStageEffect-sharedassets7.assets-17.png
+  artifactKey: Guid(1a3dcdbadf9b8e24d80fac7fb44304f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LightningStageEffect-sharedassets7.assets-17.png using Guid(1a3dcdbadf9b8e24d80fac7fb44304f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a71e0abb2fd5a789487ec780008ac6') in 0.022422 seconds 
+  Import took 0.025591 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000252 seconds.
-  path: Assets/Palette/ForestTileSet-sharedassets2.assets-65_13.asset
-  artifactKey: Guid(ed30a3461c904004085dbb72efd6be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/ForestTileSet-sharedassets2.assets-65_13.asset using Guid(ed30a3461c904004085dbb72efd6be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab15773b8d09fb8d1e8f6902c5dc154c') in 0.018164 seconds 
-  Import took 0.021129 seconds .
+  path: Assets/이펙트/CameraHurtEffect-sharedassets1.assets-9.png
+  artifactKey: Guid(bc3a11176d5e0f9408e664b1bb61a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/CameraHurtEffect-sharedassets1.assets-9.png using Guid(bc3a11176d5e0f9408e664b1bb61a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caf9b1344e21d1d311d2574aeb20ef4') in 0.024493 seconds 
+  Import took 0.027756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Palette/New Palette.prefab
-  artifactKey: Guid(1440b5d91ce73014a8682f326717d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/New Palette.prefab using Guid(1440b5d91ce73014a8682f326717d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93cc2dd81a84bca58610b6724df47a0') in 0.019819 seconds 
-  Import took 0.023345 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/이펙트/IceCrystals-sharedassets9.assets-2.png
+  artifactKey: Guid(cc277325d18193d42aeab422c6666d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/IceCrystals-sharedassets9.assets-2.png using Guid(cc277325d18193d42aeab422c6666d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c01a062df6e3db7b53dcae16e3dc73b') in 0.023248 seconds 
+  Import took 0.026518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/이펙트/Aura-sharedassets2.assets-66.png
+  artifactKey: Guid(22426617959d500429057c81ca315974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/Aura-sharedassets2.assets-66.png using Guid(22426617959d500429057c81ca315974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f9dfdfbdcaf8001ca28bdad123fbd4') in 0.022893 seconds 
+  Import took 0.026711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/이펙트/FinalBossArenaBG-sharedassets7.assets-19.png
+  artifactKey: Guid(08c7af6a8c4500c4bb0365fd85810eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/FinalBossArenaBG-sharedassets7.assets-19.png using Guid(08c7af6a8c4500c4bb0365fd85810eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe275d27b3b5e78c37de41233de411b9') in 0.022349 seconds 
+  Import took 0.025975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/이펙트/LightningEffectCompact-sharedassets21.assets-5.png
+  artifactKey: Guid(a2028aed7279f6547b25ece615d1f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LightningEffectCompact-sharedassets21.assets-5.png using Guid(a2028aed7279f6547b25ece615d1f1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68526c1946d877c843a0ba73b28489b1') in 0.021806 seconds 
+  Import took 0.024862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/이펙트/CastingCircle-sharedassets3.assets-5.png
+  artifactKey: Guid(15f46e8dfd8a0e94596bb9617b03e0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/CastingCircle-sharedassets3.assets-5.png using Guid(15f46e8dfd8a0e94596bb9617b03e0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a8ad5f33e32e6a955d2425f7069a7b') in 0.022027 seconds 
+  Import took 0.025225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/이펙트/AirBossHair-sharedassets15.assets-11.png
+  artifactKey: Guid(d2337d086051d2f4ca454ada0d24ff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/AirBossHair-sharedassets15.assets-11.png using Guid(d2337d086051d2f4ca454ada0d24ff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cb658de6f6a26da6b32e65a31d3189') in 0.020654 seconds 
+  Import took 0.023907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/이펙트/ChaosSummonAura-sharedassets5.assets-7.png
+  artifactKey: Guid(1a32ce29d017af74c99ea31b2743d9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/ChaosSummonAura-sharedassets5.assets-7.png using Guid(1a32ce29d017af74c99ea31b2743d9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd09f6e33a774d5f9f5820c85a2ddab') in 0.019980 seconds 
+  Import took 0.023192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/이펙트/TeleportCircles-sharedassets2.assets-38.png
+  artifactKey: Guid(e21168aaedec9084ba3f2fe733acfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/TeleportCircles-sharedassets2.assets-38.png using Guid(e21168aaedec9084ba3f2fe733acfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba66a0e7286670d58daa59ff09ada889') in 0.022940 seconds 
+  Import took 0.026108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/이펙트/CameraHurtEffectCoop-sharedassets1.assets-13.png
+  artifactKey: Guid(77fe8fe7307a7de458aa09d319bcdec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/CameraHurtEffectCoop-sharedassets1.assets-13.png using Guid(77fe8fe7307a7de458aa09d319bcdec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0a873b1385e972870e76edc2003c69') in 0.022644 seconds 
+  Import took 0.026182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/이펙트/FinalBossLight-sharedassets14.assets-17.png
+  artifactKey: Guid(0edd44b73b6101d41abb56f6a7f3fb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/FinalBossLight-sharedassets14.assets-17.png using Guid(0edd44b73b6101d41abb56f6a7f3fb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680007aad714579e54ceb6b3f6dbd1af') in 0.020724 seconds 
+  Import took 0.023794 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000251 seconds.
-  path: Assets/Palette/LightningTileSet-sharedassets2.assets-36.png
-  artifactKey: Guid(2167a26fa900c53478500157e5c6ff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/LightningTileSet-sharedassets2.assets-36.png using Guid(2167a26fa900c53478500157e5c6ff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640463b462c2f480a28d06245e0ae00d') in 0.098050 seconds 
-  Import took 0.101376 seconds .
+  path: Assets/이펙트/WaterFormParticles-sharedassets6.assets-12.png
+  artifactKey: Guid(4ffdfd8a203b9f645880c11eadf00658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/WaterFormParticles-sharedassets6.assets-12.png using Guid(4ffdfd8a203b9f645880c11eadf00658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c567e14d888e1462909816077f85ca29') in 0.020638 seconds 
+  Import took 0.023812 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Palette/MuseumEntrance-sharedassets2.assets-47.asset
-  artifactKey: Guid(67bef0f3f33036045a2e54a66265479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/MuseumEntrance-sharedassets2.assets-47.asset using Guid(67bef0f3f33036045a2e54a66265479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db8f8be3603f090bf65fc500f0850e0') in 0.018462 seconds 
-  Import took 0.021822 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Assets/이펙트/Skills-sharedassets1.assets-5.png
+  artifactKey: Guid(6043d8087f29d4c48bd20045e32d2457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/Skills-sharedassets1.assets-5.png using Guid(6043d8087f29d4c48bd20045e32d2457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78fbffa6d79f957b35029fbe6763d1b') in 0.032666 seconds 
+  Import took 0.036110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/이펙트/LargeSlash-sharedassets2.assets-23.png
+  artifactKey: Guid(e273f519139cc4045a85320562f3aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LargeSlash-sharedassets2.assets-23.png using Guid(e273f519139cc4045a85320562f3aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfa9d917bf5edb756ae761b16020b40') in 0.023492 seconds 
+  Import took 0.026822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/이펙트/FireIndexed-sharedassets1.assets-10.png
+  artifactKey: Guid(00cd2d4c12761b94fa245a6fc92dcfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/FireIndexed-sharedassets1.assets-10.png using Guid(00cd2d4c12761b94fa245a6fc92dcfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f13074c5a6413e2123513ae47a2618') in 0.023084 seconds 
+  Import took 0.026758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/이펙트/LightningParticles-sharedassets21.assets-6.png
+  artifactKey: Guid(818cf2a54929c8c4380fb0b2b01f956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LightningParticles-sharedassets21.assets-6.png using Guid(818cf2a54929c8c4380fb0b2b01f956d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42994bf76c7723ab0c81655c9c04b20') in 0.020530 seconds 
+  Import took 0.023703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/이펙트/MiscParticleEffects2-sharedassets6.assets-11.png
+  artifactKey: Guid(1f27a1a5c27e3c14293286d5485ee33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/MiscParticleEffects2-sharedassets6.assets-11.png using Guid(1f27a1a5c27e3c14293286d5485ee33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8129925fcf9cd89ff55d72cb632a4c') in 0.022625 seconds 
+  Import took 0.026441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/이펙트/WindParticles-sharedassets6.assets-16.png
+  artifactKey: Guid(14e12524f4f1f4b418723602d099e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/WindParticles-sharedassets6.assets-16.png using Guid(14e12524f4f1f4b418723602d099e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6a2d1530c2a58e63b0702710f93603') in 0.022380 seconds 
+  Import took 0.026082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/이펙트/Lightning-sharedassets15.assets-13.png
+  artifactKey: Guid(64203415e5d373f4482a4bd10267cce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/Lightning-sharedassets15.assets-13.png using Guid(64203415e5d373f4482a4bd10267cce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba2736627df6c5e3d3a9cf947d9f450') in 0.027040 seconds 
+  Import took 0.030377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/이펙트/LightningTip-sharedassets21.assets-7.png
+  artifactKey: Guid(ea5ccf93dc5b6c5409a32396ecf61ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LightningTip-sharedassets21.assets-7.png using Guid(ea5ccf93dc5b6c5409a32396ecf61ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf37eb82e5e2ded65a613f3c2ff8e07') in 0.023667 seconds 
+  Import took 0.026814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/이펙트/SnowFlake-sharedassets2.assets-20.png
+  artifactKey: Guid(c59d3112e02e71943ae91381bd6c10c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/SnowFlake-sharedassets2.assets-20.png using Guid(c59d3112e02e71943ae91381bd6c10c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f163f5a6c80b24ed6ddc2bd15655cfe0') in 0.021111 seconds 
+  Import took 0.024225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/이펙트/FireParticles-sharedassets2.assets-19.png
+  artifactKey: Guid(b2689f639a51e5a4c8c6bb64fb6df4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/FireParticles-sharedassets2.assets-19.png using Guid(b2689f639a51e5a4c8c6bb64fb6df4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044b8fadda44d319d6d1d6b3d71b86df') in 0.023019 seconds 
+  Import took 0.026122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/이펙트/LightningEffect-sharedassets6.assets-14.png
+  artifactKey: Guid(e83fd3ac5fcfd304ba376021d7b3403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/이펙트/LightningEffect-sharedassets6.assets-14.png using Guid(e83fd3ac5fcfd304ba376021d7b3403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a625c61b54e83390d831b854d82b7e0') in 0.022728 seconds 
+  Import took 0.025865 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
