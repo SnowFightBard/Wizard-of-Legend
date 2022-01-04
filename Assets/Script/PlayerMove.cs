@@ -6,7 +6,8 @@ public class PlayerMove : MonoBehaviour
 {
 
     Vector3 position;
-    public float Speed = 5.0f;
+    public float Speed = 2.0f;
+    public string Rotate;
 
     private void Start()
     {
@@ -17,23 +18,14 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.A))
-            position.x -= Speed * Time.deltaTime;
+        position.x += Speed * Time.deltaTime * Input.GetAxisRaw("Horizontal");
+        position.y += Speed * Time.deltaTime * Input.GetAxisRaw("Vertical");
 
-
-        if (Input.GetKey(KeyCode.D))
-            position.x += Speed * Time.deltaTime;
-
-
-        if (Input.GetKey(KeyCode.W))
-            position.y += Speed * Time.deltaTime;
-
-
-        if (Input.GetKey(KeyCode.S))
-            position.y -= Speed * Time.deltaTime;
-
-        if(Input.GetKey(KeyCode.Space))
-
+        /*if (Input.GetKeyDown(KeyCode.Space))
+        {
+            position.x += Speed * 60 * Time.deltaTime * Input.GetAxisRaw("Horizontal");
+            position.y += Speed * 60 * Time.deltaTime * Input.GetAxisRaw("Vertical");
+        }*/
 
         transform.position = position;
 
