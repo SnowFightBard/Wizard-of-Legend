@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float moveSpeed = 1.0f; // 플레이어 이동 속도
-    float Vertical; // 위쪽, 아래쪽 방향값을 받는 변수
-    float Horizontal; // 왼쪽, 오른쪽 방향값을 받는 변수
+    public float moveSpeed = 1.5f; // 플레이어 이동 속도
+    float Vertical; // 위쪽, 아래쪽 입력을 받는 변수
+    float Horizontal; // 왼쪽, 오른쪽 입력을 받는 변수
 
     public Animator animator; // Animator 속성 변수 생성
 
@@ -21,17 +21,14 @@ public class PlayerMove : MonoBehaviour
     private void FixedUpdate()
     {
         Move(); // 플레이어 이동
-
     }
 
     void Move()
     {
-
-
         Vertical = Input.GetAxis("Vertical");
         Horizontal = Input.GetAxis("Horizontal");
         
-
+        // 가로 이동 애니메이션 동작
         if (Horizontal != 0)
         {
             animator.SetBool("walk_h", true);
@@ -47,28 +44,33 @@ public class PlayerMove : MonoBehaviour
                 rend.flipX = true;
             }
         }
-        else
-        {
-            animator.SetBool("walk_h", false);
-        }
-
-        if (Vertical < 0)
+        else if (Vertical < 0)  // 세로 방향 애니메이션 동작
         {
             animator.SetBool("walk_down", true);
             animator.SetBool("walk_up", false);
+            animator.SetBool("walk_h", false);
         }
         else if (Vertical > 0)
         {
             animator.SetBool("walk_up", true);
             animator.SetBool("walk_down", false);
+            animator.SetBool("walk_h", false);
         }
-        else
+        else // 이동중이 아닐때 기본자세 애니메이션 동작
         {
             animator.SetBool("walk_up", false);
             animator.SetBool("walk_down", false);
+            animator.SetBool("walk_h", false);
         }
 
-        Vector3 dir = (Vertical * Vector3.up) + (Horizontal * Vector3.right); // transform.Translate() 변수의 자료형을 맞추기 위해 생성한 새로운 Vector3 변수 생성
+        Vector3 dir = (Vertical * Vector3.up) + (Horizontal * Vector3.right);
         this.transform.Translate(dir * moveSpeed * Time.deltaTime); // Player 오브젝트 이동 함수
+    }
+
+
+    // 플레이어와 충돌되는 물체의 이름을 콘솔창에 출력 (테스트용)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.collider.name);
     }
 }
