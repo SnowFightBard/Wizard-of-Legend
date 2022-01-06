@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    void Start()
+    float angle;
+    Vector2 target, mouse;
+
+    private void Start()
     {
-        
+        target = transform.position;
     }
-    
-    void Update()
+    private void Update()
     {
-        // 마우스 커서의 좌표값을 mouse변수로 받음
-        Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //Debug.Log(mouse);
+        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        angle = Mathf.Atan2(mouse.y - target.y, mouse.x - target.x) * Mathf.Rad2Deg;
+        this.transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
     }
 }

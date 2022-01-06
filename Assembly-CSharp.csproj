@@ -53,9 +53,12 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\PlayerMove.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\구현해야 되는거.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

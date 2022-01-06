@@ -1,7 +1,202 @@
 fileFormatVersion: 2
 guid: 1ffc972660d4f82449d49e2fa5335b9e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 474636946303820285
+    second: MuseumTileSet-sharedassets2.assets-51_0
+  - first:
+      213: -8110030717404040599
+    second: MuseumTileSet-sharedassets2.assets-51_1
+  - first:
+      213: 2967147983664825520
+    second: MuseumTileSet-sharedassets2.assets-51_2
+  - first:
+      213: -3993868864234460218
+    second: MuseumTileSet-sharedassets2.assets-51_3
+  - first:
+      213: 385685843407315033
+    second: MuseumTileSet-sharedassets2.assets-51_4
+  - first:
+      213: 7232476961330148370
+    second: MuseumTileSet-sharedassets2.assets-51_5
+  - first:
+      213: -587080736817644363
+    second: MuseumTileSet-sharedassets2.assets-51_6
+  - first:
+      213: 2371411689969188436
+    second: MuseumTileSet-sharedassets2.assets-51_7
+  - first:
+      213: 1698832617957438775
+    second: MuseumTileSet-sharedassets2.assets-51_8
+  - first:
+      213: 4776729946876119816
+    second: MuseumTileSet-sharedassets2.assets-51_9
+  - first:
+      213: 6663932436223357990
+    second: MuseumTileSet-sharedassets2.assets-51_10
+  - first:
+      213: -3401082314536221938
+    second: MuseumTileSet-sharedassets2.assets-51_11
+  - first:
+      213: -1621459270838263068
+    second: MuseumTileSet-sharedassets2.assets-51_12
+  - first:
+      213: 1507501956372528942
+    second: MuseumTileSet-sharedassets2.assets-51_13
+  - first:
+      213: 794964658257203942
+    second: MuseumTileSet-sharedassets2.assets-51_14
+  - first:
+      213: 5934396851947046190
+    second: MuseumTileSet-sharedassets2.assets-51_15
+  - first:
+      213: 6909792070904244734
+    second: MuseumTileSet-sharedassets2.assets-51_16
+  - first:
+      213: 1660966120125878433
+    second: MuseumTileSet-sharedassets2.assets-51_17
+  - first:
+      213: 8799287279851953620
+    second: MuseumTileSet-sharedassets2.assets-51_18
+  - first:
+      213: -9105626567186325308
+    second: MuseumTileSet-sharedassets2.assets-51_19
+  - first:
+      213: -2779777753434339057
+    second: MuseumTileSet-sharedassets2.assets-51_20
+  - first:
+      213: -5673851038255988543
+    second: MuseumTileSet-sharedassets2.assets-51_21
+  - first:
+      213: 7220489025218307894
+    second: MuseumTileSet-sharedassets2.assets-51_22
+  - first:
+      213: -8640566243263767389
+    second: MuseumTileSet-sharedassets2.assets-51_23
+  - first:
+      213: -5394551200403762826
+    second: MuseumTileSet-sharedassets2.assets-51_24
+  - first:
+      213: 7037233442366867094
+    second: MuseumTileSet-sharedassets2.assets-51_25
+  - first:
+      213: 48016018174613690
+    second: MuseumTileSet-sharedassets2.assets-51_26
+  - first:
+      213: 8265960045983626242
+    second: MuseumTileSet-sharedassets2.assets-51_27
+  - first:
+      213: 367591008258455701
+    second: MuseumTileSet-sharedassets2.assets-51_28
+  - first:
+      213: -2492593671301881788
+    second: MuseumTileSet-sharedassets2.assets-51_29
+  - first:
+      213: -8526595901042689638
+    second: MuseumTileSet-sharedassets2.assets-51_30
+  - first:
+      213: -8541399276767882437
+    second: MuseumTileSet-sharedassets2.assets-51_31
+  - first:
+      213: -6888445409628099000
+    second: MuseumTileSet-sharedassets2.assets-51_32
+  - first:
+      213: -1970615987834459020
+    second: MuseumTileSet-sharedassets2.assets-51_33
+  - first:
+      213: -1997556790788621614
+    second: MuseumTileSet-sharedassets2.assets-51_34
+  - first:
+      213: -3614339354615263354
+    second: MuseumTileSet-sharedassets2.assets-51_35
+  - first:
+      213: 2253552087184457860
+    second: MuseumTileSet-sharedassets2.assets-51_36
+  - first:
+      213: 6483473476452296199
+    second: MuseumTileSet-sharedassets2.assets-51_37
+  - first:
+      213: -5851646283134313373
+    second: MuseumTileSet-sharedassets2.assets-51_38
+  - first:
+      213: -6066384610850141066
+    second: MuseumTileSet-sharedassets2.assets-51_39
+  - first:
+      213: 4557411802053388198
+    second: MuseumTileSet-sharedassets2.assets-51_40
+  - first:
+      213: 4581729323906328623
+    second: MuseumTileSet-sharedassets2.assets-51_41
+  - first:
+      213: 3724324517275069471
+    second: MuseumTileSet-sharedassets2.assets-51_42
+  - first:
+      213: -5226392350367978425
+    second: MuseumTileSet-sharedassets2.assets-51_43
+  - first:
+      213: 2459615620952680156
+    second: MuseumTileSet-sharedassets2.assets-51_44
+  - first:
+      213: -2269316686762755510
+    second: MuseumTileSet-sharedassets2.assets-51_45
+  - first:
+      213: 8550080688279299717
+    second: MuseumTileSet-sharedassets2.assets-51_46
+  - first:
+      213: -7752292453092130235
+    second: MuseumTileSet-sharedassets2.assets-51_47
+  - first:
+      213: 1295396644751104075
+    second: MuseumTileSet-sharedassets2.assets-51_48
+  - first:
+      213: -1494485744087412873
+    second: MuseumTileSet-sharedassets2.assets-51_49
+  - first:
+      213: -1329183616392134923
+    second: MuseumTileSet-sharedassets2.assets-51_50
+  - first:
+      213: -976757874611899269
+    second: MuseumTileSet-sharedassets2.assets-51_51
+  - first:
+      213: -302459949549469605
+    second: MuseumTileSet-sharedassets2.assets-51_52
+  - first:
+      213: 1086353387642944445
+    second: MuseumTileSet-sharedassets2.assets-51_53
+  - first:
+      213: -4317616552402393264
+    second: MuseumTileSet-sharedassets2.assets-51_54
+  - first:
+      213: -6727842867601406262
+    second: MuseumTileSet-sharedassets2.assets-51_55
+  - first:
+      213: 1929764866371368243
+    second: MuseumTileSet-sharedassets2.assets-51_56
+  - first:
+      213: 3415860191932426290
+    second: MuseumTileSet-sharedassets2.assets-51_57
+  - first:
+      213: 8350094754825460431
+    second: MuseumTileSet-sharedassets2.assets-51_58
+  - first:
+      213: 8587267006117476068
+    second: MuseumTileSet-sharedassets2.assets-51_59
+  - first:
+      213: 2302875026209914620
+    second: MuseumTileSet-sharedassets2.assets-51_60
+  - first:
+      213: -3958378209477162962
+    second: MuseumTileSet-sharedassets2.assets-51_61
+  - first:
+      213: 7692652771222337394
+    second: MuseumTileSet-sharedassets2.assets-51_62
+  - first:
+      213: 1617012910135716147
+    second: MuseumTileSet-sharedassets2.assets-51_63
+  - first:
+      213: 4736406603652647569
+    second: MuseumTileSet-sharedassets2.assets-51_64
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +236,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +270,1398 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 368
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df127b5b9cf369600800000000000000
+      internalID: 474636946303820285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 377
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96230a30802637f80800000000000000
+      internalID: -8110030717404040599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 396
+        width: 116
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4cb5ade5d6d2920800000000000000
+      internalID: 2967147983664825520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 338
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbefcbad6de298c0800000000000000
+      internalID: -3993868864234460218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 338
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a03b2b3b3a5500800000000000000
+      internalID: 385685843407315033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 350
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214b74e1a7bee5460800000000000000
+      internalID: 7232476961330148370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 350
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc728b2e254ad7f0800000000000000
+      internalID: -587080736817644363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 350
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e72d42e52f8e020800000000000000
+      internalID: 2371411689969188436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 311
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7353336e347739710800000000000000
+      internalID: 1698832617957438775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8587149a5a4240800000000000000
+      internalID: 4776729946876119816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 310
+        width: 37
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624fb446e3b0b7c50800000000000000
+      internalID: 6663932436223357990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 305
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03843697adecc0d0800000000000000
+      internalID: -3401082314536221938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 310
+        width: 37
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2ebef426b6f79e0800000000000000
+      internalID: -1621459270838263068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 282
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7acfca09bbe410800000000000000
+      internalID: 1507501956372528942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 272
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e219601528480b00800000000000000
+      internalID: 794964658257203942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 237
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25008cbe763b5250800000000000000
+      internalID: 5934396851947046190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 304
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9ee02674384ef50800000000000000
+      internalID: 6909792070904244734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_17
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 304
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0df06d2efec0710800000000000000
+      internalID: 1660966120125878433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 275
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd503019295d1a70800000000000000
+      internalID: 8799287279851953620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 291
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0ef7d71e052a180800000000000000
+      internalID: -9105626567186325308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 291
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0943047cde3c69d0800000000000000
+      internalID: -2779777753434339057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 291
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c04544ca8e6241b0800000000000000
+      internalID: -5673851038255988543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 291
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6376ebc3384543460800000000000000
+      internalID: 7220489025218307894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 291
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac180c08ca861880800000000000000
+      internalID: -8640566243263767389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 291
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d649c344b225b0800000000000000
+      internalID: -5394551200403762826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 240
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c6cde78649a160800000000000000
+      internalID: 7037233442366867094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_26
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 240
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab893da60569aa000800000000000000
+      internalID: 48016018174613690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 281
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204fc6cedd696b270800000000000000
+      internalID: 8265960045983626242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 281
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5987fdd0312f91500800000000000000
+      internalID: 367591008258455701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 281
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4402aa42347886dd0800000000000000
+      internalID: -2492593671301881788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_30
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 281
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a997c0f24327ba980800000000000000
+      internalID: -8526595901042689638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 281
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33d87fac9ad67980800000000000000
+      internalID: -8541399276767882437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_32
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 281
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e627085635760a0800000000000000
+      internalID: -6888445409628099000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ceb682337f6a4e0800000000000000
+      internalID: -1970615987834459020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_34
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 261
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daff5aaea04744e0800000000000000
+      internalID: -1997556790788621614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_35
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 262
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f417ea18947ddc0800000000000000
+      internalID: -3614339354615263354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4804877fea9364f10800000000000000
+      internalID: 2253552087184457860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 224
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7062b92a6cce9f950800000000000000
+      internalID: 6483473476452296199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5b8675b6cacea0800000000000000
+      internalID: -5851646283134313373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 245
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c8167665fdfcba0800000000000000
+      internalID: -6066384610850141066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_40
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 246
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7a09443ed2f3f30800000000000000
+      internalID: 4557411802053388198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 232
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f286d688b82959f30800000000000000
+      internalID: 4581729323906328623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 232
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c65788a657fa330800000000000000
+      internalID: 3724324517275069471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c6f7319df1877b0800000000000000
+      internalID: -5226392350367978425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 228
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e2ea206f422220800000000000000
+      internalID: 2459615620952680156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_45
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 208
+        width: 106
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ab3aa2f74c180e0800000000000000
+      internalID: -2269316686762755510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 306
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586a0d1f51df7a670800000000000000
+      internalID: 8550080688279299717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_47
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 162
+        width: 15
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542808a56135a6490800000000000000
+      internalID: -7752292453092130235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_48
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 162
+        width: 15
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b485f95926c2af110800000000000000
+      internalID: 1295396644751104075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 10
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fc8c54225824be0800000000000000
+      internalID: -1494485744087412873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 175
+        width: 64
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe7daf0b8acd8de0800000000000000
+      internalID: -1329183616392134923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 161
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74313c53ebd172f0800000000000000
+      internalID: -976757874611899269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50425447427dcbf0800000000000000
+      internalID: -302459949549469605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_53
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 104
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbfffa76a0831f00800000000000000
+      internalID: 1086353387642944445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_54
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 92
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05765bd0f9eb414c0800000000000000
+      internalID: -4317616552402393264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 176
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac609fbbe86e1a2a0800000000000000
+      internalID: -6727842867601406262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_56
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 12
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3353810fbe6e7ca10800000000000000
+      internalID: 1929764866371368243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238a78e1fb2976f20800000000000000
+      internalID: 3415860191932426290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_58
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 16
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca593650fe71e370800000000000000
+      internalID: 8350094754825460431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6701348d91c2770800000000000000
+      internalID: 8587267006117476068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_60
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe3c5b92a475ff10800000000000000
+      internalID: 2302875026209914620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_61
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e288779adf30119c0800000000000000
+      internalID: -3958378209477162962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_62
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277b12120fac1ca60800000000000000
+      internalID: 7692652771222337394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3392cd9aca8c07610800000000000000
+      internalID: 1617012910135716147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuseumTileSet-sharedassets2.assets-51_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ac78226b81bb140800000000000000
+      internalID: 4736406603652647569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
