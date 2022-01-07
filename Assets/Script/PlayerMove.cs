@@ -8,10 +8,17 @@ public class PlayerMove : MonoBehaviour
     public float moveSpeed = 1.5f; // 플레이어 이동 속도
     float Vertical; // 위쪽, 아래쪽 입력을 받는 변수
     float Horizontal; // 왼쪽, 오른쪽 입력을 받는 변수
+    [SerializeField]
+    GameObject Text_Button;
+
+    GameObject Button;
 
     public Animator animator; // Animator 속성 변수 생성
 
     public SpriteRenderer rend; // SpriteRenderer 속성 변수 생성
+
+    bool Talk = false;  // 대화 가능한지 체크하는 변수
+    bool isTalk = false;    // 대화중인지 체크하는 변수
 
     private void Start()
     {
@@ -68,9 +75,22 @@ public class PlayerMove : MonoBehaviour
     }
 
 
-    // 플레이어와 충돌되는 물체의 이름을 콘솔창에 출력 (테스트용)
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // 부딪힌 오브젝트가 NPC일 경우 NPC머리위에 대화버튼 활성화
+        if (collision.gameObject.tag == "Npc")
+        {
+            Vector3 pos = collision.gameObject.transform.position;
+            pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);
+            Button = Instantiate(Text_Button, pos, Quaternion.identity);
+        }
         Debug.Log(collision.collider.name);
+    }
+
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // NPC와 멀어지면 대화버튼 제거
+        Destroy(Button);
     }
 }

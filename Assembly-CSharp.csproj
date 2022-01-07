@@ -56,6 +56,9 @@
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\PlayerMove.cs" />
+    <Compile Include="Assets\Script\LookAt.cs" />
+    <Compile Include="Assets\Script\MouseCursor.cs" />
+    <Compile Include="Assets\Script\Sort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\구현해야 되는거.txt" />
