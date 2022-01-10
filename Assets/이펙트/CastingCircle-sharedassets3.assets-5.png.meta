@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: 15f46e8dfd8a0e94596bb9617b03e0f9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 885498239539201149
+    second: CastingCircle-sharedassets3.assets-5_0
+  - first:
+      213: -6386435646592606813
+    second: CastingCircle-sharedassets3.assets-5_1
+  - first:
+      213: 6195746614011744726
+    second: CastingCircle-sharedassets3.assets-5_2
+  - first:
+      213: 8086503371610229892
+    second: CastingCircle-sharedassets3.assets-5_3
+  - first:
+      213: -2412004379127087913
+    second: CastingCircle-sharedassets3.assets-5_4
+  - first:
+      213: 1593244673272770060
+    second: CastingCircle-sharedassets3.assets-5_5
+  - first:
+      213: -7863151136464706691
+    second: CastingCircle-sharedassets3.assets-5_6
+  - first:
+      213: 5532534868732735706
+    second: CastingCircle-sharedassets3.assets-5_7
+  - first:
+      213: -1681275809309192290
+    second: CastingCircle-sharedassets3.assets-5_8
+  - first:
+      213: -3058599490039511302
+    second: CastingCircle-sharedassets3.assets-5_9
+  - first:
+      213: -8755427368893197998
+    second: CastingCircle-sharedassets3.assets-5_10
+  - first:
+      213: -8454722266959285177
+    second: CastingCircle-sharedassets3.assets-5_11
+  - first:
+      213: 8780392424458075497
+    second: CastingCircle-sharedassets3.assets-5_12
+  - first:
+      213: 8843991684833573399
+    second: CastingCircle-sharedassets3.assets-5_13
+  - first:
+      213: 8248024898989892016
+    second: CastingCircle-sharedassets3.assets-5_14
+  - first:
+      213: -6391238842092109917
+    second: CastingCircle-sharedassets3.assets-5_15
+  - first:
+      213: 4466062088720225237
+    second: CastingCircle-sharedassets3.assets-5_16
+  - first:
+      213: 2736730021725394324
+    second: CastingCircle-sharedassets3.assets-5_17
+  - first:
+      213: -971895607904507751
+    second: CastingCircle-sharedassets3.assets-5_18
+  - first:
+      213: -8079494313582460495
+    second: CastingCircle-sharedassets3.assets-5_19
+  - first:
+      213: -6410824469245365910
+    second: CastingCircle-sharedassets3.assets-5_20
+  - first:
+      213: -7825582447304040345
+    second: CastingCircle-sharedassets3.assets-5_21
+  - first:
+      213: -4371946258824464745
+    second: CastingCircle-sharedassets3.assets-5_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +170,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 1024
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74c7f015fbe94c00800000000000000
+      internalID: 885498239539201149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 372
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad94ffbd92de57a0800000000000000
+      internalID: -6386435646592606813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 341
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1df7e08b6bbf550800000000000000
+      internalID: 6195746614011744726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_3
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 341
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c83dbe8f7093070800000000000000
+      internalID: 8086503371610229892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 335
+        width: 90
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc7179ebc6d68ed0800000000000000
+      internalID: -2412004379127087913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_5
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 334
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ee4b6c6975c1610800000000000000
+      internalID: 1593244673272770060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 332
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73efcfb3b970e290800000000000000
+      internalID: -7863151136464706691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 271
+        width: 22
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f646862387cc40800000000000000
+      internalID: 5532534868732735706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_8
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 270
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f0ba82f88eaa8e0800000000000000
+      internalID: -1681275809309192290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_9
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 336
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6010e08fbad85d0800000000000000
+      internalID: -3058599490039511302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_10
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 270
+        width: 23
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251536c32397e7680800000000000000
+      internalID: -8755427368893197998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 280
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7447e4ba4eacaaa80800000000000000
+      internalID: -8454722266959285177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 325
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dba58b3683ad970800000000000000
+      internalID: 8780392424458075497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 331
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a7303749b2cba70800000000000000
+      internalID: 8843991684833573399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 311
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1aeda12fed67270800000000000000
+      internalID: 8248024898989892016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 305
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afbb66a222cd47a0800000000000000
+      internalID: -6391238842092109917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d31207bec3aafd30800000000000000
+      internalID: 4466062088720225237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_17
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 284
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495d6177471daf520800000000000000
+      internalID: 2736730021725394324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 271
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998e61c08122382f0800000000000000
+      internalID: -971895607904507751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_19
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 274
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b101229abedfdf80800000000000000
+      internalID: -8079494313582460495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_20
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 256
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a617f397c1d2807a0800000000000000
+      internalID: -6410824469245365910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76029e3d932f56390800000000000000
+      internalID: -7825582447304040345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastingCircle-sharedassets3.assets-5_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 66
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7967ba98a0ab353c0800000000000000
+      internalID: -4371946258824464745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
