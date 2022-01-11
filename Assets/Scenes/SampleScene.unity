@@ -804,7 +804,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -4371946258824464745, guid: 15f46e8dfd8a0e94596bb9617b03e0f9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2106,3 +2106,5 @@ MonoBehaviour:
   Text_Button: {fileID: 314221326032948335, guid: 258de13541316774799d5f9acf482948, type: 3}
   animator: {fileID: 1868065320}
   rend: {fileID: 1868065321}
+  dashSpeed: 6
+  defaultTime: 0.4

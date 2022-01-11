@@ -44,8 +44,8 @@ public class LookAt : MonoBehaviour
         float rotateDegree = Mathf.Atan2(dy, dx) * Mathf.Rad2Deg;
 
         //구해진 각도를 오일러 회전 함수에 적용하여 z축을 기준으로 게임 오브젝트를 회전시킵니다.
-        transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree);
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree - 90);
 
-        // 출처 https://robotree.tistory.com/7
+        // 출처 https://robotree.tistory.com/7 <- 한번 더 보고 이해할것
     }
 }
