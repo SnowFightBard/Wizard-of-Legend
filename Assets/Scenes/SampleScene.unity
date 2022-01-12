@@ -1038,12 +1038,12 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.13511269, y: -6.253681}
-  - {x: 0.18619706, y: -6.2549367}
-  - {x: 0.18602048, y: -6.2146835}
-  - {x: 0.13509585, y: -6.2139277}
-  - {x: 0.13532737, y: -6.252859}
-  - {x: -0.2293506, y: -6.2591505}
+  - {x: 0.13548689, y: -6.298812}
+  - {x: 0.18721381, y: -6.301611}
+  - {x: 0.18693638, y: -6.2133784}
+  - {x: 0.13538434, y: -6.210639}
+  - {x: 0.1351816, y: -6.2991133}
+  - {x: -0.23097353, y: -6.296154}
   - {x: -0.23516138, y: 0.06593433}
   - {x: 0.020128481, y: 0.07460481}
   - {x: 0.07701579, y: 0.07107592}
@@ -1052,12 +1052,12 @@ EdgeCollider2D:
   - {x: 0.5442775, y: 0.10048303}
   - {x: 0.8018129, y: 0.10004615}
   - {x: 0.7968791, y: -4.644294}
-  - {x: 0.7936384, y: -6.257659}
-  - {x: 0.43140614, y: -6.2539144}
+  - {x: 0.7952614, y: -6.3316655}
+  - {x: 0.43124464, y: -6.319131}
   - {x: 0.43143836, y: -6.210486}
   - {x: 0.37949094, y: -6.2103825}
-  - {x: 0.37931496, y: -6.256422}
-  - {x: 0.43126404, y: -6.2557683}
+  - {x: 0.3794932, y: -6.3153057}
+  - {x: 0.4305916, y: -6.3186}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1074,7 +1074,7 @@ Transform:
   m_LocalScale: {x: 5.7, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &880230152
 GameObject:
@@ -2062,7 +2062,7 @@ Transform:
   m_Children:
   - {fileID: 640846760}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1868065323
 BoxCollider2D:
@@ -2102,9 +2102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fb6ebbb03a7e5c4a953c53c8e41670c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1.5
   Text_Button: {fileID: 314221326032948335, guid: 258de13541316774799d5f9acf482948, type: 3}
   animator: {fileID: 1868065320}
   rend: {fileID: 1868065321}
-  dashSpeed: 6
-  defaultTime: 0.4
+  Speed: 1.5
+  dashSpeed: 4.5
