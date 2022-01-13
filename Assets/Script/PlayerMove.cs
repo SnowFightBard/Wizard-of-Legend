@@ -15,13 +15,33 @@ public class PlayerMove : MonoBehaviour
     private Vector2 vector;
     private Rigidbody2D rigidBody;
     
+    //=========================
+    //   플레이어 이동관련 변수
+    //=========================
     float baseSpeed = 1.5f;     // 기본 이동 속도
     public float Speed = 1.5f;      // 현재 플레이어 이동 속도
     public float dashSpeed;         // 대쉬 속도
-    private float dashTime = 0.3f;        // 대쉬 유지시간
+    private float dashTime = 0.45f;        // 대쉬 유지시간
     private bool isDash;        // 대쉬중인지 체크하는 변수
     float Vertical;      // 위쪽, 아래쪽 입력을 받는 변수
     float Horizontal;       // 왼쪽, 오른쪽 입력을 받는 변수
+
+    //==============================
+    //   플레이어 애니메이션관련 변수
+    //==============================
+    int moveRot;
+    const string PLAYER_IDLE_DOWN = "Player_Idle_Down";
+    const string PLAYER_IDLE_UP = "Player_Idle_Up";
+    const string PLAYER_IDLE_RIGHT = "Player_Idle_Right";
+    const string PLAYER_WALK_DOWN = "Player_Walk_Down";
+    const string PLAYER_WALK_UP = "Player_Walk_Up";
+    const string PLAYER_WALK_RIGHT = "Player_Walk_Right";
+    const string DASH_RIGHT = "Dash_Right";
+    const string DASH_UP = "Dash_Up";
+    const string DASH_DOWN = "Dash_Down";
+
+    private string currentState;
+
 
 
     bool Talk = false;  // 대화 가능한지 체크하는 변수
@@ -54,39 +74,47 @@ public class PlayerMove : MonoBehaviour
         vector.y = Input.GetAxis("Vertical");
         vector.x = Input.GetAxis("Horizontal");
 
-        // 가로 이동 애니메이션 동작
-        if (vector.x != 0)
+        if (!isDash)
         {
-            animator.SetBool("walk_h", true);
-            animator.SetBool("walk_down", false);
-            animator.SetBool("walk_up", false);
-
-            if (vector.x > 0)
+            // 가로 이동 애니메이션 동작
+            if (vector.x != 0)
             {
-                rend.flipX = false; // Player의 Sprite를 좌우반전시키는 함수 , true일 때 반전
+                ChangeAnimationState(PLAYER_WALK_RIGHT);
+                moveRot = 1;
+                if (vector.x > 0)
+                {
+                    rend.flipX = false; // Player의 Sprite를 좌우반전시키는 함수 , true일 때 반전
+                }
+                else
+                {
+                    rend.flipX = true;
+                }
             }
-            else
+            else if (vector.y < 0)  // 세로 방향 애니메이션 동작
             {
-                rend.flipX = true;
+                ChangeAnimationState(PLAYER_WALK_DOWN);
+                moveRot = 2;
             }
-        }
-        else if (vector.y < 0)  // 세로 방향 애니메이션 동작
-        {
-            animator.SetBool("walk_down", true);
-            animator.SetBool("walk_up", false);
-            animator.SetBool("walk_h", false);
-        }
-        else if (vector.y > 0)
-        {
-            animator.SetBool("walk_up", true);
-            animator.SetBool("walk_down", false);
-            animator.SetBool("walk_h", false);
-        }
-        else // 이동중이 아닐때 기본자세 애니메이션 동작
-        {
-            animator.SetBool("walk_up", false);
-            animator.SetBool("walk_down", false);
-            animator.SetBool("walk_h", false);
+            else if (vector.y > 0)
+            {
+                ChangeAnimationState(PLAYER_WALK_UP);
+                moveRot = 3;
+            }
+            else // 이동중이 아닐때 기본자세 애니메이션 동작
+            {
+                switch (moveRot)
+                {
+                    case 1:
+                        ChangeAnimationState(PLAYER_IDLE_RIGHT);
+                        break;
+                    case 2:
+                        ChangeAnimationState(PLAYER_IDLE_DOWN);
+                        break;
+                    case 3:
+                        ChangeAnimationState(PLAYER_IDLE_UP);
+                        break;
+                }
+            }
         }
 
         // 플레이어 이동처리
@@ -113,17 +141,33 @@ public class PlayerMove : MonoBehaviour
         Destroy(Button);
     }
 
+    void ChangeAnimationState(string newState)
+    {
+        // 현재 애니메이션과 교체될 애니메이션이 같으면 실행하지 않음
+        if (currentState == newState) return;
+
+        // 교체된 애니메이션 실행
+        animator.Play(newState);
+
+        // 현재 상태를 교체된 애니메이션으로 변경
+        currentState = newState;
+    }
+
     // 대쉬 기능
     IEnumerator Dash()
     {
         isDash = true;
-        animator.SetBool("right_dash", true);
+        if (moveRot == 1)
+            ChangeAnimationState(DASH_RIGHT);
+        else if (moveRot == 2)
+            ChangeAnimationState(DASH_DOWN);
+        else
+            ChangeAnimationState(DASH_UP);
         Speed = dashSpeed;
 
         yield return new WaitForSeconds(dashTime);
 
         Speed = baseSpeed;
         isDash = false;
-        animator.SetBool("right_dash", false);
     }
 }
