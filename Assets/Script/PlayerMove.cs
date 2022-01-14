@@ -29,7 +29,7 @@ public class PlayerMove : MonoBehaviour
     //==============================
     //   플레이어 애니메이션관련 변수
     //==============================
-    int moveRot;
+    int moveRot = 2;    // 마지막으로 이동한 방향
     const string PLAYER_IDLE_DOWN = "Player_Idle_Down";
     const string PLAYER_IDLE_UP = "Player_Idle_Up";
     const string PLAYER_IDLE_RIGHT = "Player_Idle_Right";
@@ -39,8 +39,9 @@ public class PlayerMove : MonoBehaviour
     const string DASH_RIGHT = "Dash_Right";
     const string DASH_UP = "Dash_Up";
     const string DASH_DOWN = "Dash_Down";
+    const string ATTACK = "Attack";
 
-    private string currentState;
+    private string currentState;    // 현재 동작중인 애니메이션
 
 
 
@@ -54,12 +55,24 @@ public class PlayerMove : MonoBehaviour
     }
     
     
+    // 키 입력 내용을 모아둠
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        if (!isDash)
         {
-            if (!isDash)
+            vector.y = Input.GetAxisRaw("Vertical");
+            vector.x = Input.GetAxisRaw("Horizontal");
+
+            if (Input.GetKeyDown(KeyCode.Space) && (vector.x != 0 || vector.y != 0))
+            {
                 StartCoroutine(Dash());
+            }
+            else if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                Debug.Log("좌클릭");
+                ChangeAnimationState(ATTACK);
+            }
         }
     }
 
@@ -71,9 +84,6 @@ public class PlayerMove : MonoBehaviour
 
     void Move()
     {
-        vector.y = Input.GetAxis("Vertical");
-        vector.x = Input.GetAxis("Horizontal");
-
         if (!isDash)
         {
             // 가로 이동 애니메이션 동작
@@ -100,7 +110,7 @@ public class PlayerMove : MonoBehaviour
                 ChangeAnimationState(PLAYER_WALK_UP);
                 moveRot = 3;
             }
-            else // 이동중이 아닐때 기본자세 애니메이션 동작
+            else  // 이동중이 아닐때 기본자세 애니메이션 동작
             {
                 switch (moveRot)
                 {
@@ -114,6 +124,7 @@ public class PlayerMove : MonoBehaviour
                         ChangeAnimationState(PLAYER_IDLE_UP);
                         break;
                 }
+
             }
         }
 
@@ -169,5 +180,6 @@ public class PlayerMove : MonoBehaviour
 
         Speed = baseSpeed;
         isDash = false;
+
     }
 }
