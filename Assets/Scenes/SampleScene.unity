@@ -157,9 +157,8 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.5103946, y: 0.038113177}
-  - {x: 0.93958956, y: 0.028020084}
-  - {x: 0.9392123, y: -0.44678485}
-  - {x: 0.9392123, y: -0.44678485}
+  - {x: 0.95464903, y: 0.047382116}
+  - {x: 0.957778, y: -0.8964916}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -322,9 +321,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.50754213, y: -0.007542014}
-  - {x: 0.9430545, y: 0.0072311163}
-  - {x: 0.9392123, y: -0.44678485}
-  - {x: 0.9392123, y: -0.44678485}
+  - {x: 0.9270125, y: -0.008810878}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1461,8 +1458,7 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.5103946, y: 0.038113177}
   - {x: 0.93958956, y: 0.028020084}
-  - {x: 0.9392123, y: -0.44678485}
-  - {x: 0.9392123, y: -0.44678485}
+  - {x: 0.9520459, y: -0.89596075}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1515,8 +1511,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.5226259, y: 0}
-  - {x: 0.93548185, y: -0.00034153461}
-  - {x: 0.9392123, y: -0.44678485}
+  - {x: 0.9118169, y: -0.013249561}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -2101,3 +2096,47 @@ MonoBehaviour:
   rend: {fileID: 1868065321}
   Speed: 1.5
   dashSpeed: 4.5
+--- !u!1 &1964433257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964433259}
+  - component: {fileID: 1964433258}
+  m_Layer: 0
+  m_Name: Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1964433258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964433257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a0da47562c1b448f367d7e7c3c0ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: {fileID: 11400000, guid: aee06b70e8120c54393f37a8079523c7, type: 2}
+--- !u!4 &1964433259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964433257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.474, y: -2.189, z: -1.3136197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

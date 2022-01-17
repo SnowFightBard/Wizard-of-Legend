@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e7f181e2fdd2d439283a54b6eaaf62, type: 3}
+  m_Name: New Skill
+  m_EditorClassIdentifier: 
+  skillname: Attack
+  range: 3
+  cooltime: 0.5
+  icon: {fileID: -1486073279238646750, guid: 6043d8087f29d4c48bd20045e32d2457, type: 3}
