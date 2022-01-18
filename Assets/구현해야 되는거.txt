@@ -35,11 +35,28 @@
 스크립테이블 오브젝트(및 기타 유니티 레퍼런스 기능) : https://funfunhanblog.tistory.com/81
 목표 오브젝트 방향으로 회전하기 : https://robotree.tistory.com/7
 질문글 : https://cafe.naver.com/unityhub.cafe?iframe_url=/CafeMemberNetworkView.nhn%3Fmemberid=starqualia%26clubid=26377973%26m=view
+fsm : https://boycoding.tistory.com/262
+스킬 구현 : https://you-rang.tistory.com/221
+스킬 구현방식 질문글 : https://devkorea.co.kr/bbs/board.php?bo_table=m03_qna&wr_id=104300
+
+
+
+스킬매니저 스크립트
+- 스킬 발동
+
+
+스킬 개별 스크립트
+
+- 인덱스
+- 스킬 이름
+- 사거리
+- 대미지
 
 
 
 ===============================================================================================================================
 
+◆ 스킬 구현 팁
 
 [방법1]
 1. 스킬이나 기타 리소스를 관리하는 스크립트를 하나 만들어줍니다.
