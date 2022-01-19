@@ -67,11 +67,12 @@ public class PlayerMove : MonoBehaviour
             {
                 StartCoroutine(Dash());
             }
-            else if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                Debug.Log("ÁÂÅ¬¸¯");
-                ChangeAnimationState(ATTACK);
-            }
+
+            //else if (Input.GetKeyDown(KeyCode.Mouse0))
+            //{
+            //    Debug.Log("ÁÂÅ¬¸¯");
+            //    ChangeAnimationState(ATTACK);
+            //}
         }
     }
 
