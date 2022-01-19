@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e7f181e2fdd2d439283a54b6eaaf62, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  index: 1
+  skillname: Attack
+  range: 3
+  cooltime: 0.5
+  resource:
+  - {fileID: -8880805029815456946, guid: e273f519139cc4045a85320562f3aa4a, type: 3}
+  - {fileID: 7204026787519321328, guid: e273f519139cc4045a85320562f3aa4a, type: 3}
+  - {fileID: -1415210736872534123, guid: e273f519139cc4045a85320562f3aa4a, type: 3}
+  - {fileID: -4502308382568875647, guid: e273f519139cc4045a85320562f3aa4a, type: 3}
+  - {fileID: -577484862122823091, guid: e273f519139cc4045a85320562f3aa4a, type: 3}

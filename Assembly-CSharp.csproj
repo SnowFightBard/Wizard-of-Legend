@@ -53,13 +53,13 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Skill\SkillManager.cs" />
-    <Compile Include="Assets\Script\Skill\Attack.cs" />
+    <Compile Include="Assets\Script\Skill\SkillSpawn.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Player\CameraFollow.cs" />
     <Compile Include="Assets\Script\Player\MouseCursor.cs" />
     <Compile Include="Assets\Script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Script\Player\LookAt.cs" />
+    <Compile Include="Assets\Script\Skill\SkillManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\구현해야 되는거.txt" />

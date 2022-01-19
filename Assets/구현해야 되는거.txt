@@ -34,23 +34,16 @@
 
 스크립테이블 오브젝트(및 기타 유니티 레퍼런스 기능) : https://funfunhanblog.tistory.com/81
 목표 오브젝트 방향으로 회전하기 : https://robotree.tistory.com/7
-질문글 : https://cafe.naver.com/unityhub.cafe?iframe_url=/CafeMemberNetworkView.nhn%3Fmemberid=starqualia%26clubid=26377973%26m=view
 fsm : https://boycoding.tistory.com/262
 스킬 구현 : https://you-rang.tistory.com/221
 스킬 구현방식 질문글 : https://devkorea.co.kr/bbs/board.php?bo_table=m03_qna&wr_id=104300
 
 
-
-스킬매니저 스크립트
-- 스킬 발동
-
-
-스킬 개별 스크립트
-
 - 인덱스
 - 스킬 이름
 - 사거리
 - 대미지
+- 쿨타임
 
 
 
@@ -67,7 +60,7 @@ Dictionary<string, List<Sprite>> SpriteDic = new .. 이렇게 선언해주고 �
 SpriteDic.Add(키값, new List<Sprite>> 이렇게 구성해주시고 그다음부터는 해당 키값에 맞는 이미지를 List에 저장해주시면 됩니다.
 이렇게 구성하시면 원하는 것을 불러올수 있습니다.
 scriptableobject나 싱글톤등으로 선언하여 범용적으로 쓰일수 있도록 구성해줍니다
-단, 주의하실건 한번쓰일거나 다른곳에서는 거의 쓰이지 않는 것은 넣지않는건이 최적화에 적절합니다.
+단, 주의하실건 한번쓰일거나 다른곳에서는 거의 쓰이지 않는 것은 넣지않는것이 최적화에 적절합니다.
 
 [방법2]
 그냥 스킬관련 슬롯 프리팹이라고 고정이라고 가정할때
