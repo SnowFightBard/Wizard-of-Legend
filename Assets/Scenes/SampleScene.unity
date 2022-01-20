@@ -2262,6 +2262,7 @@ MonoBehaviour:
   rend: {fileID: 1868065321}
   Speed: 1.5
   dashSpeed: 4.5
+  isDash: 0
 --- !u!1 &1964433257
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,9 +2272,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1964433259}
-  - component: {fileID: 1964433258}
   - component: {fileID: 1964433261}
   - component: {fileID: 1964433260}
+  - component: {fileID: 1964433258}
+  - component: {fileID: 1964433263}
   m_Layer: 0
   m_Name: Attack
   m_TagString: Untagged
@@ -2295,7 +2297,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - {fileID: 11400000, guid: aee06b70e8120c54393f37a8079523c7, type: 2}
-  am: {fileID: 1964433260}
+  player_ani: {fileID: 1868065320}
+  skill_ani: {fileID: 1964433260}
+  isSkill: 0
 --- !u!4 &1964433259
 Transform:
   m_ObjectHideFlags: 0
@@ -2380,3 +2384,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1964433263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964433257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952fedf00243e4a479ee8edaa1fdfb21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot_target: {fileID: 1868065318}

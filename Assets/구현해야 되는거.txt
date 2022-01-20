@@ -1,5 +1,6 @@
 ◆ 캐릭터
 - 몬스터 AI 및 패턴
+- 몬스터 피격모션 및 넉백
 - 새 애니메이션 (새가 돌아다니다 플레이어가 근접하면 날아감) (WayPoint 써야할듯...?)
 
 ◆ 시스템
@@ -29,11 +30,11 @@
 - 캐릭터 발밑 에임방향 (리소스 구해야함)
 
 ◆ 해결중인 부분
-- 스킬 애니메이션
+- 스킬 구현
 - 대화상자
 
 스크립테이블 오브젝트(및 기타 유니티 레퍼런스 기능) : https://funfunhanblog.tistory.com/81
-목표 오브젝트 방향으로 회전하기 : https://robotree.tistory.com/7
+목표 오브젝트 방향으로 회전하기 : https://robotree.tistory.com/7 , https://gnaseel.tistory.com/17
 fsm : https://boycoding.tistory.com/262
 스킬 구현 : https://you-rang.tistory.com/221
 스킬 애니메이션 콜라이더 넣기 : https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=19826
@@ -43,9 +44,13 @@ fsm : https://boycoding.tistory.com/262
 - 스킬 이름
 - 사거리
 - 대미지
+- 시전시간
 - 쿨타임
 
-
+- 스킬의 방향을 어떻게 돌릴지 정하기 (리소스를 편집?  Rotate?)
+- 스킬 모양에 맞게 콜라이더 넣기
+- 마우스 방향으로 스킬 발동
+- 마우스 방향으로 플레이어 공격 애니메이션 출력
 
 ===============================================================================================================================
 

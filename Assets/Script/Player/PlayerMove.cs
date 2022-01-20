@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour
     public float Speed = 1.5f;      // 현재 플레이어 이동 속도
     public float dashSpeed;         // 대쉬 속도
     private float dashTime = 0.45f;        // 대쉬 유지시간
-    private bool isDash;        // 대쉬중인지 체크하는 변수
+    public bool isDash;        // 대쉬중인지 체크하는 변수
     float Vertical;      // 위쪽, 아래쪽 입력을 받는 변수
     float Horizontal;       // 왼쪽, 오른쪽 입력을 받는 변수
 
@@ -52,12 +52,11 @@ public class PlayerMove : MonoBehaviour
         animator = GetComponent<Animator>(); // animator 변수를 Player의 Animator 속성으로 초기화
         rigidBody = GetComponent<Rigidbody2D>();
     }
-    
-    
+
+
     // 키 입력 내용을 모아둠
     private void Update()
     {
-
         if (!isDash)
         {
             vector.y = Input.GetAxisRaw("Vertical");
@@ -67,12 +66,11 @@ public class PlayerMove : MonoBehaviour
             {
                 StartCoroutine(Dash());
             }
+        }
 
-            //else if (Input.GetKeyDown(KeyCode.Mouse0))
-            //{
-            //    Debug.Log("좌클릭");
-            //    ChangeAnimationState(ATTACK);
-            //}
+        if (GameObject.Find("Attack").GetComponent<SkillManager>().isSkill == true)
+        {
+            vector = Vector2.zero;
         }
     }
 
@@ -82,9 +80,9 @@ public class PlayerMove : MonoBehaviour
     }
 
 
-    void Move()
+    public void Move()
     {
-        if (!isDash)
+        if (!isDash && GameObject.Find("Attack").GetComponent<SkillManager>().isSkill == false)
         {
             // 가로 이동 애니메이션 동작
             if (vector.x != 0)
@@ -124,7 +122,6 @@ public class PlayerMove : MonoBehaviour
                         ChangeAnimationState(PLAYER_IDLE_UP);
                         break;
                 }
-
             }
         }
 
@@ -152,7 +149,7 @@ public class PlayerMove : MonoBehaviour
         Destroy(Button);
     }
 
-    void ChangeAnimationState(string newState)
+    public void ChangeAnimationState(string newState)
     {
         // 현재 애니메이션과 교체될 애니메이션이 같으면 실행하지 않음
         if (currentState == newState) return;

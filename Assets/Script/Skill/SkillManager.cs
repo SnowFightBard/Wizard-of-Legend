@@ -10,21 +10,30 @@ public class SkillManager : MonoBehaviour
     [SerializeField]
     List<SkillSpawn> data;  // 스킬 데이터 (정보,리소스 포함)
 
-    public Animator am;
+    PlayerMove pm;
+
+    public Animator player_ani;
+    public Animator skill_ani;
     int index;
-    bool isSkill = false;
+    public bool isSkill = false;
 
     private void Start()
     {
-        am = this.GetComponent<Animator>();
+        pm = GameObject.Find("Player").GetComponent<PlayerMove>();
+        player_ani = GameObject.Find("Player").GetComponent<Animator>();
+        skill_ani = this.GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (pm.isDash == false)
         {
-            index = 0;
-            StartCoroutine(Skill());
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                index = 0;
+                if (!isSkill)
+                    StartCoroutine(Skill());
+            }
         }
     }
 
@@ -32,10 +41,13 @@ public class SkillManager : MonoBehaviour
     IEnumerator Skill()
     {
         isSkill = true;
-        am.Play(data[index].name);
-        yield return new WaitForSeconds(data[index].activetime);
-        am.Play("Idle");
 
+        skill_ani.Play(data[index].name);
+        pm.ChangeAnimationState("Right_Attack");
+
+        yield return new WaitForSeconds(data[index].activetime);
+
+        skill_ani.Play("Idle");
 
         isSkill = false;
 
