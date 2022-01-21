@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Attack
   m_EditorClassIdentifier: 
   index: 0
-  skillname: Attack
-  range: 3
+  skillname: "\uAE30\uBCF8\uACF5\uACA9"
+  range: 0.4
   cooltime: 0.5
   activetime: 0.3
-  ani: {fileID: 7400000, guid: d14ac734d05b1e04f9dc468baf5c4e67, type: 2}
+  rot: 180

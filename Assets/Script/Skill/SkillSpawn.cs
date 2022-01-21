@@ -10,6 +10,6 @@ public class SkillSpawn : ScriptableObject
     public float range; // 스킬 사거리
     public float cooltime;  // 스킬 쿨타임
     public float activetime; // 시전 시간
-    public AnimationClip ani; // 스킬 애니메이션
+    public int rot; // 스킬 발동전 회전시킬 각도 (방향이 안맞는 이미지를 돌리기위해)
 
 }

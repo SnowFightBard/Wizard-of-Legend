@@ -12,8 +12,11 @@ public class Skill_LookAt : MonoBehaviour
     {
         target = transform.position;
     }
-    private void Update()
+    
+    public void Skill_Look(int rot, float range)
     {
+        transform.localPosition = new Vector2(0, 0);
+
         //mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         //angle = Mathf.Atan2(mouse.y - target.y, mouse.x - target.x) * Mathf.Rad2Deg;
         //this.transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
@@ -45,7 +48,7 @@ public class Skill_LookAt : MonoBehaviour
         float rotateDegree = Mathf.Atan2(dy, dx) * Mathf.Rad2Deg;
 
         //구해진 각도를 오일러 회전 함수에 적용하여 z축을 기준으로 게임 오브젝트를 회전시킵니다.
-        transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree - 270);
-        
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree - 90 - rot);
+        transform.Translate(Vector2.down * range);
     }
 }
