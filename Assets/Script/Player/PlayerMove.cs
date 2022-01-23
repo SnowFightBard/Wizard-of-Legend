@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour
     GameObject Text_Button;
 
     GameObject Button;
+    GameManager Manager;
 
     public Animator animator; // Animator 속성 변수 생성
     public SpriteRenderer rend; // SpriteRenderer 속성 변수 생성
@@ -40,6 +41,9 @@ public class PlayerMove : MonoBehaviour
     const string DASH_DOWN = "Dash_Down";
     const string ATTACK = "Attack";
 
+
+
+    private GameObject talkNpc;
     private string currentState;    // 현재 동작중인 애니메이션
 
 
@@ -51,13 +55,14 @@ public class PlayerMove : MonoBehaviour
     {
         animator = GetComponent<Animator>(); // animator 변수를 Player의 Animator 속성으로 초기화
         rigidBody = GetComponent<Rigidbody2D>();
+        Manager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
 
     // 키 입력 내용을 모아둠
     private void Update()
     {
-        if (!isDash)
+        if (!isDash && Manager.isAction == false)
         {
             vector.y = Input.GetAxisRaw("Vertical");
             vector.x = Input.GetAxisRaw("Horizontal");
@@ -71,6 +76,11 @@ public class PlayerMove : MonoBehaviour
         if (GameObject.Find("Attack").GetComponent<SkillManager>().isSkill == true)
         {
             vector = Vector2.zero;
+        }
+
+        if (Input.GetKeyDown(KeyCode.F) && talkNpc!=null)
+        {
+            Manager.action(talkNpc);
         }
     }
 
@@ -125,6 +135,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
+
         // 플레이어 이동처리
         rigidBody.velocity = vector.normalized * Speed;
     }
@@ -135,9 +146,11 @@ public class PlayerMove : MonoBehaviour
         // 부딪힌 오브젝트가 NPC일 경우 NPC머리위에 대화버튼 활성화
         if (collision.gameObject.tag == "Npc")
         {
-            Vector3 pos = collision.gameObject.transform.position;
-            pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);
-            Button = Instantiate(Text_Button, pos, Quaternion.identity);
+            talkNpc = collision.gameObject;
+            Vector3 pos = collision.gameObject.transform.position;      // NPC의 위치
+            pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);          // pos에 NPC 머리위 위치값 저장 
+            Button = Instantiate(Text_Button, pos, Quaternion.identity);    // NPC머리위에 대화버튼 생성
+            
         }
         Debug.Log(collision.collider.name);
     }
@@ -147,6 +160,7 @@ public class PlayerMove : MonoBehaviour
     {
         // NPC와 멀어지면 대화버튼 제거
         Destroy(Button);
+        talkNpc = null;
     }
 
     public void ChangeAnimationState(string newState)
