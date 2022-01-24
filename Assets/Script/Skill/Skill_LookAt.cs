@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class Skill_LookAt : MonoBehaviour
 {
-    float angle;
-    Vector2 target, mouse;
-    public GameObject rot_target;
+    Vector2 target;
 
     private void Start()
     {
         target = transform.position;
     }
     
-    public void Skill_Look(int rot, float range)
+    public void Skill_Look(SkillSpawn data)
     {
         transform.localPosition = new Vector2(0, 0);
 
@@ -48,7 +46,7 @@ public class Skill_LookAt : MonoBehaviour
         float rotateDegree = Mathf.Atan2(dy, dx) * Mathf.Rad2Deg;
 
         //구해진 각도를 오일러 회전 함수에 적용하여 z축을 기준으로 게임 오브젝트를 회전시킵니다.
-        transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree - 90 - rot);
-        transform.Translate(Vector2.down * range);
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree - 90 - data.rot);
+        transform.position = new Vector2(target.x, target.y);
     }
 }

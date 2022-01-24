@@ -11,6 +11,7 @@ public class SkillManager : MonoBehaviour
     List<SkillSpawn> data;  // 스킬 데이터 (정보,리소스 포함)
 
     PlayerMove pm;
+    GameManager Manager;
 
     public Animator player_ani;
     public Animator skill_ani;
@@ -22,6 +23,7 @@ public class SkillManager : MonoBehaviour
         pm = GameObject.Find("Player").GetComponent<PlayerMove>();
         player_ani = GameObject.Find("Player").GetComponent<Animator>();
         skill_ani = this.GetComponent<Animator>();
+        Manager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
         // ScriptableObject 파일에서 가져온 스킬들을 index값을 기준으로 오름차순정렬
         data.Sort(delegate (SkillSpawn a, SkillSpawn b)
@@ -37,14 +39,15 @@ public class SkillManager : MonoBehaviour
 
     private void Update()
     {
-        if (pm.isDash == false)
+        if (pm.isDash == false && Manager.isTalk == false)
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                index = 0;
+                index = 1;
                 if (!isSkill)
                 {
-                    this.GetComponent<Skill_LookAt>().Skill_Look(data[index].rot, data[index].range);
+                    if(data[index].isRot)
+                        this.GetComponent<Skill_LookAt>().Skill_Look(data[index]);
                     StartCoroutine(Skill());
                 }
             }
@@ -57,7 +60,7 @@ public class SkillManager : MonoBehaviour
         isSkill = true;
 
         skill_ani.Play(data[index].name);
-        Debug.Log("Player는 " + data[index].skillname + "을(를) 사용하였다!");
+        Debug.Log("Player는 " + data[index].skillName + "을(를) 사용하였다!");
 
         pm.ChangeAnimationState("Right_Attack");
 
@@ -67,7 +70,7 @@ public class SkillManager : MonoBehaviour
         //}
         //else if (Camera.main.ScreenToWorldPoint(Input.mousePosition).y < 0 && Camera.main.ScreenToWorldPoint(Input.mousePosition).x < 0)
 
-        yield return new WaitForSeconds(data[index].activetime);
+        yield return new WaitForSeconds(data[index].activeTime);
 
         skill_ani.Play("Idle");
 

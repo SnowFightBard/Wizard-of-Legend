@@ -29,7 +29,7 @@ public class PlayerMove : MonoBehaviour
     //==============================
     //   플레이어 애니메이션관련 변수
     //==============================
-    int moveRot = 2;    // 마지막으로 이동한 방향
+    int moveRot = 3;    // 마지막으로 이동한 방향
     const string PLAYER_IDLE_DOWN = "Player_Idle_Down";
     const string PLAYER_IDLE_UP = "Player_Idle_Up";
     const string PLAYER_IDLE_RIGHT = "Player_Idle_Right";
@@ -43,7 +43,7 @@ public class PlayerMove : MonoBehaviour
 
 
 
-    private GameObject talkNpc;
+    public GameObject talkNpc;
     private string currentState;    // 현재 동작중인 애니메이션
 
 
@@ -62,13 +62,22 @@ public class PlayerMove : MonoBehaviour
     // 키 입력 내용을 모아둠
     private void Update()
     {
-        if (!isDash && Manager.isAction == false)
+        if (!isDash && Manager.isTalk == false)
         {
             vector.y = Input.GetAxisRaw("Vertical");
             vector.x = Input.GetAxisRaw("Horizontal");
 
-            if (Input.GetKeyDown(KeyCode.Space) && (vector.x != 0 || vector.y != 0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
+                if (moveRot == 1)
+                    vector.x = 1;
+                else if (moveRot == 2)
+                    vector.x = -1;
+                else if (moveRot == 3)
+                    vector.y = -1;
+                else
+                    vector.y = 1;
+
                 StartCoroutine(Dash());
             }
         }
@@ -78,10 +87,12 @@ public class PlayerMove : MonoBehaviour
             vector = Vector2.zero;
         }
 
-        if (Input.GetKeyDown(KeyCode.F) && talkNpc!=null)
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            Manager.action(talkNpc);
+            vector = new Vector2(0, 0);
+            Manager.Talk(talkNpc);
         }
+            
     }
 
     private void FixedUpdate()
@@ -98,25 +109,26 @@ public class PlayerMove : MonoBehaviour
             if (vector.x != 0)
             {
                 ChangeAnimationState(PLAYER_WALK_RIGHT);
-                moveRot = 1;
                 if (vector.x > 0)
                 {
+                    moveRot = 1;
                     rend.flipX = false; // Player의 Sprite를 좌우반전시키는 함수 , true일 때 반전
                 }
                 else
                 {
+                    moveRot = 2;
                     rend.flipX = true;
                 }
             }
             else if (vector.y < 0)  // 세로 방향 애니메이션 동작
             {
                 ChangeAnimationState(PLAYER_WALK_DOWN);
-                moveRot = 2;
+                moveRot = 3;
             }
             else if (vector.y > 0)
             {
                 ChangeAnimationState(PLAYER_WALK_UP);
-                moveRot = 3;
+                moveRot = 4;
             }
             else  // 이동중이 아닐때 기본자세 애니메이션 동작
             {
@@ -126,9 +138,12 @@ public class PlayerMove : MonoBehaviour
                         ChangeAnimationState(PLAYER_IDLE_RIGHT);
                         break;
                     case 2:
-                        ChangeAnimationState(PLAYER_IDLE_DOWN);
+                        ChangeAnimationState(PLAYER_IDLE_RIGHT);
                         break;
                     case 3:
+                        ChangeAnimationState(PLAYER_IDLE_DOWN);
+                        break;
+                    case 4:
                         ChangeAnimationState(PLAYER_IDLE_UP);
                         break;
                 }
@@ -150,7 +165,6 @@ public class PlayerMove : MonoBehaviour
             Vector3 pos = collision.gameObject.transform.position;      // NPC의 위치
             pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);          // pos에 NPC 머리위 위치값 저장 
             Button = Instantiate(Text_Button, pos, Quaternion.identity);    // NPC머리위에 대화버튼 생성
-            
         }
         Debug.Log(collision.collider.name);
     }
@@ -179,11 +193,11 @@ public class PlayerMove : MonoBehaviour
     IEnumerator Dash()
     {
         isDash = true;
-        if (moveRot == 1)
+        if (moveRot == 1 || moveRot == 2)
             ChangeAnimationState(DASH_RIGHT);
-        else if (moveRot == 2)
+        else if (moveRot == 3)
             ChangeAnimationState(DASH_DOWN);
-        else
+        else if(moveRot == 4)
             ChangeAnimationState(DASH_UP);
         Speed = dashSpeed;
 

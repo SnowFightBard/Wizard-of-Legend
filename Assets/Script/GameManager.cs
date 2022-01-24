@@ -8,19 +8,20 @@ public class GameManager : MonoBehaviour
     public GameObject talkPanel;
     public Text talkText;
     private GameObject scanObject;
-    public bool isAction;
+    public bool isTalk;
 
 
-    public void action(GameObject scanObj)
+    public void Talk(GameObject scanObj)
     {
-        if (isAction)
+        if (isTalk)
         {
-            isAction = false;
+            isTalk = false;
             talkPanel.SetActive(false);
         }
         else
         {
-            isAction = true;
+            if (GameObject.Find("Player").GetComponent<PlayerMove>().talkNpc == false) return;
+            isTalk = true;
             talkPanel.SetActive(true);
             scanObject = scanObj;
             talkText.text = "이것의 이름은 " + scanObject.name + " 입니다.";
