@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    // 플레이어 조작에 관련된 스크립트
+    
     [SerializeField]
     GameObject Text_Button;
 
+    
     GameObject Button;
     GameManager Manager;
-
     public Animator animator; // Animator 속성 변수 생성
     public SpriteRenderer rend; // SpriteRenderer 속성 변수 생성
+    public GameObject Skill;
     private Vector2 vector;
     private Rigidbody2D rigidBody;
     
+
+
     //=========================
     //   플레이어 이동관련 변수
     //=========================
@@ -25,6 +30,12 @@ public class PlayerMove : MonoBehaviour
     public bool isDash;        // 대쉬중인지 체크하는 변수
     float Vertical;      // 위쪽, 아래쪽 입력을 받는 변수
     float Horizontal;       // 왼쪽, 오른쪽 입력을 받는 변수
+
+    //================
+    //   스킬관련 변수
+    //================
+    public bool isSkill = false;
+    public int index;
 
     //==============================
     //   플레이어 애니메이션관련 변수
@@ -82,7 +93,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (GameObject.Find("Attack").GetComponent<SkillManager>().isSkill == true)
+        if (isSkill == true)
         {
             vector = Vector2.zero;
         }
@@ -92,18 +103,43 @@ public class PlayerMove : MonoBehaviour
             vector = new Vector2(0, 0);
             Manager.Talk(talkNpc);
         }
-            
+
+        // 대쉬 or 대화중이 아닐때 스킬사용 가능
+        if (isDash == false && Manager.isTalk == false)
+        {
+            // 좌클릭시 스킬 사용
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                index = 1;
+                // 스킬 사용중이 아니라면 스킬의 방향을 보정하고 사용함
+                if (!isSkill)
+                {
+                    StartCoroutine("SkillSpawn");
+                }
+            }
+        }
+
     }
 
     private void FixedUpdate()
     {
         Move(); // 플레이어 이동
     }
+    
+    IEnumerator SkillSpawn()
+    {
+        for (int i = 0; i < Manager.data[index].count; i++)
+        {
+            Instantiate(Skill);
 
+            yield return new WaitForSeconds(1);
+
+        }
+    }
 
     public void Move()
     {
-        if (!isDash && GameObject.Find("Attack").GetComponent<SkillManager>().isSkill == false)
+        if (!isDash && !isSkill)
         {
             // 가로 이동 애니메이션 동작
             if (vector.x != 0)

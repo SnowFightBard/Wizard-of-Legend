@@ -5,18 +5,15 @@ using UnityEngine.UI;
 
 public class SkillManager : MonoBehaviour
 {
-    private Dictionary<int,List<Sprite>> dic;
 
-    [SerializeField]
-    List<SkillSpawn> data;  // 스킬 데이터 (정보,리소스 포함)
-
+    // 스킬의 피격처리 스크립트
+    
     PlayerMove pm;
     GameManager Manager;
 
     public Animator player_ani;
     public Animator skill_ani;
-    int index;
-    public bool isSkill = false;
+
 
     private void Start()
     {
@@ -25,44 +22,36 @@ public class SkillManager : MonoBehaviour
         skill_ani = this.GetComponent<Animator>();
         Manager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
-        // ScriptableObject 파일에서 가져온 스킬들을 index값을 기준으로 오름차순정렬
-        data.Sort(delegate (SkillSpawn a, SkillSpawn b)
-        {
-            if (a.index > b.index) return 1;
-            else if (a.index < b.index) return -1;
-            return 0;
-        }
+        // 스킬의 방향을 보정함
+        if (Manager.data[pm.index].isRot)
+            this.GetComponent<Skill_LookAt>().Skill_Look(Manager.data[pm.index]);
 
-        );
+        // 스킬 발동
+        StartCoroutine(Skill());
 
     }
 
     private void Update()
     {
-        if (pm.isDash == false && Manager.isTalk == false)
-        {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                index = 1;
-                if (!isSkill)
-                {
-                    if(data[index].isRot)
-                        this.GetComponent<Skill_LookAt>().Skill_Look(data[index]);
-                    StartCoroutine(Skill());
-                }
-            }
-        }
+        
+    }
+
+    // 스킬 충돌처리
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("데미지를 이펴따");
     }
 
 
+    // 스킬 사용 코루틴
     IEnumerator Skill()
     {
-        isSkill = true;
+        pm.isSkill = true;
 
-        skill_ani.Play(data[index].name);
-        Debug.Log("Player는 " + data[index].skillName + "을(를) 사용하였다!");
+        skill_ani.Play(Manager.data[pm.index].name);
+        Debug.Log("Player는 " + Manager.data[pm.index].skillName + "을(를) 사용하였다!");
 
-        pm.ChangeAnimationState("Right_Attack");
+        pm.ChangeAnimationState("Right_Attack");    // 스킬을 사용할때 플레이어의 애니메이션 교체
 
         //if (Camera.main.ScreenToWorldPoint(Input.mousePosition).y > 0 && Camera.main.ScreenToWorldPoint(Input.mousePosition).x > 0)
         //{
@@ -70,11 +59,11 @@ public class SkillManager : MonoBehaviour
         //}
         //else if (Camera.main.ScreenToWorldPoint(Input.mousePosition).y < 0 && Camera.main.ScreenToWorldPoint(Input.mousePosition).x < 0)
 
-        yield return new WaitForSeconds(data[index].activeTime);
+        yield return new WaitForSeconds(Manager.data[pm.index].activeTime);    // 스킬 지속시간만큼 지연됨
+        
+        Destroy(this.gameObject);
 
-        skill_ani.Play("Idle");
-
-        isSkill = false;
+        pm.isSkill = false;
 
     }
 

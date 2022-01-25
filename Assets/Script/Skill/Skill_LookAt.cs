@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Skill_LookAt : MonoBehaviour
 {
+    // 스킬이 생성될 때 방향, 위치를 조정하는 스크립트
+
     Vector2 target;
 
     private void Start()
@@ -13,12 +15,6 @@ public class Skill_LookAt : MonoBehaviour
     
     public void Skill_Look(SkillSpawn data)
     {
-        transform.localPosition = new Vector2(0, 0);
-
-        //mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //angle = Mathf.Atan2(mouse.y - target.y, mouse.x - target.x) * Mathf.Rad2Deg;
-        //this.transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
-
         //먼저 계산을 위해 마우스와 게임 오브젝트의 현재의 좌표를 임시로 저장합니다.
         Vector3 mPosition = Input.mousePosition; //마우스 좌표 저장
         Vector3 oPosition = transform.position; //게임 오브젝트 좌표 저장
@@ -47,6 +43,5 @@ public class Skill_LookAt : MonoBehaviour
 
         //구해진 각도를 오일러 회전 함수에 적용하여 z축을 기준으로 게임 오브젝트를 회전시킵니다.
         transform.rotation = Quaternion.Euler(0f, 0f, rotateDegree - 90 - data.rot);
-        transform.position = new Vector2(target.x, target.y);
     }
 }
