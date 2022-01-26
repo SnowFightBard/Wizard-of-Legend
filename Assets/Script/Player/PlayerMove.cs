@@ -114,11 +114,20 @@ public class PlayerMove : MonoBehaviour
                 // 스킬 사용중이 아니라면 스킬의 방향을 보정하고 사용함
                 if (!isSkill)
                 {
-                    Instantiate(Skill, transform.position, Quaternion.identity);
+                    float a, b;
+                    a = GameObject.Find("Mouse_Rot").transform.rotation.eulerAngles.z / 3;
+                    b = 9 - (a * a);
+                    Vector3 skill_Pos = new Vector3(transform.position.x + a, transform.position.y + Mathf.Sqrt(9 - (a * a)), 0);
+                    Instantiate(Skill, skill_Pos, Quaternion.identity);
+                    Debug.Log("a = " + a + "b = " + b + "c = 3" + "skill_Pos = " + skill_Pos);
+
                     //StartCoroutine("SkillSpawn");
                 }
             }
         }
+
+        
+        
 
     }
 
