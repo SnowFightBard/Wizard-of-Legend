@@ -39,7 +39,7 @@ public class SkillManager : MonoBehaviour
     // 스킬 충돌처리
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("데미지를 이펴따");
+        Debug.Log("데미지를 이펴따 Trigger : " + collision.name);
     }
 
 

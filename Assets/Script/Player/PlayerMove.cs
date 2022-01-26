@@ -114,7 +114,8 @@ public class PlayerMove : MonoBehaviour
                 // 스킬 사용중이 아니라면 스킬의 방향을 보정하고 사용함
                 if (!isSkill)
                 {
-                    StartCoroutine("SkillSpawn");
+                    Instantiate(Skill, transform.position, Quaternion.identity);
+                    //StartCoroutine("SkillSpawn");
                 }
             }
         }
@@ -126,16 +127,16 @@ public class PlayerMove : MonoBehaviour
         Move(); // 플레이어 이동
     }
     
-    IEnumerator SkillSpawn()
-    {
-        for (int i = 0; i < Manager.data[index].count; i++)
-        {
-            Instantiate(Skill);
+    //IEnumerator SkillSpawn()
+    //{
+    //    for (int i = 0; i < Manager.data[index].count; i++)
+    //    {
+    //        Instantiate(Skill);
 
-            yield return new WaitForSeconds(1);
+    //        yield return new WaitForSeconds(1);
 
-        }
-    }
+    //    }
+    //}
 
     public void Move()
     {

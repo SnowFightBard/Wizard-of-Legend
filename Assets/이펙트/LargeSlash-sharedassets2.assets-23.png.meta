@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: -8880805029815456946
     second: LargeSlash-sharedassets2.assets-23_5
+  - first:
+      213: -6767233515917234984
+    second: LargeSlash-sharedassets2.assets-23_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,10 +124,10 @@ TextureImporter:
       name: LargeSlash-sharedassets2.assets-23_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 215
-        width: 82
-        height: 41
+        x: 167
+        y: 193
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +145,10 @@ TextureImporter:
       name: LargeSlash-sharedassets2.assets-23_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 167
-        width: 82
-        height: 41
+        x: 166
+        y: 144
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,34 +163,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LargeSlash-sharedassets2.assets-23_3
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 117
-        width: 82
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59fc46a35592c5ce0800000000000000
-      internalID: -1415210736872534123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: LargeSlash-sharedassets2.assets-23_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 84
-        width: 83
-        height: 28
+        x: 167
+        y: 48
+        width: 82
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +187,10 @@ TextureImporter:
       name: LargeSlash-sharedassets2.assets-23_5
       rect:
         serializedVersion: 2
-        x: 8
-        y: 38
-        width: 81
-        height: 25
+        x: 167
+        y: 0
+        width: 82
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,6 +200,27 @@ TextureImporter:
       bones: []
       spriteID: e4be85eb0ea01c480800000000000000
       internalID: -8880805029815456946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeSlash-sharedassets2.assets-23_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 95
+        width: 83
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dca2abb8f4f512a0800000000000000
+      internalID: -6767233515917234984
       vertices: []
       indices: 
       edges: []
