@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Skill", menuName = "ScriptableObject/Skill")]
 public class SkillSpawn : ScriptableObject
 {
-    // 스킬 내부 스탯을 지정해놓은 스크립트
+    // 스킬 내부 스탯을 지정해놓은 스크립트 //
 
     public int index;   // 스킬 고유 인덱스번호
     public int type;    // 1 : 단발성 근접공격 , 2 : 직선형 원거리 스킬 , 3 : 직선형 원거리 연사스킬(5번) , 4 : 부채꼴 분사형 스킬 (1번)

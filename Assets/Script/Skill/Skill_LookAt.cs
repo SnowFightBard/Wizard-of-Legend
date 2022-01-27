@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Skill_LookAt : MonoBehaviour
 {
-    // 스킬의 회전값, 위치를 정해주는 스크립트
+    // 스킬의 회전값, 위치를 정해주는 스크립트 //
 
     Vector2 target;
 

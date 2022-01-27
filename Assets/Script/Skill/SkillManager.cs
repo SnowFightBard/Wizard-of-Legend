@@ -1,20 +1,22 @@
 using System.Collections;
-using System.Collections.Generic;
+using System    .Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SkillManager : MonoBehaviour
 {
 
-    // 스킬의 피격처리 스크립트
+    // 스킬의 피격처리 스크립트 //
     
     PlayerMove pm;
     GameManager Manager;
 
+    // 플레이어와 스킬의 애니메이션을 제어하기위한 변수
     public Animator player_ani;
     public Animator skill_ani;
-    SkillSpawn data;
-    Vector2 des_Pos;
+
+    SkillSpawn data;    // 이 스킬의 데이터
+    Vector2 des_Pos;    // 이 스킬의 파괴지점
 
     private void Start()
     {
@@ -37,7 +39,7 @@ public class SkillManager : MonoBehaviour
 
     private void Update()
     {
-        if(data.type == 2 || data.type == 3)
+        if(data.type == 2 || data.type == 4)
         {
             
             transform.position = Vector2.Lerp(transform.position, des_Pos, 0.0001f);

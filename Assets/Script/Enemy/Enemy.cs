@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    // 적 스크립트 //
 
     public float hp = 50f;
     public float moveSpeed = 3.0f;

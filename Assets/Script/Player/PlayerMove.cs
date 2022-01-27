@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    // 플레이어 조작에 관련된 스크립트
+    // 플레이어 조작에 관련된 스크립트 //
     
     [SerializeField]
     GameObject Text_Button;
@@ -14,7 +14,6 @@ public class PlayerMove : MonoBehaviour
     GameManager Manager;
     public Animator animator; // Animator 속성 변수 생성
     public SpriteRenderer rend; // SpriteRenderer 속성 변수 생성
-    public GameObject Skill;
     private Vector2 vector;
     private Rigidbody2D rigidBody;
     
@@ -34,6 +33,7 @@ public class PlayerMove : MonoBehaviour
     //================
     //   스킬관련 변수
     //================
+    public GameObject Skill;
     public bool isSkill = false;
     public int index;
     public Vector2 skill_Des_Pos;
@@ -49,11 +49,9 @@ public class PlayerMove : MonoBehaviour
     const string PLAYER_WALK_DOWN = "Player_Walk_Down";
     const string PLAYER_WALK_UP = "Player_Walk_Up";
     const string PLAYER_WALK_RIGHT = "Player_Walk_Right";
-    const string PLAYER_WALK_LEFT = "Player_Walk_Left";
     const string DASH_RIGHT = "Dash_Right";
     const string DASH_UP = "Dash_Up";
     const string DASH_DOWN = "Dash_Down";
-    const string LEFT_ATTACK = "Left_Attack";
     const string RIGHT_ATTACK = "Right_Attack";
     const string DOWN_ATTACK = "Down_Attack";
     const string UP_ATTACK = "Up_Attack";
@@ -138,10 +136,14 @@ public class PlayerMove : MonoBehaviour
 
     void SkillAnimation(float angle)
     {
+        rend.flipX = false;
         if (angle >= 1.57f && angle < 2.3f)
             ChangeAnimationState(UP_ATTACK);
         else if (angle >= 2.3f && angle < 3.9f)
-            ChangeAnimationState(LEFT_ATTACK);
+        {
+            rend.flipX = true;
+            ChangeAnimationState(RIGHT_ATTACK);
+        }
         else if (angle >= 3.9f && angle < 5.5f)
             ChangeAnimationState(DOWN_ATTACK);
         else if (angle >= 5.5f && angle < 7.0f)
@@ -163,30 +165,34 @@ public class PlayerMove : MonoBehaviour
 
         SkillAnimation(angle);
 
-        Vector2 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle) * Manager.data[index].range);
-        skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * 100, Player_pos.y + Mathf.Sin(angle) * 100);
+        Vector2 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle) * Manager.data[index].range);      // 스킬 생성위치
+        skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * 100, Player_pos.y + Mathf.Sin(angle) * 100);      // 스킬이 향하는 곳
 
-        if (Manager.data[index].type == 1 || Manager.data[index].type == 2) 
+
+        if (Manager.data[index].type == 1 || Manager.data[index].type == 2) // 단발성 근접 , 원거리 스킬
         {
             Instantiate(Skill, skill_Pos, Quaternion.identity);
+            yield return new WaitForSeconds(Manager.data[index].activeTime);
         }
-        else if (Manager.data[index].type == 3)
+        else if (Manager.data[index].type == 3)     // 원거리 연사 스킬 
         {
+            // 직선으로 5번 생성됨
             for (int i = 1; i <= 5; i++)
             {
                 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * (Manager.data[index].range + (i * 0.3f)), Player_pos.y + Mathf.Sin(angle) * (Manager.data[index].range + (i * 0.3f)));
                 Instantiate(Skill, skill_Pos, Quaternion.identity);
-                yield return new WaitForSeconds(0.2f);
+                yield return new WaitForSeconds(Manager.data[index].activeTime / 5);
             }
         }
-        else if (Manager.data[index].type == 4)
+        else if (Manager.data[index].type == 4)     // 원거리 부채꼴 스킬
         {
+            // 부채꼴 모양으로 3개 발사
             for (int i = 0; i < 3; i++)
             {
                 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle - 45 + (i * 45)) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle - 45 + (i * 45)) * Manager.data[index].range);
                 Instantiate(Skill, skill_Pos, Quaternion.identity);
-
             }
+            yield return new WaitForSeconds(Manager.data[index].activeTime);
         }
 
         isSkill = false;

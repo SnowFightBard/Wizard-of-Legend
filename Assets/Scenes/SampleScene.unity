@@ -2612,10 +2612,10 @@ MonoBehaviour:
   Text_Button: {fileID: 314221326032948335, guid: 258de13541316774799d5f9acf482948, type: 3}
   animator: {fileID: 1868065320}
   rend: {fileID: 1868065321}
-  Skill: {fileID: 9119020983113624986, guid: f50da901ef1d1fd469a4bf1b4b1685a8, type: 3}
   Speed: 1.5
   dashSpeed: 4.5
   isDash: 0
+  Skill: {fileID: 9119020983113624986, guid: f50da901ef1d1fd469a4bf1b4b1685a8, type: 3}
   isSkill: 0
   index: 0
   skill_Des_Pos: {x: 0, y: 0}
