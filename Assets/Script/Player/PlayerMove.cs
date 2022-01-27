@@ -36,6 +36,7 @@ public class PlayerMove : MonoBehaviour
     //================
     public bool isSkill = false;
     public int index;
+    public Vector2 skill_Des_Pos;
 
     //==============================
     //   플레이어 애니메이션관련 변수
@@ -43,14 +44,20 @@ public class PlayerMove : MonoBehaviour
     int moveRot = 3;    // 마지막으로 이동한 방향
     const string PLAYER_IDLE_DOWN = "Player_Idle_Down";
     const string PLAYER_IDLE_UP = "Player_Idle_Up";
+    const string PLAYER_IDLE_LEFT = "Left_Idle_Right";
     const string PLAYER_IDLE_RIGHT = "Player_Idle_Right";
     const string PLAYER_WALK_DOWN = "Player_Walk_Down";
     const string PLAYER_WALK_UP = "Player_Walk_Up";
     const string PLAYER_WALK_RIGHT = "Player_Walk_Right";
+    const string PLAYER_WALK_LEFT = "Player_Walk_Left";
     const string DASH_RIGHT = "Dash_Right";
     const string DASH_UP = "Dash_Up";
     const string DASH_DOWN = "Dash_Down";
-    const string ATTACK = "Attack";
+    const string LEFT_ATTACK = "Left_Attack";
+    const string RIGHT_ATTACK = "Right_Attack";
+    const string DOWN_ATTACK = "Down_Attack";
+    const string UP_ATTACK = "Up_Attack";
+
 
 
 
@@ -114,14 +121,7 @@ public class PlayerMove : MonoBehaviour
                 // 스킬 사용중이 아니라면 스킬의 방향을 보정하고 사용함
                 if (!isSkill)
                 {
-                    float a, b;
-                    a = GameObject.Find("Mouse_Rot").transform.rotation.eulerAngles.z / 3;
-                    b = 9 - (a * a);
-                    Vector3 skill_Pos = new Vector3(transform.position.x + a, transform.position.y + Mathf.Sqrt(9 - (a * a)), 0);
-                    Instantiate(Skill, skill_Pos, Quaternion.identity);
-                    Debug.Log("a = " + a + "b = " + b + "c = 3" + "skill_Pos = " + skill_Pos);
-
-                    //StartCoroutine("SkillSpawn");
+                    StartCoroutine("SkillSpawn");
                 }
             }
         }
@@ -135,17 +135,64 @@ public class PlayerMove : MonoBehaviour
     {
         Move(); // 플레이어 이동
     }
+
+    void SkillAnimation(float angle)
+    {
+        if (angle >= 1.57f && angle < 2.3f)
+            ChangeAnimationState(UP_ATTACK);
+        else if (angle >= 2.3f && angle < 3.9f)
+            ChangeAnimationState(LEFT_ATTACK);
+        else if (angle >= 3.9f && angle < 5.5f)
+            ChangeAnimationState(DOWN_ATTACK);
+        else if (angle >= 5.5f && angle < 7.0f)
+            ChangeAnimationState(RIGHT_ATTACK);
+        else if (angle >= 7.0f && angle <= 7.8f)
+            ChangeAnimationState(UP_ATTACK);
+    }
     
-    //IEnumerator SkillSpawn()
-    //{
-    //    for (int i = 0; i < Manager.data[index].count; i++)
-    //    {
-    //        Instantiate(Skill);
+    IEnumerator SkillSpawn()
+    {
+        isSkill = true;
 
-    //        yield return new WaitForSeconds(1);
+        Vector2 Player_pos = GameObject.Find("Player").transform.position;
+        float angle = GameObject.Find("Mouse_Rot").transform.rotation.eulerAngles.z + 90;
+        angle = angle / 360 * 2 * Mathf.PI;
+        Debug.Log("마우스 각도 : " + angle);
+        // 3.14 = 180도 = PI     2PI 360도
+        // 정규화   0 ~ 1
 
-    //    }
-    //}
+        SkillAnimation(angle);
+
+        Vector2 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle) * Manager.data[index].range);
+        skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * 100, Player_pos.y + Mathf.Sin(angle) * 100);
+
+        if (Manager.data[index].type == 1 || Manager.data[index].type == 2) 
+        {
+            Instantiate(Skill, skill_Pos, Quaternion.identity);
+        }
+        else if (Manager.data[index].type == 3)
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+                skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * (Manager.data[index].range + (i * 0.3f)), Player_pos.y + Mathf.Sin(angle) * (Manager.data[index].range + (i * 0.3f)));
+                Instantiate(Skill, skill_Pos, Quaternion.identity);
+                yield return new WaitForSeconds(0.2f);
+            }
+        }
+        else if (Manager.data[index].type == 4)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle - 45 + (i * 45)) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle - 45 + (i * 45)) * Manager.data[index].range);
+                Instantiate(Skill, skill_Pos, Quaternion.identity);
+
+            }
+        }
+
+        isSkill = false;
+        
+        
+    }
 
     public void Move()
     {

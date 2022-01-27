@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Attack
   m_EditorClassIdentifier: 
   index: 0
+  type: 1
   skillName: "\uAE30\uBCF8\uACF5\uACA9"
-  range: 0.4
+  damage: 5
+  range: 0.5
   coolTime: 0.3
   activeTime: 0.3
   isRot: 1

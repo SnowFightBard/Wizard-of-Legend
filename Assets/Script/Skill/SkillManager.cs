@@ -13,7 +13,8 @@ public class SkillManager : MonoBehaviour
 
     public Animator player_ani;
     public Animator skill_ani;
-
+    SkillSpawn data;
+    Vector2 des_Pos;
 
     private void Start()
     {
@@ -22,9 +23,12 @@ public class SkillManager : MonoBehaviour
         skill_ani = this.GetComponent<Animator>();
         Manager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
+        des_Pos = pm.skill_Des_Pos;
+        data = Manager.data[pm.index];
+
         // 스킬의 방향을 보정함
-        if (Manager.data[pm.index].isRot)
-            this.GetComponent<Skill_LookAt>().Skill_Look(Manager.data[pm.index]);
+        if (data.isRot)
+            this.GetComponent<Skill_LookAt>().Skill_Look(data);
 
         // 스킬 발동
         StartCoroutine(Skill());
@@ -33,38 +37,45 @@ public class SkillManager : MonoBehaviour
 
     private void Update()
     {
-        
+        if(data.type == 2 || data.type == 3)
+        {
+            
+            transform.position = Vector2.Lerp(transform.position, des_Pos, 0.0001f);
+            
+        }
     }
 
     // 스킬 충돌처리
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("데미지를 이펴따 Trigger : " + collision.name);
+
+        if(collision.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<Enemy>().hp -= data.damage;
+            Debug.Log("데미지를 이펴따 Trigger : " + collision.name + "의 체력 - " + data.damage);
+        }
+
+        if (data.type == 2)
+        {
+            Destroy(this.gameObject);
+            Debug.Log(collision.gameObject.name + "랑 부딪혀서 깨짐 t");
+        }
+
     }
 
 
     // 스킬 사용 코루틴
     IEnumerator Skill()
     {
-        pm.isSkill = true;
 
-        skill_ani.Play(Manager.data[pm.index].name);
-        Debug.Log("Player는 " + Manager.data[pm.index].skillName + "을(를) 사용하였다!");
+        skill_ani.Play(data.name);
+        Debug.Log("Player는 " + data.skillName + "을(를) 사용하였다!");
 
-        pm.ChangeAnimationState("Right_Attack");    // 스킬을 사용할때 플레이어의 애니메이션 교체
-
-        //if (Camera.main.ScreenToWorldPoint(Input.mousePosition).y > 0 && Camera.main.ScreenToWorldPoint(Input.mousePosition).x > 0)
-        //{
-        //    pm.ChangeAnimationState("Right_Attack");
-        //}
-        //else if (Camera.main.ScreenToWorldPoint(Input.mousePosition).y < 0 && Camera.main.ScreenToWorldPoint(Input.mousePosition).x < 0)
-
-        yield return new WaitForSeconds(Manager.data[pm.index].activeTime);    // 스킬 지속시간만큼 지연됨
-        
-        Destroy(this.gameObject);
-
-        pm.isSkill = false;
-
+        if (data.type != 2)
+        {
+            yield return new WaitForSeconds(data.activeTime);    // 스킬 지속시간만큼 지연됨
+            Destroy(this.gameObject);
+        }
     }
 
 

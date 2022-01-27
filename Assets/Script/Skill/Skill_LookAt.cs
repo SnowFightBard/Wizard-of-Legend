@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Skill_LookAt : MonoBehaviour
 {
-    // 스킬이 생성될 때 방향을 회전시키는 스크립트
+    // 스킬의 회전값, 위치를 정해주는 스크립트
 
     Vector2 target;
 
@@ -43,5 +43,7 @@ public class Skill_LookAt : MonoBehaviour
 
         //구해진 각도를 오일러 회전 함수에 적용하여 z축을 기준으로 게임 오브젝트를 회전시킵니다.
         transform.rotation = GameObject.Find("Mouse_Rot").transform.rotation;
+
+        
     }
 }

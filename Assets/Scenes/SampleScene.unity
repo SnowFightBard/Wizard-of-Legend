@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5216298}
   - component: {fileID: 5216297}
+  - component: {fileID: 5216299}
   m_Layer: 0
   m_Name: Edge Collider
   m_TagString: Untagged
@@ -177,6 +178,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!50 &5216299
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5216296}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &6497522
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256876954}
   - component: {fileID: 256876953}
+  - component: {fileID: 256876955}
   m_Layer: 0
   m_Name: Edge Collider
   m_TagString: Untagged
@@ -340,6 +363,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &256876955
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256876952}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &387346500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 833713462}
   - component: {fileID: 833713461}
+  - component: {fileID: 833713463}
   m_Layer: 0
   m_Name: Edge Collider
   m_TagString: Untagged
@@ -1259,6 +1304,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!50 &833713463
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833713460}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &880230152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1419414678}
   - component: {fileID: 1419414677}
+  - component: {fileID: 1419414679}
   m_Layer: 0
   m_Name: Edge Collider
   m_TagString: Untagged
@@ -1669,6 +1736,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1419414679
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419414676}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1449297141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449297143}
   - component: {fileID: 1449297142}
+  - component: {fileID: 1449297144}
   m_Layer: 0
   m_Name: Edge Collider
   m_TagString: Untagged
@@ -1722,6 +1811,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!50 &1449297144
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449297141}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1572054510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,7 +2027,7 @@ GameObject:
   - component: {fileID: 1699756086}
   m_Layer: 0
   m_Name: Start_Point
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2119,9 +2229,11 @@ GameObject:
   - component: {fileID: 1771128279}
   - component: {fileID: 1771128278}
   - component: {fileID: 1771128277}
+  - component: {fileID: 1771128281}
+  - component: {fileID: 1771128280}
   m_Layer: 0
   m_Name: Tree A
-  m_TagString: Npc
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2218,6 +2330,41 @@ Transform:
   m_Father: {fileID: 1736543308}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1771128280
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771128276}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1771128281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771128276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef9d843e140ef469c9f42cd3bfbe0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 50
+  moveSpeed: 3
 --- !u!1 &1860802629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,4 +2618,5 @@ MonoBehaviour:
   isDash: 0
   isSkill: 0
   index: 0
+  skill_Des_Pos: {x: 0, y: 0}
   talkNpc: {fileID: 0}
