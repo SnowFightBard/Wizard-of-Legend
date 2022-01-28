@@ -78,13 +78,16 @@ public class PlayerMove : MonoBehaviour
     // 키 입력 내용을 모아둠
     private void Update()
     {
-        if (!isDash && Manager.isTalk == false)
+        if (!isDash && !isSkill &&Manager.isTalk == false)
         {
             vector.y = Input.GetAxisRaw("Vertical");
             vector.x = Input.GetAxisRaw("Horizontal");
 
+
+            // 대쉬기능
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                // 움직이지 않고 제자리에 있어도 대쉬할수있도록 vector값을 moveRot방향으로 바꿔줌
                 if (moveRot == 1)
                     vector.x = 1;
                 else if (moveRot == 2)
@@ -94,15 +97,12 @@ public class PlayerMove : MonoBehaviour
                 else
                     vector.y = 1;
 
+                // 대쉬 코루틴 실행
                 StartCoroutine(Dash());
             }
         }
 
-        if (isSkill == true)
-        {
-            vector = Vector2.zero;
-        }
-
+        // F를 누를시 대화
         if (Input.GetKeyDown(KeyCode.F))
         {
             vector = new Vector2(0, 0);
@@ -119,6 +119,7 @@ public class PlayerMove : MonoBehaviour
                 // 스킬 사용중이 아니라면 스킬의 방향을 보정하고 사용함
                 if (!isSkill)
                 {
+                    // 스킬오브젝트 생성 코루틴 실행
                     StartCoroutine("SkillSpawn");
                 }
             }
@@ -131,11 +132,20 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // 스킬사용중에는 움직일 수 없음
+        if (isSkill == true)
+        {
+            vector = Vector2.zero;
+        }
+
         Move(); // 플레이어 이동
     }
 
+
+    // 스킬 사용시 애니메이션을 출력하는 함수
     void SkillAnimation(float angle)
     {
+        // 스킬 사용시 마우스 방향에따라 애니메이션 방향을 바꾸어 실행함
         rend.flipX = false;
         if (angle >= 1.57f && angle < 2.3f)
             ChangeAnimationState(UP_ATTACK);
@@ -152,6 +162,8 @@ public class PlayerMove : MonoBehaviour
             ChangeAnimationState(UP_ATTACK);
     }
     
+
+    // 스킬생성 오브젝트 함수
     IEnumerator SkillSpawn()
     {
         isSkill = true;
@@ -160,12 +172,10 @@ public class PlayerMove : MonoBehaviour
         float angle = GameObject.Find("Mouse_Rot").transform.rotation.eulerAngles.z + 90;
         angle = angle / 360 * 2 * Mathf.PI;
         Debug.Log("마우스 각도 : " + angle);
-        // 3.14 = 180도 = PI     2PI 360도
-        // 정규화   0 ~ 1
 
         SkillAnimation(angle);
 
-        Vector2 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle) * Manager.data[index].range);      // 스킬 생성위치
+        Vector2 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle) * Manager.data[index].range);   // 스킬 생성위치   // 스킬 생성위치
         skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * 100, Player_pos.y + Mathf.Sin(angle) * 100);      // 스킬이 향하는 곳
 
 
@@ -190,6 +200,7 @@ public class PlayerMove : MonoBehaviour
             for (int i = 0; i < 3; i++)
             {
                 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle - 45 + (i * 45)) * Manager.data[index].range, Player_pos.y + Mathf.Sin(angle - 45 + (i * 45)) * Manager.data[index].range);
+                //skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle - 45 + (i * 45)) * 100, Player_pos.y + Mathf.Sin(angle - 45 + (i * 45)) * 100);
                 Instantiate(Skill, skill_Pos, Quaternion.identity);
             }
             yield return new WaitForSeconds(Manager.data[index].activeTime);
@@ -197,9 +208,9 @@ public class PlayerMove : MonoBehaviour
 
         isSkill = false;
         
-        
     }
 
+    // 플레이어 이동 함수
     public void Move()
     {
         if (!isDash && !isSkill)
@@ -276,6 +287,7 @@ public class PlayerMove : MonoBehaviour
         talkNpc = null;
     }
 
+    // 애니메이션 교체 함수
     public void ChangeAnimationState(string newState)
     {
         // 현재 애니메이션과 교체될 애니메이션이 같으면 실행하지 않음
@@ -288,10 +300,12 @@ public class PlayerMove : MonoBehaviour
         currentState = newState;
     }
 
+
     // 대쉬 기능
     IEnumerator Dash()
     {
         isDash = true;
+
         if (moveRot == 1 || moveRot == 2)
             ChangeAnimationState(DASH_RIGHT);
         else if (moveRot == 3)
