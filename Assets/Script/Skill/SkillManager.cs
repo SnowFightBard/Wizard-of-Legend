@@ -60,7 +60,6 @@ public class SkillManager : MonoBehaviour
         if (data.type == 2)
         {
             Destroy(this.gameObject);
-            Debug.Log(collision.gameObject.name + "랑 부딪혀서 깨짐 t");
         }
 
     }
@@ -73,6 +72,8 @@ public class SkillManager : MonoBehaviour
         skill_ani.Play(data.name);
         Debug.Log("Player는 " + data.skillName + "을(를) 사용하였다!");
 
+
+        // 타입2가 아닌 스킬들은 activeTime이 지나면 사라짐. (타입2는 충돌할때까지 날아감)
         if (data.type != 2)
         {
             yield return new WaitForSeconds(data.activeTime);    // 스킬 지속시간만큼 지연됨

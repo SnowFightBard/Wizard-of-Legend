@@ -12,10 +12,14 @@ public class GameManager : MonoBehaviour
     public Text talkText;
     private GameObject scanObject;
     public bool isTalk;
+    public int talkIndex;
+    TalkManager tm;
 
 
     private void Start()
     {
+        tm = this.GetComponent<TalkManager>();
+
         // ScriptableObject 파일에서 가져온 스킬들을 index값을 기준으로 오름차순정렬
         data.Sort(delegate (SkillSpawn a, SkillSpawn b)
         {
@@ -28,22 +32,39 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void Talk(GameObject scanObj)
+    // 플레이어가 오브젝트 앞에서 F(액션버튼)를 눌렀을 때
+    public void Action(GameObject scanObj)
     {
-        if (isTalk)
+        isTalk = true;    // 대화중이라고 체크
+        talkPanel.SetActive(true);      // 대화상자 활성화
+        scanObject = scanObj;       // 대화중인 NPC를 게임오브젝트로 저장
+        ObjData objData = scanObject.GetComponent<ObjData>();       // NPC의 컴포넌트에 접근하여 id와 isNpc정보를 가져옴
+        Talk(objData.id, objData.isNpc);    // 대화함수 실행
+        talkPanel.SetActive(isTalk);    // 대화중인지 체크하여 대화상자를 켜거나 끔
+
+    }
+
+    // 대화 함수
+    void Talk(int id, bool isNpc)
+    {
+        string talkData = tm.GetTalk(id, talkIndex);    // NPC와의 대화내용을 id 와 index로 접근하여 가져옴
+
+        if (talkData == null)   // 가져올 대화내용이 더 없으면 대화를 종료
         {
             isTalk = false;
-            talkPanel.SetActive(false);
-        }
-        else
-        {
-            if (GameObject.Find("Player").GetComponent<PlayerMove>().talkNpc == false) return;
-            isTalk = true;
-            talkPanel.SetActive(true);
-            scanObject = scanObj;
-            talkText.text = "이것의 이름은 " + scanObject.name + " 입니다.";
+            talkIndex = 0;
+            return;
         }
 
+        if (isNpc)  // 대상이 Npc가 맞다면 대화상자에 대화내용 출력
+        {
+            talkText.text = talkData;
+        }
+        //else
+        //{
+        //    talkText.text = talkData;
+        //}
         
+        talkIndex++;    // 대화내용 다음으로 넘김
     }
 }

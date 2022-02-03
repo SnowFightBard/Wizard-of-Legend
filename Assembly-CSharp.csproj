@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Skill\SkillSpawn.cs" />
+    <Compile Include="Assets\Script\TalkManager.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Skill\Skill_LookAt.cs" />
     <Compile Include="Assets\Script\Player\CameraFollow.cs" />
@@ -62,7 +63,7 @@
     <Compile Include="Assets\Script\Skill\SkillManager.cs" />
     <Compile Include="Assets\Script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Script\Player\LookAt.cs" />
-    <Compile Include="Assets\Script\TalkManager.cs" />
+    <Compile Include="Assets\Script\ObjData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\구현해야 되는거.txt" />

@@ -16,4 +16,12 @@ public class SkillSpawn : ScriptableObject
     public float activeTime; // 시전 시간
     public bool isRot; // 스킬을 마우스 위치에따라 회전시킬지 결정하는 변수
 
+    /*
+     
+     0 : 근접 바람공격
+     1 : 아이스 볼
+     2 : 섀도우 볼
+
+     */
+
 }

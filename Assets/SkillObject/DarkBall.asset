@@ -19,4 +19,4 @@ MonoBehaviour:
   range: 0.5
   coolTime: 0.3
   activeTime: 0.5
-  isRot: 1
+  isRot: 0

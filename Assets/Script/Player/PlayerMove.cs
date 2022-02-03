@@ -106,7 +106,8 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             vector = new Vector2(0, 0);
-            Manager.Talk(talkNpc);
+            if (talkNpc != null)
+                Manager.Action(talkNpc);
         }
 
         // 대쉬 or 대화중이 아닐때 스킬사용 가능
@@ -171,7 +172,7 @@ public class PlayerMove : MonoBehaviour
         Vector2 Player_pos = GameObject.Find("Player").transform.position;
         float angle = GameObject.Find("Mouse_Rot").transform.rotation.eulerAngles.z + 90;
         angle = angle / 360 * 2 * Mathf.PI;
-        Debug.Log("마우스 각도 : " + angle);
+        //Debug.Log("마우스 각도 : " + angle);
 
         SkillAnimation(angle);
 
@@ -276,7 +277,6 @@ public class PlayerMove : MonoBehaviour
             pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);          // pos에 NPC 머리위 위치값 저장 
             Button = Instantiate(Text_Button, pos, Quaternion.identity);    // NPC머리위에 대화버튼 생성
         }
-        Debug.Log(collision.collider.name);
     }
 
 
