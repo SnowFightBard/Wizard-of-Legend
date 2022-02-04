@@ -66,6 +66,7 @@ public class PlayerMove : MonoBehaviour
 
     bool Talk = false;  // 대화 가능한지 체크하는 변수
     bool isTalk = false;    // 대화중인지 체크하는 변수
+    bool isInventory = false;
 
     private void Start()
     {
@@ -108,6 +109,15 @@ public class PlayerMove : MonoBehaviour
             vector = new Vector2(0, 0);
             if (talkNpc != null)
                 Manager.Action(talkNpc);
+            Manager.inventory.SetActive(false);
+            isInventory = false;
+        }
+
+        // I를 누를시 인벤토리창 ON OFF
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            isInventory = !isInventory;
+            Manager.inventory.SetActive(isInventory);
         }
 
         // 대쉬 or 대화중이 아닐때 스킬사용 가능
@@ -125,9 +135,6 @@ public class PlayerMove : MonoBehaviour
                 }
             }
         }
-
-        
-        
 
     }
 
@@ -270,7 +277,7 @@ public class PlayerMove : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // 부딪힌 오브젝트가 NPC일 경우 NPC머리위에 대화버튼 활성화
-        if (collision.gameObject.tag == "Npc")
+        if (collision.gameObject.tag == "Object")
         {
             talkNpc = collision.gameObject;
             Vector3 pos = collision.gameObject.transform.position;      // NPC의 위치

@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Npc
   - Enemy
   - Ground
+  - Object
   layers:
   - Default
   - TransparentFX

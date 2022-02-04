@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour
     // UI 조정 및 여러 오브젝트가 참조해야하는 데이터를 담은 스크립트 //
 
     public List<SkillSpawn> data;  // 스킬 데이터 (정보,리소스 포함)
-    public GameObject talkPanel;
-    public Text talkText;
-    private GameObject scanObject;
-    public bool isTalk;
-    public int talkIndex;
+    public GameObject talkPanel;    // 대화창
+    public GameObject inventory;    // 인벤토리 창
+    public Text talkText;           // 대화 텍스트
+    private GameObject scanObject;  // 접촉한 오브젝트
+    public bool isTalk;             // 대화중인지 체크하는 변수
+    public int talkIndex;           // 해당 NPC의 대화텍스트 INDEX
     TalkManager tm;
 
 
