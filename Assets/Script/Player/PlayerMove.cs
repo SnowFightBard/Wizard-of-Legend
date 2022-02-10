@@ -121,7 +121,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         // 대쉬 or 대화중이 아닐때 스킬사용 가능
-        if (isDash == false && Manager.isTalk == false)
+        if (isDash == false && Manager.isTalk == false && isInventory == false)
         {
             // 좌클릭시 스킬 사용
             if (Input.GetKeyDown(KeyCode.Mouse0))

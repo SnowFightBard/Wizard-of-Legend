@@ -11,8 +11,6 @@ public class TalkManager : MonoBehaviour
         talkData = new Dictionary<int, string[]>();
         TalkAdd();  // 최초 실행시 대화내용 추가
     }
-    
-
 
     /*
     0 : 새 A
