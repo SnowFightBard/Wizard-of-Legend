@@ -58,19 +58,19 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Skill\SkillSpawn.cs" />
     <Compile Include="Assets\Script\Item\Item.cs" />
+    <Compile Include="Assets\Script\Item\FieldItems.cs" />
     <Compile Include="Assets\Script\TalkManager.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Skill\Skill_LookAt.cs" />
     <Compile Include="Assets\Script\Player\CameraFollow.cs" />
-    <Compile Include="Assets\Script\Item\ItemDataBase.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Player\MouseCursor.cs" />
     <Compile Include="Assets\Script\Skill\SkillManager.cs" />
     <Compile Include="Assets\Script\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Script\Item\Inventory.cs" />
     <Compile Include="Assets\Script\Player\LookAt.cs" />
     <Compile Include="Assets\Script\ObjData.cs" />
-    <Compile Include="Assets\Script\Item\FieldItems.cs" />
-    <Compile Include="Assets\Script\Item\Inventory.cs" />
+    <Compile Include="Assets\Script\Item\SkillDataBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -20,3 +20,4 @@ MonoBehaviour:
   coolTime: 0.3
   activeTime: 0.3
   isRot: 1
+  image: {fileID: -577484862122823091, guid: e273f519139cc4045a85320562f3aa4a, type: 3}

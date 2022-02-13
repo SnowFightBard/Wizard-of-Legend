@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    #region Singleton
+    public static Inventory Instance;
+    private void Awake()
     {
-        
+        if(Instance!=null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+    }
+    #endregion
+
+    public delegate void OnSlotCountChange(int val);
+    public OnSlotCountChange onSlotCountChange;
+
+    private int slotCnt;
+    public int SlotCnt
+    {
+        get => slotCnt;
+        set
+        {
+            slotCnt = value;
+            onSlotCountChange.Invoke(SlotCnt);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        slotCnt = 4;
     }
 }

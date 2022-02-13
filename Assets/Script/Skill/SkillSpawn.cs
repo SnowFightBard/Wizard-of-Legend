@@ -15,6 +15,7 @@ public class SkillSpawn : ScriptableObject
     public float coolTime;  // 스킬 쿨타임
     public float activeTime; // 시전 시간
     public bool isRot; // 스킬을 마우스 위치에따라 회전시킬지 결정하는 변수
+    public Sprite image;
 
     /*
      
