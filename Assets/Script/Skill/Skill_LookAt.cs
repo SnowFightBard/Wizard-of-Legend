@@ -13,7 +13,7 @@ public class Skill_LookAt : MonoBehaviour
         target = transform.position;
     }
     
-    public void Skill_Look(SkillSpawn data)
+    public void Skill_Look(Skill data)
     {
         //먼저 계산을 위해 마우스와 게임 오브젝트의 현재의 좌표를 임시로 저장합니다.
         Vector3 mPosition = Input.mousePosition; //마우스 좌표 저장

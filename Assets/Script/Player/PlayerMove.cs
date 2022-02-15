@@ -284,6 +284,12 @@ public class PlayerMove : MonoBehaviour
             pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);          // pos에 NPC 머리위 위치값 저장 
             Button = Instantiate(Text_Button, pos, Quaternion.identity);    // NPC머리위에 대화버튼 생성
         }
+
+        if (collision.gameObject.GetComponent<FieldItems>() != null)
+        {
+            GameObject.Find("SkillSlot").GetComponent<SkillSlot>().Equip(collision.gameObject.GetComponent<FieldItems>().skill);
+            collision.gameObject.GetComponent<FieldItems>().DestroyItem();
+        }
     }
 
 

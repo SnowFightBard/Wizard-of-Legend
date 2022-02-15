@@ -4,21 +4,24 @@ using UnityEngine;
 
 public class FieldItems : MonoBehaviour
 {
-    public Item item;
-    public SpriteRenderer image;
+    // public Item item;
+    public Skill skill;
+    // public SpriteRenderer image;
 
-    public void SetItem(Item _item)
+    public void SetItem(Skill skill)
     {
-        item.itemName = _item.itemName;
-        item.itemImage = _item.itemImage;
-        item.itemType = _item.itemType;
+        this.skill = skill;
+        this.GetComponent<SpriteRenderer>().sprite = this.skill.image;
+        //item.itemName = _item.itemName;
+        //item.itemImage = _item.itemImage;
+        //item.itemType = _item.itemType;
 
-        image.sprite = item.itemImage;
+        //image.sprite = item.itemImage;
     }
 
-    public Item GetItem()
+    public Skill GetItem()
     {
-        return item;
+        return skill;
     }
 
     public void DestroyItem()

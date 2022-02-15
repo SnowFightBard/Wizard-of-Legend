@@ -56,7 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Skill\SkillSpawn.cs" />
+    <Compile Include="Assets\Script\Skill\Skill.cs" />
     <Compile Include="Assets\Script\Item\Item.cs" />
     <Compile Include="Assets\Script\Item\FieldItems.cs" />
     <Compile Include="Assets\Script\TalkManager.cs" />
@@ -65,12 +65,13 @@
     <Compile Include="Assets\Script\Player\CameraFollow.cs" />
     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Player\MouseCursor.cs" />
+    <Compile Include="Assets\Script\Item\SkillDataBase.cs" />
     <Compile Include="Assets\Script\Skill\SkillManager.cs" />
     <Compile Include="Assets\Script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Script\Item\Inventory.cs" />
     <Compile Include="Assets\Script\Player\LookAt.cs" />
     <Compile Include="Assets\Script\ObjData.cs" />
-    <Compile Include="Assets\Script\Item\SkillDataBase.cs" />
+    <Compile Include="Assets\Script\Item\SkillSlot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

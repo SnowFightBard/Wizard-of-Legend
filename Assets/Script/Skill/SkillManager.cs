@@ -15,7 +15,7 @@ public class SkillManager : MonoBehaviour
     public Animator player_ani;
     public Animator skill_ani;
 
-    SkillSpawn data;    // 이 스킬의 데이터
+    Skill data;    // 이 스킬의 데이터
     Vector2 des_Pos;    // 이 스킬의 파괴지점
 
     private void Start()
