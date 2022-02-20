@@ -67,11 +67,13 @@
     <Compile Include="Assets\Script\Player\MouseCursor.cs" />
     <Compile Include="Assets\Script\Item\SkillDataBase.cs" />
     <Compile Include="Assets\Script\Skill\SkillManager.cs" />
+    <Compile Include="Assets\Script\Item\SkillSlot.cs" />
     <Compile Include="Assets\Script\Player\PlayerMove.cs" />
     <Compile Include="Assets\Script\Item\Inventory.cs" />
     <Compile Include="Assets\Script\Player\LookAt.cs" />
     <Compile Include="Assets\Script\ObjData.cs" />
-    <Compile Include="Assets\Script\Item\SkillSlot.cs" />
+    <Compile Include="Assets\Script\Skill\SkillAction.cs" />
+    <Compile Include="Assets\Script\Item\Drag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

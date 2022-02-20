@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SkillSlot : MonoBehaviour
 {
     [SerializeField] GameObject[] skillSlot;
-    Skill[] equipSkill = new Skill[4];
+    public Skill[] equipSkill = new Skill[4];
     int index = 0;
 
     void Awake()

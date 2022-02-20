@@ -5,81 +5,121 @@ using UnityEngine.UI;
 
 public class SkillManager : MonoBehaviour
 {
+    public List<Skill> data;  // 스킬 데이터 (정보,리소스 포함)
 
-    // 스킬의 피격처리 스크립트 //
-    
     PlayerMove pm;
-    GameManager Manager;
+    [SerializeField] GameObject Skill;
 
-    // 플레이어와 스킬의 애니메이션을 제어하기위한 변수
-    public Animator player_ani;
-    public Animator skill_ani;
-
-    Skill data;    // 이 스킬의 데이터
-    Vector2 des_Pos;    // 이 스킬의 파괴지점
+    public int index;
+    public bool isSkill = false;
+    public Vector2 skill_Des_Pos;
 
     private void Start()
     {
         pm = GameObject.Find("Player").GetComponent<PlayerMove>();
-        player_ani = GameObject.Find("Player").GetComponent<Animator>();
-        skill_ani = this.GetComponent<Animator>();
-        Manager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
-        des_Pos = pm.skill_Des_Pos;
-        data = Manager.data[pm.index];
+        // ScriptableObject 파일에서 가져온 스킬들을 index값을 기준으로 오름차순정렬
+        data.Sort(delegate (Skill a, Skill b)
+        {
+            if (a.index > b.index) return 1;
+            else if (a.index < b.index) return -1;
+            return 0;
+        }
 
-        // 스킬의 방향을 보정함
-        if (data.isRot)
-            this.GetComponent<Skill_LookAt>().Skill_Look(data);
-
-        // 스킬 발동
-        StartCoroutine(Skill());
-
+        );
     }
 
     private void Update()
     {
-        if(data.type == 2 || data.type == 4)
+
+        if (!pm.isDash && !pm.isTalk && !pm.isInventory && !isSkill)
         {
-            
-            transform.position = Vector2.Lerp(transform.position, des_Pos, 0.0001f);
-            
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                if (GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[0] != null)
+                {
+                    index = GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[0].index;
+                    StartCoroutine("SkillSpawn");
+                }
+
+            }
+            else if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                if (GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[1] != null)
+                {
+                    index = GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[1].index;
+                    StartCoroutine("SkillSpawn");
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.Q))
+            {
+                if (GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[2] != null)
+                {
+                    index = GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[2].index;
+                    StartCoroutine("SkillSpawn");
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[3] != null)
+                {
+                    index = GameObject.Find("SkillSlot").GetComponent<SkillSlot>().equipSkill[3].index;
+                    StartCoroutine("SkillSpawn");
+                }
+            }
         }
+
+        Debug.Log(index);
+
     }
 
-    // 스킬 충돌처리
-    private void OnTriggerEnter2D(Collider2D collision)
+    // 스킬 오브젝트 생성 함수
+    IEnumerator SkillSpawn()
     {
+        isSkill = true;
 
-        if(collision.gameObject.tag == "Enemy")
+        Vector2 Player_pos = GameObject.Find("Player").transform.position;
+        float angle = GameObject.Find("Mouse_Rot").transform.rotation.eulerAngles.z + 90;
+        angle = angle / 360 * 2 * Mathf.PI;
+        //Debug.Log("마우스 각도 : " + angle);
+
+        pm.SkillAnimation(angle);
+
+        Vector2 skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * data[index].range, Player_pos.y + Mathf.Sin(angle) * data[index].range);   // 스킬 생성위치   // 스킬 생성위치
+        skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * 100, Player_pos.y + Mathf.Sin(angle) * 100);      // 스킬이 향하는 곳
+
+
+        if (data[index].type == 1 || data[index].type == 2) // 단발성 근접 , 원거리 스킬
         {
-            collision.gameObject.GetComponent<Enemy>().hp -= data.damage;
-            Debug.Log("데미지를 이펴따 Trigger : " + collision.name + "의 체력 - " + data.damage);
+            Instantiate(Skill, skill_Pos, Quaternion.identity);
+            yield return new WaitForSeconds(data[index].activeTime);
+        }
+        else if (data[index].type == 3)     // 원거리 연사 스킬 
+        {
+            // 직선으로 5번 생성됨
+            for (int i = 1; i <= 5; i++)
+            {
+                skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle) * (data[index].range + (i * 0.3f)), Player_pos.y + Mathf.Sin(angle) * (data[index].range + (i * 0.3f)));
+                Instantiate(Skill, skill_Pos, Quaternion.identity);
+                yield return new WaitForSeconds(data[index].activeTime * 0.2f);
+            }
+        }
+        else if (data[index].type == 4)     // 원거리 부채꼴 스킬
+        {
+            // 부채꼴 모양으로 3개 발사
+            for (int i = 0; i < 3; i++)
+            {
+                skill_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle - 45 + (i * 45)) * data[index].range, Player_pos.y + Mathf.Sin(angle - 45 + (i * 45)) * data[index].range);
+                //skill_Des_Pos = new Vector2(Player_pos.x + Mathf.Cos(angle - 45 + (i * 45)) * 100, Player_pos.y + Mathf.Sin(angle - 45 + (i * 45)) * 100);
+                Instantiate(Skill, skill_Pos, Quaternion.identity);
+            }
+            yield return new WaitForSeconds(data[index].activeTime);
+
         }
 
-        if (data.type == 2)
-        {
-            Destroy(this.gameObject);
-        }
-
+        isSkill = false;
     }
 
-
-    // 스킬 사용 코루틴
-    IEnumerator Skill()
-    {
-
-        skill_ani.Play(data.name);
-        Debug.Log("Player는 " + data.skillName + "을(를) 사용하였다!");
-
-
-        // 타입2가 아닌 스킬들은 activeTime이 지나면 사라짐. (타입2는 충돌할때까지 날아감)
-        if (data.type != 2)
-        {
-            yield return new WaitForSeconds(data.activeTime);    // 스킬 지속시간만큼 지연됨
-            Destroy(this.gameObject);
-        }
-    }
 
 
 }

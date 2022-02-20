@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
 { 
     // UI 조정 및 여러 오브젝트가 참조해야하는 데이터를 담은 스크립트 //
 
-    public List<Skill> data;  // 스킬 데이터 (정보,리소스 포함)
     public GameObject talkPanel;    // 대화창
     public GameObject inventory;    // 인벤토리 창
     public Text talkText;           // 대화 텍스트
@@ -20,16 +19,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         tm = this.GetComponent<TalkManager>();
-
-        // ScriptableObject 파일에서 가져온 스킬들을 index값을 기준으로 오름차순정렬
-        data.Sort(delegate (Skill a, Skill b)
-        {
-            if (a.index > b.index) return 1;
-            else if (a.index < b.index) return -1;
-            return 0;
-        }
-
-        );
     }
 
 
