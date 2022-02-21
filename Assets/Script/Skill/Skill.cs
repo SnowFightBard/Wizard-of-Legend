@@ -15,12 +15,13 @@ public class Skill : ScriptableObject
     public float coolTime;  // 스킬 쿨타임
     public float activeTime; // 시전 시간
     public bool isRot; // 스킬을 마우스 위치에따라 회전시킬지 결정하는 변수
-    public Sprite image;
+    public string info; // 스킬 설명
+    public Sprite image; // 스킬 이미지
 
     /*
      
      0 : 근접 바람공격
-     1 : 아이스 볼
+     1 : 아이스 로드
      2 : 섀도우 볼
 
      */
