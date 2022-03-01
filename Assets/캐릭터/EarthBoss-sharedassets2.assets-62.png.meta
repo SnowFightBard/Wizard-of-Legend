@@ -1,7 +1,358 @@
 fileFormatVersion: 2
 guid: 528b924888b404b4295bde8b1bca9e08
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7499772956691677040
+    second: EarthBoss-sharedassets2.assets-62_0
+  - first:
+      213: -6817819693238179993
+    second: EarthBoss-sharedassets2.assets-62_1
+  - first:
+      213: -2120882554650615382
+    second: EarthBoss-sharedassets2.assets-62_2
+  - first:
+      213: -106865012583406589
+    second: EarthBoss-sharedassets2.assets-62_3
+  - first:
+      213: 8557762582605135739
+    second: EarthBoss-sharedassets2.assets-62_4
+  - first:
+      213: -8335373712531515544
+    second: EarthBoss-sharedassets2.assets-62_5
+  - first:
+      213: 3247567018217209192
+    second: EarthBoss-sharedassets2.assets-62_6
+  - first:
+      213: -8664473537229351087
+    second: EarthBoss-sharedassets2.assets-62_7
+  - first:
+      213: 2336358599555030708
+    second: EarthBoss-sharedassets2.assets-62_8
+  - first:
+      213: -1013151219010598163
+    second: EarthBoss-sharedassets2.assets-62_9
+  - first:
+      213: -376043236010811441
+    second: EarthBoss-sharedassets2.assets-62_10
+  - first:
+      213: -6726114030854598716
+    second: EarthBoss-sharedassets2.assets-62_11
+  - first:
+      213: -476982796601530460
+    second: EarthBoss-sharedassets2.assets-62_12
+  - first:
+      213: 1244642741701886553
+    second: EarthBoss-sharedassets2.assets-62_13
+  - first:
+      213: 137442224289951779
+    second: EarthBoss-sharedassets2.assets-62_14
+  - first:
+      213: -4687566748582396170
+    second: EarthBoss-sharedassets2.assets-62_15
+  - first:
+      213: 6384652570789711754
+    second: EarthBoss-sharedassets2.assets-62_16
+  - first:
+      213: -6699998005279650073
+    second: EarthBoss-sharedassets2.assets-62_17
+  - first:
+      213: -8957292234763598905
+    second: EarthBoss-sharedassets2.assets-62_18
+  - first:
+      213: 5403463854212844105
+    second: EarthBoss-sharedassets2.assets-62_19
+  - first:
+      213: 2787149353094817079
+    second: EarthBoss-sharedassets2.assets-62_20
+  - first:
+      213: -2797945552157575614
+    second: EarthBoss-sharedassets2.assets-62_21
+  - first:
+      213: 8301557056231185156
+    second: EarthBoss-sharedassets2.assets-62_22
+  - first:
+      213: -951184590146429816
+    second: EarthBoss-sharedassets2.assets-62_23
+  - first:
+      213: 6373896878637820845
+    second: EarthBoss-sharedassets2.assets-62_24
+  - first:
+      213: 2742681728232972933
+    second: EarthBoss-sharedassets2.assets-62_25
+  - first:
+      213: 2097418963995140137
+    second: EarthBoss-sharedassets2.assets-62_26
+  - first:
+      213: 6047787800637375862
+    second: EarthBoss-sharedassets2.assets-62_27
+  - first:
+      213: -4023584203126512739
+    second: EarthBoss-sharedassets2.assets-62_28
+  - first:
+      213: -6258684694591886799
+    second: EarthBoss-sharedassets2.assets-62_29
+  - first:
+      213: 7952010831995377025
+    second: EarthBoss-sharedassets2.assets-62_30
+  - first:
+      213: -1630642114861925565
+    second: EarthBoss-sharedassets2.assets-62_31
+  - first:
+      213: 371631386516146869
+    second: EarthBoss-sharedassets2.assets-62_32
+  - first:
+      213: 5648325394019208079
+    second: EarthBoss-sharedassets2.assets-62_33
+  - first:
+      213: 8208965890178357476
+    second: EarthBoss-sharedassets2.assets-62_34
+  - first:
+      213: 895798066263642747
+    second: EarthBoss-sharedassets2.assets-62_35
+  - first:
+      213: -7722885179424631974
+    second: EarthBoss-sharedassets2.assets-62_36
+  - first:
+      213: 5535466583067717899
+    second: EarthBoss-sharedassets2.assets-62_37
+  - first:
+      213: 6764104781584008713
+    second: EarthBoss-sharedassets2.assets-62_38
+  - first:
+      213: 1446438400328135528
+    second: EarthBoss-sharedassets2.assets-62_39
+  - first:
+      213: -1975181134618056290
+    second: EarthBoss-sharedassets2.assets-62_40
+  - first:
+      213: -4707364305190497397
+    second: EarthBoss-sharedassets2.assets-62_41
+  - first:
+      213: 5714413220870610164
+    second: EarthBoss-sharedassets2.assets-62_42
+  - first:
+      213: 8444696909391610751
+    second: EarthBoss-sharedassets2.assets-62_43
+  - first:
+      213: -6788552826542244210
+    second: EarthBoss-sharedassets2.assets-62_44
+  - first:
+      213: -5693762549745267517
+    second: EarthBoss-sharedassets2.assets-62_45
+  - first:
+      213: -5252841491959441416
+    second: EarthBoss-sharedassets2.assets-62_46
+  - first:
+      213: 8808626023985111223
+    second: EarthBoss-sharedassets2.assets-62_47
+  - first:
+      213: -8160633935892560675
+    second: EarthBoss-sharedassets2.assets-62_48
+  - first:
+      213: -1917741048830188974
+    second: EarthBoss-sharedassets2.assets-62_49
+  - first:
+      213: -864019136675600768
+    second: EarthBoss-sharedassets2.assets-62_50
+  - first:
+      213: -8642559973135629229
+    second: EarthBoss-sharedassets2.assets-62_51
+  - first:
+      213: 8740999188167394475
+    second: EarthBoss-sharedassets2.assets-62_52
+  - first:
+      213: 2575507338485024476
+    second: EarthBoss-sharedassets2.assets-62_53
+  - first:
+      213: -2260897686143079672
+    second: EarthBoss-sharedassets2.assets-62_54
+  - first:
+      213: 4324787312470637979
+    second: EarthBoss-sharedassets2.assets-62_55
+  - first:
+      213: 9209887836561721959
+    second: EarthBoss-sharedassets2.assets-62_56
+  - first:
+      213: -524347029955421713
+    second: EarthBoss-sharedassets2.assets-62_57
+  - first:
+      213: 5153314681107974282
+    second: EarthBoss-sharedassets2.assets-62_58
+  - first:
+      213: 5262126411073276160
+    second: EarthBoss-sharedassets2.assets-62_59
+  - first:
+      213: -9132889391579204731
+    second: EarthBoss-sharedassets2.assets-62_60
+  - first:
+      213: 4625043327281040295
+    second: EarthBoss-sharedassets2.assets-62_61
+  - first:
+      213: -4489590058787774692
+    second: EarthBoss-sharedassets2.assets-62_62
+  - first:
+      213: 3343045426596360569
+    second: EarthBoss-sharedassets2.assets-62_63
+  - first:
+      213: 4071787601235296581
+    second: EarthBoss-sharedassets2.assets-62_64
+  - first:
+      213: -8411913606331510950
+    second: EarthBoss-sharedassets2.assets-62_65
+  - first:
+      213: -3539924057490217524
+    second: EarthBoss-sharedassets2.assets-62_66
+  - first:
+      213: 1211659333216498899
+    second: EarthBoss-sharedassets2.assets-62_67
+  - first:
+      213: -5452537391076317815
+    second: EarthBoss-sharedassets2.assets-62_68
+  - first:
+      213: -7661203894024953941
+    second: EarthBoss-sharedassets2.assets-62_69
+  - first:
+      213: 2881305322726046784
+    second: EarthBoss-sharedassets2.assets-62_70
+  - first:
+      213: 4226259221988333279
+    second: EarthBoss-sharedassets2.assets-62_71
+  - first:
+      213: 6539965095581814903
+    second: EarthBoss-sharedassets2.assets-62_72
+  - first:
+      213: 5211796252150687961
+    second: EarthBoss-sharedassets2.assets-62_73
+  - first:
+      213: 3909935989467457981
+    second: EarthBoss-sharedassets2.assets-62_74
+  - first:
+      213: -2206653500295391067
+    second: EarthBoss-sharedassets2.assets-62_75
+  - first:
+      213: -5268184868942961640
+    second: EarthBoss-sharedassets2.assets-62_76
+  - first:
+      213: 7675485957108978675
+    second: EarthBoss-sharedassets2.assets-62_77
+  - first:
+      213: 4540597474527957103
+    second: EarthBoss-sharedassets2.assets-62_78
+  - first:
+      213: 5863376414432549084
+    second: EarthBoss-sharedassets2.assets-62_79
+  - first:
+      213: -2965606706962505936
+    second: EarthBoss-sharedassets2.assets-62_80
+  - first:
+      213: 4500426374898072696
+    second: EarthBoss-sharedassets2.assets-62_81
+  - first:
+      213: -6972154018056849357
+    second: EarthBoss-sharedassets2.assets-62_82
+  - first:
+      213: -6229460187441853325
+    second: EarthBoss-sharedassets2.assets-62_83
+  - first:
+      213: 721130468859439067
+    second: EarthBoss-sharedassets2.assets-62_84
+  - first:
+      213: 8931293260589037144
+    second: EarthBoss-sharedassets2.assets-62_85
+  - first:
+      213: 2881808299533447569
+    second: EarthBoss-sharedassets2.assets-62_86
+  - first:
+      213: -5615825467823435118
+    second: EarthBoss-sharedassets2.assets-62_87
+  - first:
+      213: 3979823569114419643
+    second: EarthBoss-sharedassets2.assets-62_88
+  - first:
+      213: -6266377351845913269
+    second: EarthBoss-sharedassets2.assets-62_89
+  - first:
+      213: 6724282941114760768
+    second: EarthBoss-sharedassets2.assets-62_90
+  - first:
+      213: 5042050510098736964
+    second: EarthBoss-sharedassets2.assets-62_91
+  - first:
+      213: -5106888519850531779
+    second: EarthBoss-sharedassets2.assets-62_92
+  - first:
+      213: -1239133055553742775
+    second: EarthBoss-sharedassets2.assets-62_93
+  - first:
+      213: 5242525379554354337
+    second: EarthBoss-sharedassets2.assets-62_94
+  - first:
+      213: 1921978812772691144
+    second: EarthBoss-sharedassets2.assets-62_95
+  - first:
+      213: -7657353537718548802
+    second: EarthBoss-sharedassets2.assets-62_96
+  - first:
+      213: 2554691364112060439
+    second: EarthBoss-sharedassets2.assets-62_97
+  - first:
+      213: -7634444941682298236
+    second: EarthBoss-sharedassets2.assets-62_98
+  - first:
+      213: 4749107553375841034
+    second: EarthBoss-sharedassets2.assets-62_99
+  - first:
+      213: -6106907372297782310
+    second: EarthBoss-sharedassets2.assets-62_100
+  - first:
+      213: -4929280640083815650
+    second: EarthBoss-sharedassets2.assets-62_101
+  - first:
+      213: -1653188738287153763
+    second: EarthBoss-sharedassets2.assets-62_102
+  - first:
+      213: 9161270106451211371
+    second: EarthBoss-sharedassets2.assets-62_103
+  - first:
+      213: 5052351131742973953
+    second: EarthBoss-sharedassets2.assets-62_104
+  - first:
+      213: 8954341015213254136
+    second: EarthBoss-sharedassets2.assets-62_105
+  - first:
+      213: -5791259794023999347
+    second: EarthBoss-sharedassets2.assets-62_106
+  - first:
+      213: 3469312470595586808
+    second: EarthBoss-sharedassets2.assets-62_107
+  - first:
+      213: -3953111207536559529
+    second: EarthBoss-sharedassets2.assets-62_108
+  - first:
+      213: 8498540377852673531
+    second: EarthBoss-sharedassets2.assets-62_109
+  - first:
+      213: -7001206897799819280
+    second: EarthBoss-sharedassets2.assets-62_110
+  - first:
+      213: -5276889853322379337
+    second: EarthBoss-sharedassets2.assets-62_111
+  - first:
+      213: 8945857110536833649
+    second: EarthBoss-sharedassets2.assets-62_112
+  - first:
+      213: 3371207694808016309
+    second: EarthBoss-sharedassets2.assets-62_113
+  - first:
+      213: 6807156879119276903
+    second: EarthBoss-sharedassets2.assets-62_114
+  - first:
+      213: -2326289322429134711
+    second: EarthBoss-sharedassets2.assets-62_115
+  - first:
+      213: -7651897015874187762
+    second: EarthBoss-sharedassets2.assets-62_116
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +392,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +426,2490 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 453
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090cf4c3b347be790800000000000000
+      internalID: -7499772956691677040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 453
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76720e18c1d3261a0800000000000000
+      internalID: -6817819693238179993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 453
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa12abfad8c1192e0800000000000000
+      internalID: -2120882554650615382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 453
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3046c0656d6548ef0800000000000000
+      internalID: -106865012583406589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 453
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ffe485ab743c670800000000000000
+      internalID: 8557762582605135739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 453
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8671e6a65cdc25c80800000000000000
+      internalID: -8335373712531515544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 453
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d7c192ffca11d20800000000000000
+      internalID: 3247567018217209192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 453
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1571ca7693b91c780800000000000000
+      internalID: -8664473537229351087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 453
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be186a84c96c6020800000000000000
+      internalID: 2336358599555030708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 453
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea8e1f855090f1f0800000000000000
+      internalID: -1013151219010598163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_10
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 480
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf13615ba608caf0800000000000000
+      internalID: -376043236010811441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 472
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf0428ecea08a2a0800000000000000
+      internalID: -6726114030854598716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 482
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7e7947caa6169f0800000000000000
+      internalID: -476982796601530460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 441
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952c86baafbd54110800000000000000
+      internalID: 1244642741701886553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 432
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32031fb89fa48e100800000000000000
+      internalID: 137442224289951779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 448
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe30d1c0ea62feb0800000000000000
+      internalID: -4687566748582396170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 389
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f84309fa7da9850800000000000000
+      internalID: 6384652570789711754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 389
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee0b73ff43d403a0800000000000000
+      internalID: -6699998005279650073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 389
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c30d859b2e41b380800000000000000
+      internalID: -8957292234763598905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 389
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a05032fb5fcfa40800000000000000
+      internalID: 5403463854212844105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 390
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7352d27d191fda620800000000000000
+      internalID: 2787149353094817079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 389
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24673ce2853bb29d0800000000000000
+      internalID: -2797945552157575614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 389
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b1c4bb82e053370800000000000000
+      internalID: 8301557056231185156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 389
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c1f74a7a6bcc2f0800000000000000
+      internalID: -951184590146429816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_24
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 390
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabad26d071a47850800000000000000
+      internalID: 6373896878637820845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 390
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e74f1086ff0620800000000000000
+      internalID: 2742681728232972933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 392
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92029166f678b1d10800000000000000
+      internalID: 2097418963995140137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_27
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 424
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6758eed46fe0ee350800000000000000
+      internalID: 6047787800637375862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 392
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9365c03c7b5928c0800000000000000
+      internalID: -4023584203126512739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 325
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a2da12e6fa429a0800000000000000
+      internalID: -6258684694591886799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 325
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185942b58b73b5e60800000000000000
+      internalID: 7952010831995377025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 325
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bfcd3d2abce59e0800000000000000
+      internalID: -1630642114861925565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 325
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4eace6cc482500800000000000000
+      internalID: 371631386516146869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 325
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b455e0502e26e40800000000000000
+      internalID: 5648325394019208079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 325
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e81161fbfa1ce170800000000000000
+      internalID: 8208965890178357476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_35
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 325
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72502a58938e6c00800000000000000
+      internalID: 895798066263642747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_36
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 364
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53144fc8dcc2d490800000000000000
+      internalID: -7722885179424631974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_37
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 364
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01fbc5778de1dc40800000000000000
+      internalID: 5535466583067717899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 357
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90606d9067deedd50800000000000000
+      internalID: 6764104781584008713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_39
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 328
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863fa01cf08c21410800000000000000
+      internalID: 1446438400328135528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_40
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 344
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99a908193fb694e0800000000000000
+      internalID: -1975181134618056290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_41
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 343
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8354c8ea151caeb0800000000000000
+      internalID: -4707364305190497397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_42
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 329
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcd9c15c8cad4f40800000000000000
+      internalID: 5714413220870610164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_43
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 262
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f734020e817913570800000000000000
+      internalID: 8444696909391610751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 258
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eb9faeb273ac1a0800000000000000
+      internalID: -6788552826542244210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_45
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 258
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccc20bb021bbf0b0800000000000000
+      internalID: -5693762549745267517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_46
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 258
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7135a6e782a17b0800000000000000
+      internalID: -5252841491959441416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 262
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0e4eed2b68e3a70800000000000000
+      internalID: 8808626023985111223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 262
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd440251caa9fbe80800000000000000
+      internalID: -8160633935892560675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_49
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 262
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252aa4d3da0d265e0800000000000000
+      internalID: -1917741048830188974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_50
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 262
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086af474c236204f0800000000000000
+      internalID: -864019136675600768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_51
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 307
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354cd33ae757f0880800000000000000
+      internalID: -8642559973135629229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_52
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 297
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba402b823744e4970800000000000000
+      internalID: 8740999188167394475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_53
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 288
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6cfca574a0eb320800000000000000
+      internalID: 2575507338485024476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_54
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 288
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b60ff788daf90e0800000000000000
+      internalID: -2260897686143079672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_55
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 288
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dbde0a52bb40c30800000000000000
+      internalID: 4324787312470637979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_56
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 288
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac377f03810df70800000000000000
+      internalID: 9209887836561721959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_57
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 288
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9d974872529b8f0800000000000000
+      internalID: -524347029955421713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 261
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a880f372660448740800000000000000
+      internalID: 5153314681107974282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_59
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 255
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00949374714d60940800000000000000
+      internalID: 5262126411073276160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583fcf98c75714180800000000000000
+      internalID: -9132889391579204731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_61
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 256
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab8061d6647f2040800000000000000
+      internalID: 4625043327281040295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_62
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 256
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f54ded0a5c1b1c0800000000000000
+      internalID: -4489590058787774692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_63
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 256
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97135407a12e46e20800000000000000
+      internalID: 3343045426596360569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 195
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54148740045e18830800000000000000
+      internalID: 4071787601235296581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_65
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 195
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fc55da421e24b80800000000000000
+      internalID: -8411913606331510950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_66
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 195
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5af6533d9afdec0800000000000000
+      internalID: -3539924057490217524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_67
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 195
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f7217ebda0d010800000000000000
+      internalID: 1211659333216498899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 195
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9856c50b122b454b0800000000000000
+      internalID: -5452537391076317815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_69
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 195
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9dc036afeda590800000000000000
+      internalID: -7661203894024953941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_70
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 195
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c378adce37cf720800000000000000
+      internalID: 2881305322726046784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_71
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 195
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd65557ee50b6aa30800000000000000
+      internalID: 4226259221988333279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_72
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 198
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7709b9daa9f92ca50800000000000000
+      internalID: 6539965095581814903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_73
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 198
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8672bf315045840800000000000000
+      internalID: 5211796252150687961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_74
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 198
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db929b21112e24630800000000000000
+      internalID: 3909935989467457981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_75
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 198
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8558435546061e0800000000000000
+      internalID: -2206653500295391067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_76
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 197
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814219316c5a3e6b0800000000000000
+      internalID: -5268184868942961640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_77
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 134
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3daffbfcdc48a60800000000000000
+      internalID: 7675485957108978675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_78
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 134
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6056419851730f30800000000000000
+      internalID: 4540597474527957103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_79
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 134
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8d7ae88c5ee5150800000000000000
+      internalID: 5863376414432549084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_80
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 134
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fdbf7996c08d6d0800000000000000
+      internalID: -2965606706962505936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 134
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c399591f9b47e30800000000000000
+      internalID: 4500426374898072696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_82
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 132
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338b8625cdeed3f90800000000000000
+      internalID: -6972154018056849357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_83
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 132
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c0711f6f28c89a0800000000000000
+      internalID: -6229460187441853325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_84
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 132
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7e3193758f10a00800000000000000
+      internalID: 721130468859439067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 132
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856ff3686e352fb70800000000000000
+      internalID: 8931293260589037144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_86
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 131
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191b674416d3ef720800000000000000
+      internalID: 2881808299533447569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_87
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 128
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292dacdad749012b0800000000000000
+      internalID: -5615825467823435118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_88
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 130
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1dac9337c2b3730800000000000000
+      internalID: 3979823569114419643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_89
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 68
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ddbaacffa5909a0800000000000000
+      internalID: -6266377351845913269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_90
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 68
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e3d5a45b3715d50800000000000000
+      internalID: 6724282941114760768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_91
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 68
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447230a9936f8f540800000000000000
+      internalID: 5042050510098736964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_92
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 68
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34e9cad2ffa029b0800000000000000
+      internalID: -5106888519850531779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_93
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 68
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948564a1d07bdcee0800000000000000
+      internalID: -1239133055553742775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_94
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 68
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4ae4e7e0131c840800000000000000
+      internalID: 5242525379554354337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_95
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 68
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cca4211c8d3caa10800000000000000
+      internalID: 1921978812772691144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_96
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 68
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb684b0278d9bb590800000000000000
+      internalID: -7657353537718548802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_97
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 68
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71058a4a246147320800000000000000
+      internalID: 2554691364112060439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_98
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 70
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482bfb946c00d0690800000000000000
+      internalID: -7634444941682298236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_99
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 98
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b671f682838e140800000000000000
+      internalID: 4749107553375841034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_100
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 98
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf9f5c918ef3ba0800000000000000
+      internalID: -6106907372297782310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_101
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 71
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e131891df5da79bb0800000000000000
+      internalID: -4929280640083815650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_102
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 65
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dc7bbf991be09e0800000000000000
+      internalID: -1653188738287153763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_103
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64fd629f9e532f70800000000000000
+      internalID: 9161270106451211371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_104
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 5
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1003518f59e8d1640800000000000000
+      internalID: 5052351131742973953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_105
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 5
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f52f7116b5344c70800000000000000
+      internalID: 8954341015213254136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_106
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 5
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88923796ef41afa0800000000000000
+      internalID: -5791259794023999347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_107
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 5
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8facea09f49752030800000000000000
+      internalID: 3469312470595586808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_108
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 5
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75afa2d1d4ab329c0800000000000000
+      internalID: -3953111207536559529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_109
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf83b4271e0f570800000000000000
+      internalID: 8498540377852673531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_110
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff80a1ab67b6de90800000000000000
+      internalID: -7001206897799819280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_111
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 5
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3bd5f2a8b4c6b0800000000000000
+      internalID: -5276889853322379337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_112
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 6
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a43f415a1162c70800000000000000
+      internalID: 8945857110536833649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_113
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 42
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b56819798fe8ce20800000000000000
+      internalID: 3371207694808016309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_114
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 42
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bd24e9d11e77e50800000000000000
+      internalID: 6807156879119276903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_115
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 10
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988c3dbbf2c57bfd0800000000000000
+      internalID: -2326289322429134711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthBoss-sharedassets2.assets-62_116
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 10
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e82fe94300fc590800000000000000
+      internalID: -7651897015874187762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

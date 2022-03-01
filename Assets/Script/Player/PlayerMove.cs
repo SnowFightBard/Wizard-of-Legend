@@ -78,7 +78,7 @@ public class PlayerMove : MonoBehaviour
 
 
             // 대쉬기능
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && !isInventory)
             {
                 // 움직이지 않고 제자리에 있어도 대쉬할수있도록 vector값을 moveRot방향으로 바꿔줌
                 if (moveRot == 1)
@@ -147,122 +147,124 @@ public class PlayerMove : MonoBehaviour
     }
 
 
-    
 
-        // 플레이어 이동 함수
-        public void Move()
+
+    // 플레이어 이동 함수
+    public void Move()
+    {
+        if (!isDash && !SkillManager.isSkill)
         {
-            if (!isDash && !SkillManager.isSkill)
+            // 가로 이동 애니메이션 동작
+            if (vector.x != 0)
             {
-                // 가로 이동 애니메이션 동작
-                if (vector.x != 0)
+                ChangeAnimationState(PLAYER_WALK_RIGHT);
+                if (vector.x > 0)
                 {
-                    ChangeAnimationState(PLAYER_WALK_RIGHT);
-                    if (vector.x > 0)
-                    {
-                        moveRot = 1;
-                        rend.flipX = false; // Player의 Sprite를 좌우반전시키는 함수 , true일 때 반전
-                    }
-                    else
-                    {
-                        moveRot = 2;
-                        rend.flipX = true;
-                    }
+                    moveRot = 1;
+                    rend.flipX = false; // Player의 Sprite를 좌우반전시키는 함수 , true일 때 반전
                 }
-                else if (vector.y < 0)  // 세로 방향 애니메이션 동작
+                else
                 {
-                    ChangeAnimationState(PLAYER_WALK_DOWN);
-                    moveRot = 3;
-                }
-                else if (vector.y > 0)
-                {
-                    ChangeAnimationState(PLAYER_WALK_UP);
-                    moveRot = 4;
-                }
-                else  // 이동중이 아닐때 기본자세 애니메이션 동작
-                {
-                    switch (moveRot)
-                    {
-                        case 1:
-                            ChangeAnimationState(PLAYER_IDLE_RIGHT);
-                            break;
-                        case 2:
-                            ChangeAnimationState(PLAYER_IDLE_RIGHT);
-                            break;
-                        case 3:
-                            ChangeAnimationState(PLAYER_IDLE_DOWN);
-                            break;
-                        case 4:
-                            ChangeAnimationState(PLAYER_IDLE_UP);
-                            break;
-                    }
+                    moveRot = 2;
+                    rend.flipX = true;
                 }
             }
-
-
-            // 플레이어 이동처리
-            rigidBody.velocity = vector.normalized * Speed;
-        }
-
-
-        private void OnCollisionEnter2D(Collision2D collision)
-        {
-            // 부딪힌 오브젝트가 NPC일 경우 NPC머리위에 대화버튼 활성화
-            if (collision.gameObject.tag == "Object")
+            else if (vector.y < 0)  // 세로 방향 애니메이션 동작
             {
-                talkNpc = collision.gameObject;
-                Vector3 pos = collision.gameObject.transform.position;      // NPC의 위치
-                pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);          // pos에 NPC 머리위 위치값 저장 
-                Button = Instantiate(Text_Button, pos, Quaternion.identity);    // NPC머리위에 대화버튼 생성
+                ChangeAnimationState(PLAYER_WALK_DOWN);
+                moveRot = 3;
             }
-
-            if (collision.gameObject.GetComponent<FieldItems>() != null)
+            else if (vector.y > 0)
             {
-                GameObject.Find("SkillSlot").GetComponent<SkillSlot>().Equip(collision.gameObject.GetComponent<FieldItems>().skill);
-                collision.gameObject.GetComponent<FieldItems>().DestroyItem();
+                ChangeAnimationState(PLAYER_WALK_UP);
+                moveRot = 4;
+            }
+            else  // 이동중이 아닐때 기본자세 애니메이션 동작
+            {
+                switch (moveRot)
+                {
+                    case 1:
+                        ChangeAnimationState(PLAYER_IDLE_RIGHT);
+                        break;
+                    case 2:
+                        ChangeAnimationState(PLAYER_IDLE_RIGHT);
+                        break;
+                    case 3:
+                        ChangeAnimationState(PLAYER_IDLE_DOWN);
+                        break;
+                    case 4:
+                        ChangeAnimationState(PLAYER_IDLE_UP);
+                        break;
+                }
             }
         }
 
 
-        private void OnCollisionExit2D(Collision2D collision)
+        // 플레이어 이동처리
+        rigidBody.velocity = vector.normalized * Speed;
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // 부딪힌 오브젝트가 NPC일 경우 NPC머리위에 대화버튼 활성화
+        if (collision.gameObject.tag == "Object")
         {
-            // NPC와 멀어지면 대화버튼 제거
-            Destroy(Button);
-            talkNpc = null;
+            talkNpc = collision.gameObject;
+            Vector3 pos = collision.gameObject.transform.position;      // NPC의 위치
+            pos = new Vector3(pos.x, pos.y + 0.2f, pos.z);          // pos에 NPC 머리위 위치값 저장 
+            Button = Instantiate(Text_Button, pos, Quaternion.identity);    // NPC머리위에 대화버튼 생성
         }
 
-        // 애니메이션 교체 함수
-        public void ChangeAnimationState(string newState)
+        // 부딪힌 오브젝트가 스킬(아이템)일 경우
+        if (collision.gameObject.GetComponent<FieldItems>() != null)
         {
-            // 현재 애니메이션과 교체될 애니메이션이 같으면 실행하지 않음
-            if (currentState == newState) return;
-
-            // 교체된 애니메이션 실행
-            animator.Play(newState);
-
-            // 현재 상태를 교체된 애니메이션으로 변경
-            currentState = newState;
+            GameObject.Find("SkillSlot").GetComponent<SkillSlot>().Equip(collision.gameObject.GetComponent<FieldItems>().skill);
+            collision.gameObject.GetComponent<FieldItems>().DestroyItem();
         }
 
+    }
 
-        // 대쉬 기능
-        IEnumerator Dash()
-        {
-            isDash = true;
 
-            if (moveRot == 1 || moveRot == 2)
-                ChangeAnimationState(DASH_RIGHT);
-            else if (moveRot == 3)
-                ChangeAnimationState(DASH_DOWN);
-            else if (moveRot == 4)
-                ChangeAnimationState(DASH_UP);
-            Speed = dashSpeed;
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // NPC와 멀어지면 대화버튼 제거
+        Destroy(Button);
+        talkNpc = null;
+    }
 
-            yield return new WaitForSeconds(dashTime);
+    // 애니메이션 교체 함수
+    public void ChangeAnimationState(string newState)
+    {
+        // 현재 애니메이션과 교체될 애니메이션이 같으면 실행하지 않음
+        if (currentState == newState) return;
 
-            Speed = baseSpeed;
-            isDash = false;
+        // 교체된 애니메이션 실행
+        animator.Play(newState);
 
-        }
-    
+        // 현재 상태를 교체된 애니메이션으로 변경
+        currentState = newState;
+    }
+
+
+    // 대쉬 기능
+    IEnumerator Dash()
+    {
+        isDash = true;
+
+        if (moveRot == 1 || moveRot == 2)
+            ChangeAnimationState(DASH_RIGHT);
+        else if (moveRot == 3)
+            ChangeAnimationState(DASH_DOWN);
+        else if (moveRot == 4)
+            ChangeAnimationState(DASH_UP);
+        Speed = dashSpeed;
+
+        yield return new WaitForSeconds(dashTime);
+
+        Speed = baseSpeed;
+        isDash = false;
+
+    }
+
 }

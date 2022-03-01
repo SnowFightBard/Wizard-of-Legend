@@ -69,8 +69,6 @@ public class SkillManager : MonoBehaviour
             }
         }
 
-        Debug.Log(index);
-
     }
 
     // 스킬 오브젝트 생성 함수

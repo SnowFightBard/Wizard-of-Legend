@@ -1,7 +1,586 @@
 fileFormatVersion: 2
 guid: d21f1818775183b438476e5f9d8d974a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3005939450137027517
+    second: FinalBoss-sharedassets14.assets-10_0
+  - first:
+      213: 5276694188302000959
+    second: FinalBoss-sharedassets14.assets-10_1
+  - first:
+      213: -8814022204646430341
+    second: FinalBoss-sharedassets14.assets-10_2
+  - first:
+      213: 145537451028947681
+    second: FinalBoss-sharedassets14.assets-10_3
+  - first:
+      213: 913254422386701840
+    second: FinalBoss-sharedassets14.assets-10_4
+  - first:
+      213: -5562495553826129978
+    second: FinalBoss-sharedassets14.assets-10_5
+  - first:
+      213: 5250843368524191427
+    second: FinalBoss-sharedassets14.assets-10_6
+  - first:
+      213: 8830923677512016936
+    second: FinalBoss-sharedassets14.assets-10_7
+  - first:
+      213: -2444173062138993219
+    second: FinalBoss-sharedassets14.assets-10_8
+  - first:
+      213: -274102494914562300
+    second: FinalBoss-sharedassets14.assets-10_9
+  - first:
+      213: -883297942208712739
+    second: FinalBoss-sharedassets14.assets-10_10
+  - first:
+      213: 5725777991138591799
+    second: FinalBoss-sharedassets14.assets-10_11
+  - first:
+      213: 4383857356112805432
+    second: FinalBoss-sharedassets14.assets-10_12
+  - first:
+      213: 1009836640798982877
+    second: FinalBoss-sharedassets14.assets-10_13
+  - first:
+      213: -9079964402724077804
+    second: FinalBoss-sharedassets14.assets-10_14
+  - first:
+      213: 8897630398060908403
+    second: FinalBoss-sharedassets14.assets-10_15
+  - first:
+      213: 8255142234970043341
+    second: FinalBoss-sharedassets14.assets-10_16
+  - first:
+      213: -7724249185995036236
+    second: FinalBoss-sharedassets14.assets-10_17
+  - first:
+      213: -8137069167498952297
+    second: FinalBoss-sharedassets14.assets-10_18
+  - first:
+      213: 4608185765512692592
+    second: FinalBoss-sharedassets14.assets-10_19
+  - first:
+      213: 2134639751862182676
+    second: FinalBoss-sharedassets14.assets-10_20
+  - first:
+      213: -2462996196612454383
+    second: FinalBoss-sharedassets14.assets-10_21
+  - first:
+      213: -1843944852388804562
+    second: FinalBoss-sharedassets14.assets-10_22
+  - first:
+      213: -547778564416217739
+    second: FinalBoss-sharedassets14.assets-10_23
+  - first:
+      213: 2895449193659536211
+    second: FinalBoss-sharedassets14.assets-10_24
+  - first:
+      213: 3960411812529217485
+    second: FinalBoss-sharedassets14.assets-10_25
+  - first:
+      213: -6297909031342779149
+    second: FinalBoss-sharedassets14.assets-10_26
+  - first:
+      213: -6196787562753557207
+    second: FinalBoss-sharedassets14.assets-10_27
+  - first:
+      213: -1145746344275360912
+    second: FinalBoss-sharedassets14.assets-10_28
+  - first:
+      213: -7864255542990997365
+    second: FinalBoss-sharedassets14.assets-10_29
+  - first:
+      213: -7802699297563152348
+    second: FinalBoss-sharedassets14.assets-10_30
+  - first:
+      213: -5087145524348689907
+    second: FinalBoss-sharedassets14.assets-10_31
+  - first:
+      213: -5416186794973294962
+    second: FinalBoss-sharedassets14.assets-10_32
+  - first:
+      213: -224507592516348
+    second: FinalBoss-sharedassets14.assets-10_33
+  - first:
+      213: -8463794027438700331
+    second: FinalBoss-sharedassets14.assets-10_34
+  - first:
+      213: 5525117084450050280
+    second: FinalBoss-sharedassets14.assets-10_35
+  - first:
+      213: 5669168212066654936
+    second: FinalBoss-sharedassets14.assets-10_36
+  - first:
+      213: -5088568412007656692
+    second: FinalBoss-sharedassets14.assets-10_37
+  - first:
+      213: 5911526126429394826
+    second: FinalBoss-sharedassets14.assets-10_38
+  - first:
+      213: 1047909926346765540
+    second: FinalBoss-sharedassets14.assets-10_39
+  - first:
+      213: -5046652182870668347
+    second: FinalBoss-sharedassets14.assets-10_40
+  - first:
+      213: 5872166258726305644
+    second: FinalBoss-sharedassets14.assets-10_41
+  - first:
+      213: 3646570634679820254
+    second: FinalBoss-sharedassets14.assets-10_42
+  - first:
+      213: -154264202147187098
+    second: FinalBoss-sharedassets14.assets-10_43
+  - first:
+      213: 154980673808344766
+    second: FinalBoss-sharedassets14.assets-10_44
+  - first:
+      213: 6131968853025868435
+    second: FinalBoss-sharedassets14.assets-10_45
+  - first:
+      213: -9183728398763091557
+    second: FinalBoss-sharedassets14.assets-10_46
+  - first:
+      213: -7364029420511034277
+    second: FinalBoss-sharedassets14.assets-10_47
+  - first:
+      213: 7737593408632377169
+    second: FinalBoss-sharedassets14.assets-10_48
+  - first:
+      213: -5422548761421495580
+    second: FinalBoss-sharedassets14.assets-10_49
+  - first:
+      213: 3618283846576619073
+    second: FinalBoss-sharedassets14.assets-10_50
+  - first:
+      213: -5342327568038212948
+    second: FinalBoss-sharedassets14.assets-10_51
+  - first:
+      213: 1430257340243023280
+    second: FinalBoss-sharedassets14.assets-10_52
+  - first:
+      213: 817824079627280191
+    second: FinalBoss-sharedassets14.assets-10_53
+  - first:
+      213: 7298647823675866675
+    second: FinalBoss-sharedassets14.assets-10_54
+  - first:
+      213: 5460259471041553248
+    second: FinalBoss-sharedassets14.assets-10_55
+  - first:
+      213: 2454768499812933400
+    second: FinalBoss-sharedassets14.assets-10_56
+  - first:
+      213: -5844914213400112686
+    second: FinalBoss-sharedassets14.assets-10_57
+  - first:
+      213: -7118208326200679881
+    second: FinalBoss-sharedassets14.assets-10_58
+  - first:
+      213: -5342189962823337570
+    second: FinalBoss-sharedassets14.assets-10_59
+  - first:
+      213: 8319314357727793457
+    second: FinalBoss-sharedassets14.assets-10_60
+  - first:
+      213: -3220563101376984831
+    second: FinalBoss-sharedassets14.assets-10_61
+  - first:
+      213: -9086672667696685791
+    second: FinalBoss-sharedassets14.assets-10_62
+  - first:
+      213: 579281117006507084
+    second: FinalBoss-sharedassets14.assets-10_63
+  - first:
+      213: -4475719713058937654
+    second: FinalBoss-sharedassets14.assets-10_64
+  - first:
+      213: -4226163056408250700
+    second: FinalBoss-sharedassets14.assets-10_65
+  - first:
+      213: 6736016737181674916
+    second: FinalBoss-sharedassets14.assets-10_66
+  - first:
+      213: -2235865977875963050
+    second: FinalBoss-sharedassets14.assets-10_67
+  - first:
+      213: 8182974249387279175
+    second: FinalBoss-sharedassets14.assets-10_68
+  - first:
+      213: -5749189183250784995
+    second: FinalBoss-sharedassets14.assets-10_69
+  - first:
+      213: 4616382239780008596
+    second: FinalBoss-sharedassets14.assets-10_70
+  - first:
+      213: 2768106962348831586
+    second: FinalBoss-sharedassets14.assets-10_71
+  - first:
+      213: 889687099344139520
+    second: FinalBoss-sharedassets14.assets-10_72
+  - first:
+      213: -5781401488182424370
+    second: FinalBoss-sharedassets14.assets-10_73
+  - first:
+      213: -487948456255308246
+    second: FinalBoss-sharedassets14.assets-10_74
+  - first:
+      213: -5796403507892285400
+    second: FinalBoss-sharedassets14.assets-10_75
+  - first:
+      213: -4411912354967860461
+    second: FinalBoss-sharedassets14.assets-10_76
+  - first:
+      213: 6450224864210713452
+    second: FinalBoss-sharedassets14.assets-10_77
+  - first:
+      213: 5753986645132884762
+    second: FinalBoss-sharedassets14.assets-10_78
+  - first:
+      213: 6571114922341559539
+    second: FinalBoss-sharedassets14.assets-10_79
+  - first:
+      213: 438570328276475461
+    second: FinalBoss-sharedassets14.assets-10_80
+  - first:
+      213: 4569865099163970621
+    second: FinalBoss-sharedassets14.assets-10_81
+  - first:
+      213: -6127255366509962271
+    second: FinalBoss-sharedassets14.assets-10_82
+  - first:
+      213: 8514279177337989371
+    second: FinalBoss-sharedassets14.assets-10_83
+  - first:
+      213: 2170606614583282505
+    second: FinalBoss-sharedassets14.assets-10_84
+  - first:
+      213: 7670888544006931426
+    second: FinalBoss-sharedassets14.assets-10_85
+  - first:
+      213: -5613688745357274073
+    second: FinalBoss-sharedassets14.assets-10_86
+  - first:
+      213: -7887794004179788857
+    second: FinalBoss-sharedassets14.assets-10_87
+  - first:
+      213: -3259106069735918288
+    second: FinalBoss-sharedassets14.assets-10_88
+  - first:
+      213: -7702993095408376050
+    second: FinalBoss-sharedassets14.assets-10_89
+  - first:
+      213: 7642307781551076038
+    second: FinalBoss-sharedassets14.assets-10_90
+  - first:
+      213: -3826906830626305918
+    second: FinalBoss-sharedassets14.assets-10_91
+  - first:
+      213: -7268227253728895527
+    second: FinalBoss-sharedassets14.assets-10_92
+  - first:
+      213: 4057368122446764300
+    second: FinalBoss-sharedassets14.assets-10_93
+  - first:
+      213: -6455652636452459269
+    second: FinalBoss-sharedassets14.assets-10_94
+  - first:
+      213: -530673338168843502
+    second: FinalBoss-sharedassets14.assets-10_95
+  - first:
+      213: -159160696084226406
+    second: FinalBoss-sharedassets14.assets-10_96
+  - first:
+      213: 6324076055704296464
+    second: FinalBoss-sharedassets14.assets-10_97
+  - first:
+      213: -4243513996132256057
+    second: FinalBoss-sharedassets14.assets-10_98
+  - first:
+      213: 1223118007269772229
+    second: FinalBoss-sharedassets14.assets-10_99
+  - first:
+      213: 5073940889840615594
+    second: FinalBoss-sharedassets14.assets-10_100
+  - first:
+      213: 3905791899118253877
+    second: FinalBoss-sharedassets14.assets-10_101
+  - first:
+      213: -2893401067524412341
+    second: FinalBoss-sharedassets14.assets-10_102
+  - first:
+      213: -3689184923127252649
+    second: FinalBoss-sharedassets14.assets-10_103
+  - first:
+      213: -8006361628669925793
+    second: FinalBoss-sharedassets14.assets-10_104
+  - first:
+      213: -7954884474542675548
+    second: FinalBoss-sharedassets14.assets-10_105
+  - first:
+      213: -1071119652848187894
+    second: FinalBoss-sharedassets14.assets-10_106
+  - first:
+      213: 3469861169139753145
+    second: FinalBoss-sharedassets14.assets-10_107
+  - first:
+      213: -5296536430639669813
+    second: FinalBoss-sharedassets14.assets-10_108
+  - first:
+      213: -1181745290739559920
+    second: FinalBoss-sharedassets14.assets-10_109
+  - first:
+      213: 8262826293302677821
+    second: FinalBoss-sharedassets14.assets-10_110
+  - first:
+      213: -908225590357316115
+    second: FinalBoss-sharedassets14.assets-10_111
+  - first:
+      213: 6276970919190409220
+    second: FinalBoss-sharedassets14.assets-10_112
+  - first:
+      213: -172791973718731349
+    second: FinalBoss-sharedassets14.assets-10_113
+  - first:
+      213: 2156110422723088012
+    second: FinalBoss-sharedassets14.assets-10_114
+  - first:
+      213: 21448808278336183
+    second: FinalBoss-sharedassets14.assets-10_115
+  - first:
+      213: -4944584548738723546
+    second: FinalBoss-sharedassets14.assets-10_116
+  - first:
+      213: 5673302064454975132
+    second: FinalBoss-sharedassets14.assets-10_117
+  - first:
+      213: 4550345976557520450
+    second: FinalBoss-sharedassets14.assets-10_118
+  - first:
+      213: -5412284847487113763
+    second: FinalBoss-sharedassets14.assets-10_119
+  - first:
+      213: 978127839351608384
+    second: FinalBoss-sharedassets14.assets-10_120
+  - first:
+      213: 2985031536699216609
+    second: FinalBoss-sharedassets14.assets-10_121
+  - first:
+      213: 6245797298599860091
+    second: FinalBoss-sharedassets14.assets-10_122
+  - first:
+      213: -92349542835687928
+    second: FinalBoss-sharedassets14.assets-10_123
+  - first:
+      213: -523612368518193910
+    second: FinalBoss-sharedassets14.assets-10_124
+  - first:
+      213: -5650471829057761862
+    second: FinalBoss-sharedassets14.assets-10_125
+  - first:
+      213: 5139991468603543723
+    second: FinalBoss-sharedassets14.assets-10_126
+  - first:
+      213: -4607148865220744847
+    second: FinalBoss-sharedassets14.assets-10_127
+  - first:
+      213: -7679424399749602768
+    second: FinalBoss-sharedassets14.assets-10_128
+  - first:
+      213: 4108933232638824612
+    second: FinalBoss-sharedassets14.assets-10_129
+  - first:
+      213: 196609612649739395
+    second: FinalBoss-sharedassets14.assets-10_130
+  - first:
+      213: 1954460379386158813
+    second: FinalBoss-sharedassets14.assets-10_131
+  - first:
+      213: -4848233963514124486
+    second: FinalBoss-sharedassets14.assets-10_132
+  - first:
+      213: -6235233220788284741
+    second: FinalBoss-sharedassets14.assets-10_133
+  - first:
+      213: 5111023465411393275
+    second: FinalBoss-sharedassets14.assets-10_134
+  - first:
+      213: 7563624757473106485
+    second: FinalBoss-sharedassets14.assets-10_135
+  - first:
+      213: 1082827242407129533
+    second: FinalBoss-sharedassets14.assets-10_136
+  - first:
+      213: 7568183299532518638
+    second: FinalBoss-sharedassets14.assets-10_137
+  - first:
+      213: 5276646020914976767
+    second: FinalBoss-sharedassets14.assets-10_138
+  - first:
+      213: 8835475212050357088
+    second: FinalBoss-sharedassets14.assets-10_139
+  - first:
+      213: 9148808442918376246
+    second: FinalBoss-sharedassets14.assets-10_140
+  - first:
+      213: 138251508642485078
+    second: FinalBoss-sharedassets14.assets-10_141
+  - first:
+      213: -8193105755132292863
+    second: FinalBoss-sharedassets14.assets-10_142
+  - first:
+      213: 615686709859451551
+    second: FinalBoss-sharedassets14.assets-10_143
+  - first:
+      213: -8798771304297025097
+    second: FinalBoss-sharedassets14.assets-10_144
+  - first:
+      213: 5835153743827642298
+    second: FinalBoss-sharedassets14.assets-10_145
+  - first:
+      213: 8738512031064621951
+    second: FinalBoss-sharedassets14.assets-10_146
+  - first:
+      213: -8182019101912990223
+    second: FinalBoss-sharedassets14.assets-10_147
+  - first:
+      213: -8489834091489066728
+    second: FinalBoss-sharedassets14.assets-10_148
+  - first:
+      213: -6248165980835124012
+    second: FinalBoss-sharedassets14.assets-10_149
+  - first:
+      213: -2485686380271900276
+    second: FinalBoss-sharedassets14.assets-10_150
+  - first:
+      213: -8753050611957673102
+    second: FinalBoss-sharedassets14.assets-10_151
+  - first:
+      213: 1210960353924996006
+    second: FinalBoss-sharedassets14.assets-10_152
+  - first:
+      213: 4327010051867936525
+    second: FinalBoss-sharedassets14.assets-10_153
+  - first:
+      213: 4624633033631988620
+    second: FinalBoss-sharedassets14.assets-10_154
+  - first:
+      213: 3147905903709108822
+    second: FinalBoss-sharedassets14.assets-10_155
+  - first:
+      213: -4092689132572351193
+    second: FinalBoss-sharedassets14.assets-10_156
+  - first:
+      213: 2146068147712765983
+    second: FinalBoss-sharedassets14.assets-10_157
+  - first:
+      213: 7005776519180989389
+    second: FinalBoss-sharedassets14.assets-10_158
+  - first:
+      213: 6308776091012814833
+    second: FinalBoss-sharedassets14.assets-10_159
+  - first:
+      213: 7375852829473108883
+    second: FinalBoss-sharedassets14.assets-10_160
+  - first:
+      213: 4291598193619167721
+    second: FinalBoss-sharedassets14.assets-10_161
+  - first:
+      213: -7382530578475074845
+    second: FinalBoss-sharedassets14.assets-10_162
+  - first:
+      213: -8082602885271888263
+    second: FinalBoss-sharedassets14.assets-10_163
+  - first:
+      213: 2522313455936552641
+    second: FinalBoss-sharedassets14.assets-10_164
+  - first:
+      213: 4042656274143484557
+    second: FinalBoss-sharedassets14.assets-10_165
+  - first:
+      213: -8242339907000111476
+    second: FinalBoss-sharedassets14.assets-10_166
+  - first:
+      213: -5409422352633821435
+    second: FinalBoss-sharedassets14.assets-10_167
+  - first:
+      213: -5381668524227413342
+    second: FinalBoss-sharedassets14.assets-10_168
+  - first:
+      213: -4987225866767312399
+    second: FinalBoss-sharedassets14.assets-10_169
+  - first:
+      213: 4107362456652126453
+    second: FinalBoss-sharedassets14.assets-10_170
+  - first:
+      213: -1878207209485283537
+    second: FinalBoss-sharedassets14.assets-10_171
+  - first:
+      213: 5057407617420364853
+    second: FinalBoss-sharedassets14.assets-10_172
+  - first:
+      213: -1430128198424458109
+    second: FinalBoss-sharedassets14.assets-10_173
+  - first:
+      213: -3175490291188546507
+    second: FinalBoss-sharedassets14.assets-10_174
+  - first:
+      213: 5605860876775166853
+    second: FinalBoss-sharedassets14.assets-10_175
+  - first:
+      213: -3079082219966543671
+    second: FinalBoss-sharedassets14.assets-10_176
+  - first:
+      213: -6941339692186896061
+    second: FinalBoss-sharedassets14.assets-10_177
+  - first:
+      213: -8303924149884692854
+    second: FinalBoss-sharedassets14.assets-10_178
+  - first:
+      213: -2981819412239793991
+    second: FinalBoss-sharedassets14.assets-10_179
+  - first:
+      213: -7504862651159619419
+    second: FinalBoss-sharedassets14.assets-10_180
+  - first:
+      213: 3061943847796065503
+    second: FinalBoss-sharedassets14.assets-10_181
+  - first:
+      213: 9167882043477215031
+    second: FinalBoss-sharedassets14.assets-10_182
+  - first:
+      213: -7442014103067661726
+    second: FinalBoss-sharedassets14.assets-10_183
+  - first:
+      213: 520728686828042291
+    second: FinalBoss-sharedassets14.assets-10_184
+  - first:
+      213: -2414584868971751840
+    second: FinalBoss-sharedassets14.assets-10_185
+  - first:
+      213: 6468010514111351672
+    second: FinalBoss-sharedassets14.assets-10_186
+  - first:
+      213: 8809066307109674704
+    second: FinalBoss-sharedassets14.assets-10_187
+  - first:
+      213: 4328250889328581442
+    second: FinalBoss-sharedassets14.assets-10_188
+  - first:
+      213: 4455844280593271892
+    second: FinalBoss-sharedassets14.assets-10_189
+  - first:
+      213: -136375038052020638
+    second: FinalBoss-sharedassets14.assets-10_190
+  - first:
+      213: -3633787255473567186
+    second: FinalBoss-sharedassets14.assets-10_191
+  - first:
+      213: -3978143069311214745
+    second: FinalBoss-sharedassets14.assets-10_192
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +620,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +654,4086 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 980
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db320c5f00e37b920800000000000000
+      internalID: 3005939450137027517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 980
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33eb1a38659a3940800000000000000
+      internalID: 5276694188302000959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 980
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e4a9e08d4ea580800000000000000
+      internalID: -8814022204646430341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 980
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2a8166a8d050200800000000000000
+      internalID: 145537451028947681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 979
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016f9ebfe088cac00800000000000000
+      internalID: 913254422386701840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 979
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7f081e3cb0ec2b0800000000000000
+      internalID: -5562495553826129978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 979
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c69918393ebed840800000000000000
+      internalID: 5250843368524191427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 979
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824a0b4eb4ebd8a70800000000000000
+      internalID: 8830923677512016936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 980
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db560adbc8d841ed0800000000000000
+      internalID: -2444173062138993219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 980
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407b19eab31323cf0800000000000000
+      internalID: -274102494914562300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 980
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfe0d39335edb3f0800000000000000
+      internalID: -883297942208712739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_11
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 979
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734c0981fbc067f40800000000000000
+      internalID: 5725777991138591799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_12
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 979
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3619e90796dc30800000000000000
+      internalID: 4383857356112805432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_13
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 980
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd24fff0319a30e00800000000000000
+      internalID: 1009836640798982877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_14
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 980
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f7072cb7c7df180800000000000000
+      internalID: -9079964402724077804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_15
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 980
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f432394bbba7b70800000000000000
+      internalID: 8897630398060908403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_16
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 980
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3b6b50028209270800000000000000
+      internalID: 8255142234970043341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 941
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96a284a44fdc490800000000000000
+      internalID: -7724249185995036236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 938
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791017644b2531f80800000000000000
+      internalID: -8137069167498952297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 935
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073456cd98093ff30800000000000000
+      internalID: 4608185765512692592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 935
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4136c256b83cf9d10800000000000000
+      internalID: 2134639751862182676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 935
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c6c9320ea1ddd0800000000000000
+      internalID: -2462996196612454383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_22
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 935
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2884f72dedf866e0800000000000000
+      internalID: -1843944852388804562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_23
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 935
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dd5644c46e568f0800000000000000
+      internalID: -547778564416217739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_24
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 935
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353944d63b3be2820800000000000000
+      internalID: 2895449193659536211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 931
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf90127f8536f630800000000000000
+      internalID: 3960411812529217485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 931
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4d61f8a155998a0800000000000000
+      internalID: -6297909031342779149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_27
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 931
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92df38d2b86900aa0800000000000000
+      internalID: -6196787562753557207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_28
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 931
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073c3c235cd7910f0800000000000000
+      internalID: -1145746344275360912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 884
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88ff11104d8cd290800000000000000
+      internalID: -7864255542990997365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_30
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 884
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420fe8f445e37b390800000000000000
+      internalID: -7802699297563152348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 884
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d026a743914d669b0800000000000000
+      internalID: -5087145524348689907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 884
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e84706ec6d5d4b0800000000000000
+      internalID: -5416186794973294962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 884
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dd2b0cfc33ffff0800000000000000
+      internalID: -224507592516348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 884
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d88176dc209a8a80800000000000000
+      internalID: -8463794027438700331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 885
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0561907b82dac40800000000000000
+      internalID: 5525117084450050280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_36
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 888
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da5b2cc37eecae40800000000000000
+      internalID: 5669168212066654936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_37
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 888
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03920b5df5c169b0800000000000000
+      internalID: -5088568412007656692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_38
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 888
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87d34ef0b5f90250800000000000000
+      internalID: 5911526126429394826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_39
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 888
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e43184a68cea8e00800000000000000
+      internalID: 1047909926346765540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_40
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 888
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb4b07f390b6f9b0800000000000000
+      internalID: -5046652182870668347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_41
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 888
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f7a69a9102e7150800000000000000
+      internalID: 5872166258726305644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 836
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf16700ca83b9230800000000000000
+      internalID: 3646570634679820254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_43
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 836
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66635758681fbddf0800000000000000
+      internalID: -154264202147187098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_44
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 836
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6a5690a1a962200800000000000000
+      internalID: 154980673808344766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_45
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 836
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39acd5aee21291550800000000000000
+      internalID: 6131968853025868435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_46
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 836
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b991f06cda7dc8080800000000000000
+      internalID: -9183728398763091557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_47
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 836
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b540ae22246bdc990800000000000000
+      internalID: -7364029420511034277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_48
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 836
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fcfe9a534716b60800000000000000
+      internalID: 7737593408632377169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_49
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 836
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2cc32a1ac3fb4b0800000000000000
+      internalID: -5422548761421495580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_50
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 836
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ebbbbecf9b63230800000000000000
+      internalID: 3618283846576619073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_51
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 836
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa4e49b16d3cd5b0800000000000000
+      internalID: -5342327568038212948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_52
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 836
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5949e197b49d310800000000000000
+      internalID: 1430257340243023280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 788
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fd1fadaae795b00800000000000000
+      internalID: 817824079627280191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 788
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33eb0e696810a4560800000000000000
+      internalID: 7298647823675866675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 788
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e4e82f0db6cb40800000000000000
+      internalID: 5460259471041553248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 788
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f1b25d1f6111220800000000000000
+      internalID: 2454768499812933400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_57
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 788
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d197a79d71b2eea0800000000000000
+      internalID: -5844914213400112686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_58
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 788
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732a49fbd3b073d90800000000000000
+      internalID: -7118208326200679881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_59
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 741
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99f14f688abcd5b0800000000000000
+      internalID: -5342189962823337570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_60
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 740
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1311c2ba454247370800000000000000
+      internalID: 8319314357727793457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_61
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 740
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109c1bd2ce24e43d0800000000000000
+      internalID: -3220563101376984831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_62
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 740
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d10bb1a57a5e180800000000000000
+      internalID: -9086672667696685791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 740
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca3445b150a0800800000000000000
+      internalID: 579281117006507084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_64
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 740
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4a8e462ac03e1c0800000000000000
+      internalID: -4475719713058937654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_65
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 740
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b638e36717a955c0800000000000000
+      internalID: -4226163056408250700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 698
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adacc498832b7d50800000000000000
+      internalID: 6736016737181674916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 689
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653625f3dbb98f0e0800000000000000
+      internalID: -2235865977875963050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_68
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 689
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743c5ec79b3cf8170800000000000000
+      internalID: 8182974249387279175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_69
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 689
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d91d9f5e6c630b0800000000000000
+      internalID: -5749189183250784995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_70
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 689
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492728d303fa01040800000000000000
+      internalID: 4616382239780008596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_71
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 689
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263761fbd9a4a6620800000000000000
+      internalID: 2768106962348831586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_72
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 689
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005b7adf3bdc85c00800000000000000
+      internalID: 889687099344139520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 648
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc8f84af554cfa0800000000000000
+      internalID: -5781401488182424370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_74
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 647
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eb33cd6757a39f0800000000000000
+      internalID: -487948456255308246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_75
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 647
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820904168b90f8fa0800000000000000
+      internalID: -5796403507892285400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_76
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 647
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bcbf5a61db5c2c0800000000000000
+      internalID: -4411912354967860461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_77
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 647
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bfba8d65dc38950800000000000000
+      internalID: 6450224864210713452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_78
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 647
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bbc792e544adf40800000000000000
+      internalID: 5753986645132884762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_79
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 647
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcef64e43a413b50800000000000000
+      internalID: 6571114922341559539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 598
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e12f1d36d161600800000000000000
+      internalID: 438570328276475461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_81
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 600
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3caf13781c6b6f30800000000000000
+      internalID: 4569865099163970621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_82
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 600
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb511f25bd97faa0800000000000000
+      internalID: -6127255366509962271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_83
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 600
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf86cbb1dcbc82670800000000000000
+      internalID: 8514279177337989371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_84
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 600
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b8951373b8f1e10800000000000000
+      internalID: 2170606614583282505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_85
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 600
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e385291d78747a60800000000000000
+      internalID: 7670888544006931426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_86
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 598
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7241f5524db2812b0800000000000000
+      internalID: -5613688745357274073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_87
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 600
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb586ff42de88290800000000000000
+      internalID: -7887794004179788857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_88
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 600
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035321c0c4455c2d0800000000000000
+      internalID: -3259106069735918288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_89
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 600
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07a5e88798791590800000000000000
+      internalID: -7702993095408376050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_90
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 600
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c23e87cf6eee0a60800000000000000
+      internalID: 7642307781551076038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_91
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 600
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288c00c638814eac0800000000000000
+      internalID: -3826906830626305918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_92
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 552
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd1daa42d1122b90800000000000000
+      internalID: -7268227253728895527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_93
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 552
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09de6d7fcaae4830800000000000000
+      internalID: 4057368122446764300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_94
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 552
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcefe2712ae866a0800000000000000
+      internalID: -6455652636452459269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_95
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 552
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213ecaa196ba2a8f0800000000000000
+      internalID: -530673338168843502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_96
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 552
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e12bfa03c8acdf0800000000000000
+      internalID: -159160696084226406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_97
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 552
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cdec09aa1a3c750800000000000000
+      internalID: 6324076055704296464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_98
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 553
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6732de0820c15c0800000000000000
+      internalID: -4243513996132256057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_99
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 553
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbc2b5e85369f010800000000000000
+      internalID: 1223118007269772229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_100
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 553
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0874e3b524a6640800000000000000
+      internalID: 5073940889840615594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_101
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 553
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537ba89d909243630800000000000000
+      internalID: 3905791899118253877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_102
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 553
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ca8791f0398d7d0800000000000000
+      internalID: -2893401067524412341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_103
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 506
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759f54acbd16dccc0800000000000000
+      internalID: -3689184923127252649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_104
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 506
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56afcba480b3e090800000000000000
+      internalID: -8006361628669925793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_105
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 506
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a92d9997b29a9190800000000000000
+      internalID: -7954884474542675548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_106
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 482
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a064b0cc95e9221f0800000000000000
+      internalID: -1071119652848187894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_107
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 482
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b02f76695c672030800000000000000
+      internalID: 3469861169139753145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 481
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9ec7bd2cee76b0800000000000000
+      internalID: -5296536430639669813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_109
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 481
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0125a725be8999fe0800000000000000
+      internalID: -1181745290739559920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_110
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 453
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3150154cb47ba270800000000000000
+      internalID: 8262826293302677821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_111
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 453
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded25d633a55563f0800000000000000
+      internalID: -908225590357316115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_112
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 453
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4003dcf4bc74c1750800000000000000
+      internalID: 6276970919190409220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_113
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 453
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5d47a8d9e1a9df0800000000000000
+      internalID: -172791973718731349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_114
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 453
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e4de2810b0ced10800000000000000
+      internalID: 2156110422723088012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_115
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 453
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22946d3933c4000800000000000000
+      internalID: 21448808278336183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_116
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 453
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6211b8aec8e416bb0800000000000000
+      internalID: -4944584548738723546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_117
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 453
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e345f4b2e9bbe40800000000000000
+      internalID: 5673302064454975132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_118
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 453
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246c6d19e83162f30800000000000000
+      internalID: 4550345976557520450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_119
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 411
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd52d425b93b3e4b0800000000000000
+      internalID: -5412284847487113763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_120
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 411
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04419796612039d00800000000000000
+      internalID: 978127839351608384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_121
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 411
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e29b440e56fc6920800000000000000
+      internalID: 2985031536699216609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_122
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 411
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77932a2d878da650800000000000000
+      internalID: 6245797298599860091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_123
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 411
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eeb108498e7bef0800000000000000
+      internalID: -92349542835687928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_124
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 411
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dd8763351cbb8f0800000000000000
+      internalID: -523612368518193910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_125
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 411
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd09a71fcd7591b0800000000000000
+      internalID: -5650471829057761862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_126
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 362
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba017a2020be45740800000000000000
+      internalID: 5139991468603543723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_127
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 362
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1796c2d448e1010c0800000000000000
+      internalID: -4607148865220744847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_128
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 362
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032257d12343d6590800000000000000
+      internalID: -7679424399749602768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_129
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 362
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a01c39410dd50930800000000000000
+      internalID: 4108933232638824612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_130
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 362
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3843a69a66f7ab200800000000000000
+      internalID: 196609612649739395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_131
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 362
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde13e02c53af1b10800000000000000
+      internalID: 1954460379386158813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_132
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 362
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37a1c0b5ec97bcb0800000000000000
+      internalID: -4848233963514124486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_133
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 313
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2133fdb600879a0800000000000000
+      internalID: -6235233220788284741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_134
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 313
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6388e23c00ee640800000000000000
+      internalID: 5111023465411393275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_135
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 313
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ad883a4a467f860800000000000000
+      internalID: 7563624757473106485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_136
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 313
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1fac0d3a9f60f00800000000000000
+      internalID: 1082827242407129533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_137
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 313
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4fdabec96970960800000000000000
+      internalID: 7568183299532518638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_138
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 313
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff79d1269996a3940800000000000000
+      internalID: 5276646020914976767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_139
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 313
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bd70c94e9ed9a70800000000000000
+      internalID: 8835475212050357088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_140
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 264
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6339e3e6ec817fe70800000000000000
+      internalID: 9148808442918376246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_141
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 264
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6531c4eb30b2be100800000000000000
+      internalID: 138251508642485078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_142
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 264
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101912289bd3c4e80800000000000000
+      internalID: -8193105755132292863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_143
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 264
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920a12fccb5b8800800000000000000
+      internalID: 615686709859451551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_144
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 264
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1b97bdd1c74e580800000000000000
+      internalID: -8798771304297025097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_145
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 264
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab723aef961aaf050800000000000000
+      internalID: 5835153743827642298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_146
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 265
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f738515c46e654970800000000000000
+      internalID: 8738512031064621951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_147
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 265
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdf30d1af0a37e80800000000000000
+      internalID: -8182019101912990223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_148
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 265
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8110bc6ffdc0e2a80800000000000000
+      internalID: -8489834091489066728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_149
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 265
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc64a6052e0a49a0800000000000000
+      internalID: -6248165980835124012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_150
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 265
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89edd82861118dd0800000000000000
+      internalID: -2485686380271900276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_151
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 213
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2735f3518dae68680800000000000000
+      internalID: -8753050611957673102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_152
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 213
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abd7c4a6023ec010800000000000000
+      internalID: 1210960353924996006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_153
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 213
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07022977b0ac0c30800000000000000
+      internalID: 4327010051867936525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_154
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 213
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bfb22ed3ffd2040800000000000000
+      internalID: 4624633033631988620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_155
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 213
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65abfe8bdbb9fab20800000000000000
+      internalID: 3147905903709108822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_156
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 213
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7256cecfae8d337c0800000000000000
+      internalID: -4092689132572351193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_157
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 213
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1033382c9d58cd10800000000000000
+      internalID: 2146068147712765983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_158
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 213
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc33e8140a4893160800000000000000
+      internalID: 7005776519180989389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_159
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 213
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7db40fd664d8750800000000000000
+      internalID: 6308776091012814833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_160
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393fd48c11b4c5660800000000000000
+      internalID: 7375852829473108883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_161
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9e069b1d1de8b30800000000000000
+      internalID: 4291598193619167721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_162
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 164
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eab88e9d8bfb8990800000000000000
+      internalID: -7382530578475074845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_163
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 164
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e52d2df73d4df80800000000000000
+      internalID: -8082602885271888263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_164
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 164
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce394179be010320800000000000000
+      internalID: 2522313455936552641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_165
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 164
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a935166766a1830800000000000000
+      internalID: 4042656274143484557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_166
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 164
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e6b3d36835d9d80800000000000000
+      internalID: -8242339907000111476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_167
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 164
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5070437d70fdde4b0800000000000000
+      internalID: -5409422352633821435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_168
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 164
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa36829df87055b0800000000000000
+      internalID: -5381668524227413342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_169
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9d1b46f70d9cab0800000000000000
+      internalID: -4987225866767312399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_170
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f896808468400930800000000000000
+      internalID: 4107362456652126453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_171
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4d008e744fe5e0800000000000000
+      internalID: -1878207209485283537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_172
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c02b8ce658f2640800000000000000
+      internalID: 5057407617420364853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_173
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c04ad0bf9272ce0800000000000000
+      internalID: -1430128198424458109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_174
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534410697646ee3d0800000000000000
+      internalID: -3175490291188546507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_175
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 164
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583917c24c40ccd40800000000000000
+      internalID: 5605860876775166853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_176
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 164
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c84cacd807e445d0800000000000000
+      internalID: -3079082219966543671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_177
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 164
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34971e5a3586baf90800000000000000
+      internalID: -6941339692186896061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_178
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 164
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86d5545bf882cc80800000000000000
+      internalID: -8303924149884692854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_179
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 164
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0451dfa037e96d0800000000000000
+      internalID: -2981819412239793991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_180
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 91
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8d8856e2f59d790800000000000000
+      internalID: -7504862651159619419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_181
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4c31ae4b53e7a20800000000000000
+      internalID: 3061943847796065503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_182
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 79
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374420252cda3f70800000000000000
+      internalID: 9167882043477215031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_183
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 78
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a643d4a97a8b890800000000000000
+      internalID: -7442014103067661726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_184
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 78
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338bdb25bfff93700800000000000000
+      internalID: 520728686828042291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_185
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066d7eccadbad7ed0800000000000000
+      internalID: -2414584868971751840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_186
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 56
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b49192b4df2c950800000000000000
+      internalID: 6468010514111351672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_187
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de52264227104a70800000000000000
+      internalID: 8809066307109674704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_188
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 57
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd2357049011c30800000000000000
+      internalID: 4328250889328581442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cc73fd3c656dd30800000000000000
+      internalID: 4455844280593271892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_190
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 57
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ecdac10af7b1ef0800000000000000
+      internalID: -136375038052020638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_191
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 57
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a08286eb1329dc0800000000000000
+      internalID: -3633787255473567186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalBoss-sharedassets14.assets-10_192
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 57
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bd500a4fbcac8c0800000000000000
+      internalID: -3978143069311214745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
