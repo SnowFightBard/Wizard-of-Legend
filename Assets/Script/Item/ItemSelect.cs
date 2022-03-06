@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class ItemSelect : MonoBehaviour
 {
-    [SerializeField] GameObject[] Buttons;
+    [SerializeField] GameObject[] Buttons; // 인벤토리 장착 스킬슬롯
+
     public void Select()
     {
         for (int i = 0; i < Buttons.Length; i++)
@@ -16,6 +17,9 @@ public class ItemSelect : MonoBehaviour
         }
 
         this.GetComponent<Outline>().effectColor = Color.red;
-        
+
+        GameObject.Find("SkillSlot").GetComponent<SkillSlot>().PrintInfo();
+
+
     }
 }

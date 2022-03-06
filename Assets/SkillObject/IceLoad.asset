@@ -20,5 +20,6 @@ MonoBehaviour:
   coolTime: 0.3
   activeTime: 0.5
   isRot: 0
-  info: 
+  info: "\uC5EC\uB7EC\uB300\uC0C1\uC744 \uACF5\uACA9\uD560 \uC218 \uC788\uB294 \uC5BC\uC74C\uC18D\uC131\uACF5\uACA9.\n\uC9C1\uC120\uAC70\uB9AC\uC758
+    \uC5EC\uB7EC\uC801\uC744 \uB3D9\uC2DC\uC5D0 \uACF5\uACA9\uD55C\uB2E4."
   image: {fileID: 1521064918271068193, guid: cc277325d18193d42aeab422c6666d27, type: 3}

@@ -7,38 +7,58 @@ public class SkillSlot : MonoBehaviour
 {
     [SerializeField] GameObject[] InvenSkill_Image; // 인벤토리창에 보이는 장착중인 스킬 이미지
     [SerializeField] GameObject[] EquipSkill_Image; // 장착중인 스킬 이미지
+    [SerializeField] GameObject Info; // 스킬 정보
 
-    public int selectItem;
-    bool isChange = false;
 
-    public Skill[] equipSkill = new Skill[4];
-    int a = -1, b = -1;
+    public int selectItem; // 좌클릭중인 아이템
+    bool isChange = false; // 스킬 교체중인지 확인하는 변수
 
-    int index = 0;
+    public Skill[] equipSkill = new Skill[4];   // 장착중인 스킬 오브젝트
+    int a = -1, b = -1; // 선택한 스킬 Index
+
+    int index;
 
     private void Update()
     {
+        // 스페이스바 입력시 교체 진행
         if (Input.GetKeyDown(KeyCode.Space) && GameObject.Find("Player").GetComponent<PlayerMove>().isInventory)
         {
             if (!isChange)
                 StartCoroutine(Change());
         }
 
-        Debug.Log("a : " + a + " b : " + b);
-        Debug.Log(isChange);
     }
 
+    public void PrintInfo()
+    {
+        if (equipSkill[selectItem] != null)
+        {
+            Info.SetActive(true);
+            Info.GetComponent<Text>().text = equipSkill[selectItem].info;
+        }
+        else
+            Info.SetActive(false);
+    }
+
+    // 스킬 장착
     public void Equip(Skill skill)
     {
+
+        for(int i=0; i<4; i++)
+        {
+            if (equipSkill[i] == null)
+            {
+                index = i;
+                break;
+            }
+        }
+
         InvenSkill_Image[index].GetComponent<Image>().color = new Color(255, 255, 255, 255);
         InvenSkill_Image[index].GetComponent<Image>().sprite = skill.image;
         EquipSkill_Image[index].GetComponent<Image>().color = new Color(255, 255, 255, 255);
         EquipSkill_Image[index].GetComponent<Image>().sprite = skill.image;
 
-        equipSkill[index++] = skill;
-
-        if (index == 4)
-            index = 0;
+        equipSkill[index] = skill;
 
     }
 
@@ -79,7 +99,6 @@ public class SkillSlot : MonoBehaviour
         }
         
         isChange = false;
-        Debug.Log("어디까지?");
 
         yield return new WaitForSeconds(0.5f);
     }
